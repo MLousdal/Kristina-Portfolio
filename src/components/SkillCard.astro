@@ -1,0 +1,27 @@
+---
+interface Props {
+  title: string;
+  text: string;
+  skills: string[];
+}
+
+const { title, text, skills } = Astro.props;
+---
+
+<article class="prose lg:prose-xl shadow-lg p-4 rounded">
+  <header>
+    <h3 class="text-orange">{title}</h3>
+  </header>
+  <p>{text}</p>
+  <hr />
+  <p>
+    {skills.join(" | ")}
+  </p>
+</article>
+
+<style>
+  h3,
+  hr {
+    margin: 0 0 1.5rem !important;
+  }
+</style>

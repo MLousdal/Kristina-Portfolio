@@ -1,0 +1,79 @@
+---
+import { SEO } from "astro-seo";
+const { title, description, image } = Astro.props;
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="sitemap" href="/sitemap-index.xml" />
+    <SEO
+      title={title}
+      titleTemplate={"%s | Kristina Linhartova"}
+      description={description}
+      openGraph={{
+        basic: {
+          title: title,
+          type: "text",
+          image: image.url,
+        },
+        image: {
+          alt: image.alt,
+        },
+      }}
+      extend={{
+        // extending the default link tags
+        link: [
+          { rel: "icon", href: "/favicon.ico" },
+          { rel: "preconnect", href: "https://fonts.googleapis.com" },
+          {
+            rel: "preconnect",
+            href: "https://fonts.gstatic.com",
+            crossOrigin: "true",
+          },
+          {
+            rel: "stylesheet",
+            href: "https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:wght@400;700&display=swap",
+          },
+        ],
+        // extending the default meta tags
+        meta: [
+          {
+            name: "twitter:image",
+            content: image.url,
+          },
+          { name: "twitter:title", content: title },
+          { name: "twitter:description", content: description },
+        ],
+      }}
+    />
+  </head>
+  <body class="h-screen bg-offwhite">
+    <header class="fixed inset-x-0 top-0 bg-offwhite">
+      <nav class="container py-4 flex justify-between items-center">
+        <a href="/" class="font-serif text-4xl" title="Home">KL</a>
+        <a
+          href="/about"
+          class="font-serif text-lg uppercase cursor-pointer relative px-1 before:absolute before:bg-orange before:bottom-0 before:left-0 before:h-full before:w-full before:origin-bottom before:scale-y-[0.15] hover:before:scale-y-100 before:transition-transform before:ease-in-out before:duration-200"
+          ><span class="relative">About</span></a
+        >
+      </nav>
+    </header>
+    <slot />
+    <footer class="flex flex-wrap justify-between py-12 container gap-3">
+      <p>Copyright © 2023 Kristina Linhartova. All rights reserved.</p>
+      <div class="flex gap-4">
+        <a
+          href="https://www.linkedin.com/in/kristina-linhartov%C3%A1/"
+          target="_blank"><img src="/assets/linkedin.svg" class="h-6 w-6" /></a
+        >
+        <a href="mailto:kika.linhartova@gmail.com"
+          ><img src="/assets/email.svg" class="h-6 w-6" /></a
+        >
+      </div>
+    </footer>
+  </body>
+</html>

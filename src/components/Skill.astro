@@ -1,0 +1,15 @@
+---
+interface Props {
+  title: string;
+  text: string;
+}
+
+const { title, text } = Astro.props;
+---
+
+<article class="prose lg:prose-xl">
+  <header>
+    <h3>{title}</h3>
+  </header>
+  <p>{text}</p>
+</article>
