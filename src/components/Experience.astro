@@ -1,0 +1,26 @@
+---
+interface Props {
+  job: string;
+  company: string;
+  points: string[];
+  tools: string[];
+}
+
+const { job, company, points, tools } = Astro.props;
+---
+
+<article class="prose lg:prose-xl">
+  <header>
+    <h2>
+      <em class="not-italic">{job}</em> | <span class="italic font-light"
+        >{company}</span
+      >
+    </h2>
+  </header>
+  <ul class="list-disc">
+    {points.map((point) => <li>{point}</li>)}
+  </ul>
+  <footer>
+    <p>{tools.join(" | ")}</p>
+  </footer>
+</article>

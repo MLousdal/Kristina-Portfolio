@@ -1,18 +1,20 @@
 /** @type {import('tailwindcss').Config} */
 const defaultTheme = require('tailwindcss/defaultTheme')
+const colors = require('tailwindcss/colors')
 
 module.exports = {
 	content: ['./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}'],
 	theme: {
 		extend: {
 			colors: {
-				orange: "#DB8763",
-				blue: "#B4C0D5",
-				purple: "#411F89",
+				primary: colors.rose,
+				secondary: colors.sky,
 				offwhite: "#F5F5F5",
-				gray1: "#D9D9D9",
-				gray2: "#747BA7",
-				gray3: "#342B2B",
+				gray: {
+					1: "#D9D9D9",
+					2: "#747BA7",
+					3: "#342B2B",
+				},
 			},
 			height: {
 				'80vh': '80vh',

@@ -4,6 +4,8 @@ import skumfidus from "../assets/skumfidus.jpg";
 import TextImage from "../components/TextImage.astro";
 import Skill from "../components/Skill.astro";
 import SkillCard from "../components/SkillCard.astro";
+import Experience from "../components/Experience.astro";
+
 const title = "About";
 const description = "This is the about page";
 const image = {
@@ -16,10 +18,12 @@ const image = {
   <main class="flex flex-col gap-12 lg:gap-24">
     <header class="h-80vh grid place-items-center">
       <div class="container">
-        <p class="text-orange font-serif text-5xl mb-4 uppercase">
-          Get to know me <span class="animate-wiggle">🍫</span>
+        <p
+          class="text-primary-400 font-serif text-xl md:text-2xl lg:text-5xl mb-4 uppercase"
+        >
+          Get to know me <span class="">🍫</span>
         </p>
-        <h1 class="text-7xl">
+        <h1 class="text-2xl md:text-5xl lg:text-7xl">
           Your book-loving and weight-lifting designer, with a global mindset
           that shines through in design.
         </h1>
@@ -64,45 +68,47 @@ const image = {
         <h2 class="uppercase font-serif text-7xl text-gray2/30">About me</h2>
       </header> -->
       <div class="container">
-        <header>
-          <h2 class="font-bold text-4xl">My competencies and traits</h2>
-        </header>
-        <Skill
-          title="Soft skill: Resourcefulness"
-          text={`The ability to find ways around obstacles and limitations is crucial
-          when working in a field with constantly changing clients, developing
-          trends, and technological innovations. I consider myself a person
-          who thrives in a fast-paced environment and enjoys working with
-          like-minded individuals who support each other in solving complex
-          design problems while meeting deadlines.`}
-        />
-        <Skill
-          title="Soft skill: Resourcefulness"
-          text={`The ability to find ways around obstacles and limitations is crucial
-          when working in a field with constantly changing clients, developing
-          trends, and technological innovations. I consider myself a person
-          who thrives in a fast-paced environment and enjoys working with
-          like-minded individuals who support each other in solving complex
-          design problems while meeting deadlines.`}
-        />
-        <Skill
-          title="Soft skill: Resourcefulness"
-          text={`The ability to find ways around obstacles and limitations is crucial
-          when working in a field with constantly changing clients, developing
-          trends, and technological innovations. I consider myself a person
-          who thrives in a fast-paced environment and enjoys working with
-          like-minded individuals who support each other in solving complex
-          design problems while meeting deadlines.`}
-        />
-        <Skill
-          title="Soft skill: Resourcefulness"
-          text={`The ability to find ways around obstacles and limitations is crucial
-          when working in a field with constantly changing clients, developing
-          trends, and technological innovations. I consider myself a person
-          who thrives in a fast-paced environment and enjoys working with
-          like-minded individuals who support each other in solving complex
-          design problems while meeting deadlines.`}
-        />
+        <div class="max-w-none lg:max-w-screen-md mx-auto">
+          <header>
+            <h2 class="font-bold text-4xl">My competencies and traits</h2>
+          </header>
+          <Skill
+            title="Soft skill: Resourcefulness"
+            text={`The ability to find ways around obstacles and limitations is crucial
+            when working in a field with constantly changing clients, developing
+            trends, and technological innovations. I consider myself a person
+            who thrives in a fast-paced environment and enjoys working with
+            like-minded individuals who support each other in solving complex
+            design problems while meeting deadlines.`}
+          />
+          <Skill
+            title="Soft skill: Resourcefulness"
+            text={`The ability to find ways around obstacles and limitations is crucial
+            when working in a field with constantly changing clients, developing
+            trends, and technological innovations. I consider myself a person
+            who thrives in a fast-paced environment and enjoys working with
+            like-minded individuals who support each other in solving complex
+            design problems while meeting deadlines.`}
+          />
+          <Skill
+            title="Soft skill: Resourcefulness"
+            text={`The ability to find ways around obstacles and limitations is crucial
+            when working in a field with constantly changing clients, developing
+            trends, and technological innovations. I consider myself a person
+            who thrives in a fast-paced environment and enjoys working with
+            like-minded individuals who support each other in solving complex
+            design problems while meeting deadlines.`}
+          />
+          <Skill
+            title="Soft skill: Resourcefulness"
+            text={`The ability to find ways around obstacles and limitations is crucial
+            when working in a field with constantly changing clients, developing
+            trends, and technological innovations. I consider myself a person
+            who thrives in a fast-paced environment and enjoys working with
+            like-minded individuals who support each other in solving complex
+            design problems while meeting deadlines.`}
+          />
+        </div>
         <div class="grid grid-cols-1 lg:grid-cols-3 gap-4 mt-6 lg:mt-12">
           <SkillCard
             title="Research"
@@ -135,6 +141,90 @@ const image = {
             ]}
           />
         </div>
+      </div>
+    </section>
+    <section class="container">
+      <div class="max-w-none lg:max-w-screen-md mx-auto">
+        <!-- <header
+          class="sticky top-0 -rotate-90 w-0 h-0 whitespace-nowrap -translate-x-1/3 translate-y-full"
+        >
+          <h2 class="uppercase font-serif text-7xl text-gray2/30">About me</h2>
+        </header> -->
+        <Experience
+          job="WEB DESIGNER"
+          company="InternetZoo"
+          points={[
+            "Front-end and building of websites using CMS",
+            "Setting up new and redesigning old campaigns in company’s CMS",
+            "SoMe materials for existing and upcoming campaigns",
+          ]}
+          tools={[
+            "HTML",
+            "CSS",
+            "Photoshop",
+            "Figma",
+            "InDesign",
+            "Jira",
+            "CMS",
+          ]}
+        />
+        <Experience
+          job="GRAPHIC DESIGNER"
+          company="Museum of Janko Kral (Slovakia)"
+          points={[
+            "Creating printed material for each exhibition, for visitors who chose not-guided tour",
+            "Visual side of exhibitions - print on walls or as a background of each display",
+            "Promotional materials for handouts at various location to spread awareness about museum",
+          ]}
+          tools={[
+            "HTML",
+            "CSS",
+            "Photoshop",
+            "Figma",
+            "InDesign",
+            "Jira",
+            "CMS",
+          ]}
+        />
+        <Experience
+          job="WEB DESIGNER"
+          company="InternetZoo"
+          points={[
+            "Front-end and building of websites using CMS",
+            "Setting up new and redesigning old campaigns in company’s CMS",
+            "SoMe materials for existing and upcoming campaigns",
+          ]}
+          tools={[
+            "HTML",
+            "CSS",
+            "Photoshop",
+            "Figma",
+            "InDesign",
+            "Jira",
+            "CMS",
+          ]}
+        />
+        <Experience
+          job="GRAPHIC DESIGNER"
+          company="Museum of Janko Kral (Slovakia)"
+          points={[
+            "Creating printed material for each exhibition, for visitors who chose not-guided tour",
+            "Visual side of exhibitions - print on walls or as a background of each display",
+            "Promotional materials for handouts at various location to spread awareness about museum",
+          ]}
+          tools={[
+            "HTML",
+            "CSS",
+            "Photoshop",
+            "Figma",
+            "InDesign",
+            "Jira",
+            "CMS",
+          ]}
+        />
+        <footer class="block">
+          <a href="/resume.pdf" download class="btn">Download Resume</a>
+        </footer>
       </div>
     </section>
   </main>
