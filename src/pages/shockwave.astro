@@ -1,0 +1,387 @@
+---
+import { Image } from "astro:assets";
+import Master from "../layouts/Master.astro";
+import Summary from "../components/Summary.astro";
+import TextImage from "../components/TextImage.astro";
+import persona1 from "../assets/persona1.png";
+import coachella from "../assets/coachella.png";
+import heroimage from "../assets/heroimage.png";
+const title = "Shockwave";
+const subTitle = "Festival website design";
+const image = {
+  url: "/",
+  alt: "Default",
+};
+---
+
+<Master
+  title={title}
+  description="Shockwave is a design concept for pop and rock music festival. The main challenge was to design a website that captures the spirit and energy of the festival while providing users with easy navigation and access to the necessary information."
+  image={image}
+>
+  <header class="container pt-24">
+    <h1 class="font-serif text-4xl lg:text-5xl text-center">{title}</h1>
+    <p class="text-lg lg:text-xl font-bold text-center">
+      {subTitle}
+    </p>
+    <img
+      src={heroimage.src}
+      alt="mockups of the shockwave design"
+      class="my-4 lg:my-6"
+    />
+  </header>
+
+  <Summary
+    duration="4 weeks"
+    objectives="Responsive website that informs about event "
+    team="Autonomous, with feedback from the mentor"
+    tools={["Figma"]}
+  >
+    <h2>Project overview</h2>
+    <p>
+      Shockwave is a design concept for pop and rock music festival. The main
+      challenge was to design a website that captures the spirit and energy of
+      the festival while providing users with easy navigation and access to the
+      necessary information.
+    </p>
+    <h3>Goals and objectives</h3>
+    <ul class="list-disc">
+      <li>Make design responsive for various devices</li>
+      <li>
+        To create an user- friendly and visually appealing user interface for a
+        festival website that showcases the event schedule, performers, and
+        ticket information.
+      </li>
+    </ul>
+    <footer class="block">
+      <a href="/resume.pdf" target="_blank" class="btn">View prototype</a>
+    </footer>
+  </Summary>
+  <section class="container">
+    <article class="prose lg:prose-xl max-w-none">
+      <header><h2>Introduction</h2></header>
+      <p>
+        User research is a critical component of UI design, which helped me gain
+        insights into the target audience's behaviours, goals, and pain points.
+        By understanding how users interact with a product or service, designers
+        can create user-centered designs that meet the needs and expectations of
+        the users. For this UI design case study, I conducted user research
+        ensure that the final product would be effective and engaging. Variety
+        of research methods was used to to gather data on our target audience's
+        demographics and preferences
+      </p>
+      <h3>Research goals</h3>
+      <ul class="list-disc">
+        <li>
+          Understand the music culture and what leads people to attend festival
+        </li>
+        <li>Identify the target audience</li>
+        <li>
+          Learn about the main competitors and how these are accommodating
+          user’s needs together with their strengths and weaknesses
+        </li>
+        <li>
+          Understand what features are necessary by understanding user’s
+          behaviour
+        </li>
+      </ul>
+    </article>
+    <article class="prose lg:prose-xl max-w-none">
+      <header><h2>Competitors analysis</h2></header>
+      <h3>Scoping out the competition</h3>
+      <p>
+        In order to create a successful UI design for a Shockwave website, it's
+        important to take a look at what other festivals are doing. By
+        conducting a thorough competitor analysis, I could identify industry
+        trends, best practices, and areas for improvement. In this section, I'll
+        examine the websites of three competing music festivals and evaluate
+        their strengths and weaknesses in terms of design, user experience, and
+        functionality.
+      </p>
+      <TextImage title="Coachella" image={coachella} alt="ME!">
+        <p class="font-bold">Strengths</p>
+        <ul>
+          <li>Visually appealing design</li>
+          <li>Clear and easy-to-use navigation</li>
+          <li>Responsive layout for different devices</li>
+          <li>Interactive features such as the lineup and schedule</li>
+          <li>Integration with social media platforms</li>
+        </ul>
+        <p class="font-bold">Weaknesses</p>
+        <ul>
+          <li>Visually appealing design</li>
+          <li>Clear and easy-to-use navigation</li>
+          <li>Responsive layout for different devices</li>
+          <li>Interactive features such as the lineup and schedule</li>
+          <li>Integration with social media platforms</li>
+        </ul>
+      </TextImage>
+      <TextImage
+        title="Tomorrowland"
+        image={coachella}
+        alt="ME!"
+        reverse={true}
+      >
+        <p class="font-bold">Strengths</p>
+        <ul>
+          <li>Visually appealing design</li>
+          <li>Clear and easy-to-use navigation</li>
+          <li>Responsive layout for different devices</li>
+          <li>Interactive features such as the lineup and schedule</li>
+          <li>Integration with social media platforms</li>
+        </ul>
+        <p class="font-bold">Weaknesses</p>
+        <ul>
+          <li>Visually appealing design</li>
+          <li>Clear and easy-to-use navigation</li>
+          <li>Responsive layout for different devices</li>
+          <li>Interactive features such as the lineup and schedule</li>
+          <li>Integration with social media platforms</li>
+        </ul>
+      </TextImage>
+      <TextImage title="Sziget" image={coachella} alt="ME!">
+        <p class="font-bold">Strengths</p>
+        <ul>
+          <li>Visually appealing design</li>
+          <li>Clear and easy-to-use navigation</li>
+          <li>Responsive layout for different devices</li>
+          <li>Interactive features such as the lineup and schedule</li>
+          <li>Integration with social media platforms</li>
+        </ul>
+        <p class="font-bold">Weaknesses</p>
+        <ul>
+          <li>Visually appealing design</li>
+          <li>Clear and easy-to-use navigation</li>
+          <li>Responsive layout for different devices</li>
+          <li>Interactive features such as the lineup and schedule</li>
+          <li>Integration with social media platforms</li>
+        </ul>
+      </TextImage>
+    </article>
+    <article class="prose lg:prose-xl max-w-none">
+      <header><h2>User persona</h2></header>
+      <h3>Get to know your user</h3>
+      <p>
+        In the process of designing website is also important to understand the
+        needs and behaviours of the target audience. To achieve this, I have
+        created user personas that represent the different types of users that
+        our product aims to serve. By using these personas as a reference, I can
+        ensure that design decisions are informed by user insights and aligned
+        with their goals and expectations. So let’s meet sample users John, Lisa
+        and Alex.
+      </p>
+      <Image
+        src={persona1}
+        alt={"test"}
+        width={1000}
+        height={555}
+        loading="lazy"
+        class="w-full"
+      />
+      <Image
+        src={persona1}
+        alt={"test"}
+        width={1000}
+        height={555}
+        loading="lazy"
+        class="w-full"
+      />
+      <Image
+        src={persona1}
+        alt={"test"}
+        width={1000}
+        height={555}
+        loading="lazy"
+        class="w-full"
+      />
+    </article>
+    <article class="prose lg:prose-xl max-w-none">
+      <header><h2>Site map</h2></header>
+      <h3>Finding your way around</h3>
+      <p>
+        In this section, I would like to present the sitemap Shockwave festival.
+        The sitemap provides a visual representation of the website’s structure,
+        showing the hierarchy of pages and how they relate to each other. This
+        helps to understand the flow of the website and ensure that users can
+        easily navigate to the content they are interested in. By analysing the
+        sitemap, I could identify areas for improvement and ensure that the
+        website meets the needs of our target audience.
+      </p>
+      <Image
+        src={persona1}
+        alt={"test"}
+        width={1000}
+        height={555}
+        loading="lazy"
+        class="w-full"
+      />
+    </article>
+    <article class="prose lg:prose-xl max-w-none">
+      <header><h2>Task flow</h2></header>
+      <h3>User’s way to the main stage</h3>
+      <p>
+        The task flows for a user who is familiar with the Shockwave festival
+        website and a user who is visiting the website for the first time are
+        different because a familiar user already knows the layout and features
+        of the website, while an unfamiliar user is learning about the website
+        for the first time. The familiar user skips the "About" page and goes
+        straight to the "Top artists" section on the homepage, because they
+        already know what the festival is about and do not need to learn more.
+        In contrast, the unfamiliar user starts by visiting the "About" page to
+        learn more about the festival before exploring the lineup and purchasing
+        tickets.
+      </p>
+      <div class="flex flex-wrap lg:flex-nowrap gap-6">
+        <div
+          class="prose lg:prose-xl shadow-lg p-6 rounded w-full max-w-none lg:max-w-1/2 shrink"
+        >
+          <h2>Lisa - the familiar user</h2>
+          <ol class="list-decimal">
+            <li>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas,
+              reiciendis? Iusto, perferendis, tempore temporibus quasi autem
+              voluptatem cupiditate architecto quae nam placeat asperiores? Sint
+              doloribus consequuntur mollitia dolores porro sed?
+            </li>
+            <li>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas,
+              reiciendis? Iusto, perferendis, tempore temporibus quasi autem
+              voluptatem cupiditate architecto quae nam placeat asperiores? Sint
+              doloribus consequuntur mollitia dolores porro sed?
+            </li>
+            <li>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas,
+              reiciendis? Iusto, perferendis, tempore temporibus quasi autem
+              voluptatem cupiditate architecto quae nam placeat asperiores? Sint
+              doloribus consequuntur mollitia dolores porro sed?
+            </li>
+            <li>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas,
+              reiciendis? Iusto, perferendis, tempore temporibus quasi autem
+              voluptatem cupiditate architecto quae nam placeat asperiores? Sint
+              doloribus consequuntur mollitia dolores porro sed?
+            </li>
+            <li>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas,
+              reiciendis? Iusto, perferendis, tempore temporibus quasi autem
+              voluptatem cupiditate architecto quae nam placeat asperiores? Sint
+              doloribus consequuntur mollitia dolores porro sed?
+            </li>
+            <li>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas,
+              reiciendis? Iusto, perferendis, tempore temporibus quasi autem
+              voluptatem cupiditate architecto quae nam placeat asperiores? Sint
+              doloribus consequuntur mollitia dolores porro sed?
+            </li>
+          </ol>
+        </div>
+        <div
+          class="prose lg:prose-xl shadow-lg p-6 rounded w-full max-w-none lg:max-w-1/2 shrink"
+        >
+          <h2>Alex - the new user</h2>
+          <ol class="list-decimal">
+            <li>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas,
+              reiciendis? Iusto, perferendis, tempore temporibus quasi autem
+              voluptatem cupiditate architecto quae nam placeat asperiores? Sint
+              doloribus consequuntur mollitia dolores porro sed?
+            </li>
+            <li>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas,
+              reiciendis? Iusto, perferendis, tempore temporibus quasi autem
+              voluptatem cupiditate architecto quae nam placeat asperiores? Sint
+              doloribus consequuntur mollitia dolores porro sed?
+            </li>
+            <li>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas,
+              reiciendis? Iusto, perferendis, tempore temporibus quasi autem
+              voluptatem cupiditate architecto quae nam placeat asperiores? Sint
+              doloribus consequuntur mollitia dolores porro sed?
+            </li>
+            <li>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas,
+              reiciendis? Iusto, perferendis, tempore temporibus quasi autem
+              voluptatem cupiditate architecto quae nam placeat asperiores? Sint
+              doloribus consequuntur mollitia dolores porro sed?
+            </li>
+            <li>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas,
+              reiciendis? Iusto, perferendis, tempore temporibus quasi autem
+              voluptatem cupiditate architecto quae nam placeat asperiores? Sint
+              doloribus consequuntur mollitia dolores porro sed?
+            </li>
+            <li>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas,
+              reiciendis? Iusto, perferendis, tempore temporibus quasi autem
+              voluptatem cupiditate architecto quae nam placeat asperiores? Sint
+              doloribus consequuntur mollitia dolores porro sed?
+            </li>
+          </ol>
+        </div>
+      </div>
+    </article>
+  </section>
+  <section class="container">
+    <article class="prose lg:prose-xl max-w-none">
+      <header><h2>Introduction</h2></header>
+      <p>
+        The prototyping phase of UI design process involved creating a
+        wireframes together with low and high-fidelity interactive prototype of
+        the Shockwave website. I aimed to create a prototype that accurately
+        reflected the final product and allowed to test user interactions and
+        gather feedback before moving on to development. To achieve this, Figma
+        was to create a clickable prototype that included all the key features
+        and functionality of the website. In the following sections, I will
+        discuss the design decisions made during the prototyping phase.
+      </p>
+      <h3>Prototyping goals</h3>
+      <ul>
+        <li>
+          Iure aspernatur asperiores saepe consectetur nulla placeat rerum
+          recusandae tempore distinctio qui hic voluptatem, quae in ad.
+        </li>
+        <li>
+          Iure aspernatur asperiores saepe consectetur nulla placeat rerum
+          recusandae tempore distinctio qui hic voluptatem, quae in ad.
+        </li>
+        <li>
+          Iure aspernatur asperiores saepe consectetur nulla placeat rerum
+          recusandae tempore distinctio qui hic voluptatem, quae in ad.
+        </li>
+        <li>
+          Iure aspernatur asperiores saepe consectetur nulla placeat rerum
+          recusandae tempore distinctio qui hic voluptatem, quae in ad.
+        </li>
+      </ul>
+    </article>
+    <article class="prose lg:prose-xl max-w-none">
+      <header><h2>Wireframe sketches</h2></header>
+      <h3>A Blueprint for Shockwave</h3>
+      <p>
+        In the initial stages of designing Shockwave website, wireframe sketches
+        were created to establish the basic layout and structure of the site.
+        These sketches served as a roadmap for the design process, allowing me
+        to quickly iterate on different design ideas. By visualising the site's
+        layout and structure in wireframes, we were able to identify potential
+        issues early on and make necessary changes before moving on to
+        high-fidelity designs.
+      </p>
+      <Image
+        src={persona1}
+        alt={"test"}
+        width={1000}
+        height={555}
+        loading="lazy"
+        class="w-full"
+      />
+      <Image
+        src={persona1}
+        alt={"test"}
+        width={1000}
+        height={555}
+        loading="lazy"
+        class="w-full"
+      />
+    </article>
+  </section>
+</Master>

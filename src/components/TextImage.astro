@@ -2,7 +2,7 @@
 import { Image } from "astro:assets";
 interface Props {
   title: string;
-  text: string;
+  text?: string;
   image: ImageMetadata;
   alt: string;
   reverse?: boolean;
@@ -16,7 +16,7 @@ const { title, text, image, alt, reverse = false } = Astro.props;
     <header>
       <h3>{title}</h3>
     </header>
-    <p>{text}</p>
+    <slot />
   </div>
   <Image
     src={image}

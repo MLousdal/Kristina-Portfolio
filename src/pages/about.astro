@@ -36,29 +36,31 @@ const image = {
         <h2 class="uppercase font-serif text-7xl text-gray2/30">About me</h2>
       </header> -->
       <div class="container flex flex-col gap-6 lg:gap-12">
+        <TextImage title="A passion uncovered" image={skumfidus} alt="ME!">
+          <p>
+            My journey started in 2017 with my first lecture about graphic
+            design in a Slovak high school. This continued through my studies of
+            Design, Technology, and Business at UCN, where I also worked as a
+            graphic designer for a printing house. These valuable experiences in
+            the graphic design field led me to the realization that my true
+            passion lies within UI design.
+          </p>
+        </TextImage>
         <TextImage
           title="A passion uncovered"
-          text={`My journey started in 2017 with my first lecture about graphic
-          design in a Slovak high school. This continued through my studies
-          of Design, Technology, and Business at UCN, where I also worked as
-          a graphic designer for a printing house. These valuable
-          experiences in the graphic design field led me to the realization
-          that my true passion lies within UI design.`}
-          image={skumfidus}
-          alt="ME!"
-        />
-        <TextImage
-          title="A passion uncovered"
-          text={`My journey started in 2017 with my first lecture about graphic
-          design in a Slovak high school. This continued through my studies
-          of Design, Technology, and Business at UCN, where I also worked as
-          a graphic designer for a printing house. These valuable
-          experiences in the graphic design field led me to the realization
-          that my true passion lies within UI design.`}
           image={skumfidus}
           alt="ME!"
           reverse={true}
-        />
+        >
+          <p>
+            My journey started in 2017 with my first lecture about graphic
+            design in a Slovak high school. This continued through my studies of
+            Design, Technology, and Business at UCN, where I also worked as a
+            graphic designer for a printing house. These valuable experiences in
+            the graphic design field led me to the realization that my true
+            passion lies within UI design.
+          </p>
+        </TextImage>
       </div>
     </section>
     <section>
