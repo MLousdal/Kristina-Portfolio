@@ -1,0 +1,22 @@
+---
+import { Picture } from "@astrojs/image/components";
+
+interface Props {
+  src: string;
+  alt: string;
+}
+
+const { src, alt } = Astro.props;
+---
+
+<Picture
+  src={src}
+  alt={alt}
+  widths={[200, 400, 800, 1600]}
+  sizes="((min-width: 50em) and (max-width: 60em)) 50em, ((min-width: 30em) and (max-width: 50em)) 30em, (max-width: 30em) 20em"
+  loading="lazy"
+  formats={["avif", "webp", "jpg"]}
+  quality={85}
+  class="w-full"
+  fit="contain"
+/>

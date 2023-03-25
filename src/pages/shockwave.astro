@@ -1,12 +1,14 @@
 ---
-import { Image } from "astro:assets";
 import Master from "../layouts/Master.astro";
+import Image from "../components/Image.astro";
 import Summary from "../components/Summary.astro";
 import TextImage from "../components/TextImage.astro";
 import persona1 from "../assets/persona1.png";
 import coachella from "../assets/coachella.png";
 import heroimage from "../assets/heroimage.png";
 const title = "Shockwave";
+const description =
+  "Shockwave is a design concept for pop and rock music festival. The main challenge was to design a website that captures the spirit and energy of the festival while providing users with easy navigation and access to the necessary information.";
 const subTitle = "Festival website design";
 const image = {
   url: "/",
@@ -14,21 +16,15 @@ const image = {
 };
 ---
 
-<Master
-  title={title}
-  description="Shockwave is a design concept for pop and rock music festival. The main challenge was to design a website that captures the spirit and energy of the festival while providing users with easy navigation and access to the necessary information."
-  image={image}
->
+<Master title={title} description={description} image={image}>
   <header class="container pt-24">
     <h1 class="font-serif text-4xl lg:text-5xl text-center">{title}</h1>
     <p class="text-lg lg:text-xl font-bold text-center">
       {subTitle}
     </p>
-    <img
-      src={heroimage.src}
-      alt="mockups of the shockwave design"
-      class="my-4 lg:my-6"
-    />
+    <div class="my-4 lg:my-6">
+      <Image src={heroimage} alt="mockups of the shockwave design" />
+    </div>
   </header>
 
   <Summary
@@ -98,7 +94,7 @@ const image = {
         their strengths and weaknesses in terms of design, user experience, and
         functionality.
       </p>
-      <TextImage title="Coachella" image={coachella} alt="ME!">
+      <TextImage title="Coachella" src={coachella} alt="ME!">
         <p class="font-bold">Strengths</p>
         <ul>
           <li>Visually appealing design</li>
@@ -116,12 +112,7 @@ const image = {
           <li>Integration with social media platforms</li>
         </ul>
       </TextImage>
-      <TextImage
-        title="Tomorrowland"
-        image={coachella}
-        alt="ME!"
-        reverse={true}
-      >
+      <TextImage title="Tomorrowland" src={coachella} alt="ME!" reverse={true}>
         <p class="font-bold">Strengths</p>
         <ul>
           <li>Visually appealing design</li>
@@ -139,7 +130,7 @@ const image = {
           <li>Integration with social media platforms</li>
         </ul>
       </TextImage>
-      <TextImage title="Sziget" image={coachella} alt="ME!">
+      <TextImage title="Sziget" src={coachella} alt="ME!">
         <p class="font-bold">Strengths</p>
         <ul>
           <li>Visually appealing design</li>
@@ -170,30 +161,9 @@ const image = {
         with their goals and expectations. So let’s meet sample users John, Lisa
         and Alex.
       </p>
-      <Image
-        src={persona1}
-        alt={"test"}
-        width={1000}
-        height={555}
-        loading="lazy"
-        class="w-full"
-      />
-      <Image
-        src={persona1}
-        alt={"test"}
-        width={1000}
-        height={555}
-        loading="lazy"
-        class="w-full"
-      />
-      <Image
-        src={persona1}
-        alt={"test"}
-        width={1000}
-        height={555}
-        loading="lazy"
-        class="w-full"
-      />
+      <Image src={persona1} alt="test" />
+      <Image src={persona1} alt="test" />
+      <Image src={persona1} alt="test" />
     </article>
     <article class="prose lg:prose-xl max-w-none">
       <header><h2>Site map</h2></header>
@@ -207,14 +177,7 @@ const image = {
         sitemap, I could identify areas for improvement and ensure that the
         website meets the needs of our target audience.
       </p>
-      <Image
-        src={persona1}
-        alt={"test"}
-        width={1000}
-        height={555}
-        loading="lazy"
-        class="w-full"
-      />
+      <Image src={persona1} alt="test" />
     </article>
     <article class="prose lg:prose-xl max-w-none">
       <header><h2>Task flow</h2></header>
@@ -366,22 +329,8 @@ const image = {
         issues early on and make necessary changes before moving on to
         high-fidelity designs.
       </p>
-      <Image
-        src={persona1}
-        alt={"test"}
-        width={1000}
-        height={555}
-        loading="lazy"
-        class="w-full"
-      />
-      <Image
-        src={persona1}
-        alt={"test"}
-        width={1000}
-        height={555}
-        loading="lazy"
-        class="w-full"
-      />
+      <Image src={persona1} alt="test" />
+      <Image src={persona1} alt="test" />
     </article>
   </section>
 </Master>

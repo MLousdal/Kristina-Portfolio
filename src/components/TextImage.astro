@@ -1,14 +1,13 @@
 ---
-import { Image } from "astro:assets";
+import Image from "../components/Image.astro";
 interface Props {
   title: string;
-  text?: string;
-  image: ImageMetadata;
+  src: string;
   alt: string;
   reverse?: boolean;
 }
 
-const { title, text, image, alt, reverse = false } = Astro.props;
+const { title, src, alt, reverse = false } = Astro.props;
 ---
 
 <article class="grid grid-cols-1 lg:grid-cols-2 place-items-center gap-6">
@@ -18,11 +17,5 @@ const { title, text, image, alt, reverse = false } = Astro.props;
     </header>
     <slot />
   </div>
-  <Image
-    src={image}
-    alt={alt}
-    width={400}
-    height={400}
-    class="aspect-square object-cover w-full"
-  />
+  <Image alt={alt} src={src} />
 </article>
