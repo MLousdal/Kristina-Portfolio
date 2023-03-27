@@ -46,9 +46,6 @@ module.exports = {
 		container: {
 			center: true,
 		},
-		backgroundImage: {
-			'hero-pattern': "url('/assets/hero-patteren.svg')",
-		}
 	},
 	plugins: [
 		require('@tailwindcss/typography'),

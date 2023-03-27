@@ -9,21 +9,29 @@ const image = {
 ---
 
 <Master title={title} description={description} image={image}>
-  <main class="">
-    <header
-      class="bg-hero-pattern bg-origin-border bg-center bg-no-repeat bg-contain h-80vh grid place-items-center"
-    >
-      <div class="container">
+  <main class="overflow-hidden">
+    <header class="h-80vh grid place-items-center">
+      <div class="container relative">
         <p
           class="text-primary-400 font-serif text-xl md:text-2xl lg:text-5xl mb-4 uppercase"
         >
           Hello <span class="">👋</span>
         </p>
-        <h1 class="text-3xl md:text-5xl lg:text-7xl">
+        <h1 class="text-5xl md:text-7xl">
           I’m Kristina, a fresh <strong class="text-primary-400"
             >ui designer</strong
           >, designing the web, one pixel at a time
         </h1>
+        <img src="/assets/hero1.svg" class="absolute top-1/4 -left-5 -z-10" />
+        <img
+          src="/assets/hero2.svg"
+          class="absolute -top-[135%] -right-[5%] -z-10"
+        />
+        <img src="/assets/hero3.svg" class="absolute top-full left-2/3 -z-10" />
+        <img
+          src="/assets/hero4.svg"
+          class="absolute -bottom-full -right-[20%] -z-10"
+        />
       </div>
     </header>
     <section class="h-screen"></section>
