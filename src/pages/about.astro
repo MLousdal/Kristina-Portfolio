@@ -23,19 +23,21 @@ const image = {
         >
           Get to know me <span class="">🍫</span>
         </p>
-        <h1 class="text-5xl md:text-7xl">
+        <h1 class="text-3xl sm:text-5xl md:text-7xl">
           Your book-loving and weight-lifting designer, with a global mindset
           that shines through in design.
         </h1>
       </div>
     </header>
-    <section>
-      <!-- <header
-        class="sticky top-0 -rotate-90 w-0 h-0 whitespace-nowrap -translate-x-1/3 translate-y-full"
-      >
-        <h2 class="uppercase font-serif text-7xl text-gray2/30">About me</h2>
-      </header> -->
-      <div class="container flex flex-col gap-6 lg:gap-12">
+    <section class="container grid grid-cols-12">
+      <header class="section-header">
+        <h2
+          class="uppercase font-serif text-sm sm:text-xl md:text-3xl lg:text-5xl xl:text-7xl text-gray2/30"
+        >
+          About me
+        </h2>
+      </header>
+      <div class="flex flex-col gap-6 lg:gap-12 col-span-10">
         <TextImage title="A passion uncovered" src={skumfidus} alt="ME!">
           <p>
             My journey started in 2017 with my first lecture about graphic
@@ -63,13 +65,15 @@ const image = {
         </TextImage>
       </div>
     </section>
-    <section>
-      <!-- <header
-        class="sticky top-0 -rotate-90 w-0 h-0 whitespace-nowrap -translate-x-1/3 translate-y-full"
-      >
-        <h2 class="uppercase font-serif text-7xl text-gray2/30">About me</h2>
-      </header> -->
-      <div class="container">
+    <section class="container grid grid-cols-12">
+      <header class="section-header">
+        <h2
+          class="uppercase font-serif text-sm sm:text-xl md:text-3xl lg:text-5xl xl:text-7xl text-gray2/30"
+        >
+          About me
+        </h2>
+      </header>
+      <div class="col-span-10">
         <div class="max-w-none lg:max-w-screen-md mx-auto">
           <header>
             <h2 class="font-bold text-4xl">My competencies and traits</h2>
@@ -145,13 +149,15 @@ const image = {
         </div>
       </div>
     </section>
-    <section class="container">
-      <div class="max-w-none lg:max-w-screen-md mx-auto">
-        <!-- <header
-          class="sticky top-0 -rotate-90 w-0 h-0 whitespace-nowrap -translate-x-1/3 translate-y-full"
+    <section class="container grid grid-cols-12">
+      <header class="section-header">
+        <h2
+          class="uppercase font-serif text-sm sm:text-xl md:text-3xl lg:text-5xl xl:text-7xl text-gray2/30"
         >
-          <h2 class="uppercase font-serif text-7xl text-gray2/30">About me</h2>
-        </header> -->
+          About me
+        </h2>
+      </header>
+      <div class="max-w-none lg:max-w-screen-md mx-auto col-span-10">
         <Experience
           job="WEB DESIGNER"
           company="InternetZoo"

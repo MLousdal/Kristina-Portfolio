@@ -46,14 +46,24 @@ import "../styles/base.css";
             name: "twitter:image",
             content: image.url,
           },
-          { name: "twitter:title", content: title },
+          { name: "twitter:title", content: title + " | Kristina Linhartova" },
           { name: "twitter:description", content: description },
         ],
       }}
     />
+    <script>
+      window.addEventListener("scroll", () => {
+        const navElement = document.getElementById("nav");
+        if (navElement && document.documentElement.scrollTop > 0) {
+          navElement.classList.add("shadow");
+        } else {
+          navElement?.classList.remove("shadow");
+        }
+      });
+    </script>
   </head>
   <body class="h-screen bg-offwhite">
-    <header class="fixed inset-x-0 top-0 bg-offwhite">
+    <header class="fixed inset-x-0 top-0 bg-offwhite z-10" id="nav">
       <nav class="container py-4 flex justify-between items-center">
         <a href="/" class="font-serif text-4xl" title="Home">KL</a>
         <a

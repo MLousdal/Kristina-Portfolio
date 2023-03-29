@@ -11,7 +11,7 @@ const { title, src, alt, reverse = false } = Astro.props;
 ---
 
 <article class="grid grid-cols-1 lg:grid-cols-2 place-items-center gap-6">
-  <div class:list={["prose lg:prose-xl", { "order-2": reverse }]}>
+  <div class:list={["prose lg:prose-xl", { "xl:order-2": reverse }]}>
     <header>
       <h3>{title}</h3>
     </header>
