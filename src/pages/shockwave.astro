@@ -3,9 +3,15 @@ import Master from "../layouts/Master.astro";
 import Image from "../components/Image.astro";
 import Summary from "../components/Summary.astro";
 import TextImage from "../components/TextImage.astro";
+
 import persona1 from "../assets/persona1.png";
+import persona2 from "../assets/persona2.png";
+import persona3 from "../assets/persona3.png";
 import coachella from "../assets/coachella.png";
+import tomorrowland from "../assets/tomorrowland.png";
+import sziget from "../assets/sziget.png";
 import heroimage from "../assets/heroimage.png";
+
 const title = "Shockwave";
 const description =
   "Shockwave is a design concept for pop and rock music festival. The main challenge was to design a website that captures the spirit and energy of the festival while providing users with easy navigation and access to the necessary information.";
@@ -112,7 +118,12 @@ const image = {
           <li>Integration with social media platforms</li>
         </ul>
       </TextImage>
-      <TextImage title="Tomorrowland" src={coachella} alt="ME!" reverse={true}>
+      <TextImage
+        title="Tomorrowland"
+        src={tomorrowland}
+        alt="ME!"
+        reverse={true}
+      >
         <p class="font-bold">Strengths</p>
         <ul>
           <li>Visually appealing design</li>
@@ -130,7 +141,7 @@ const image = {
           <li>Integration with social media platforms</li>
         </ul>
       </TextImage>
-      <TextImage title="Sziget" src={coachella} alt="ME!">
+      <TextImage title="Sziget" src={sziget} alt="ME!">
         <p class="font-bold">Strengths</p>
         <ul>
           <li>Visually appealing design</li>
@@ -162,8 +173,8 @@ const image = {
         and Alex.
       </p>
       <Image src={persona1} alt="test" />
-      <Image src={persona1} alt="test" />
-      <Image src={persona1} alt="test" />
+      <Image src={persona2} alt="test" />
+      <Image src={persona3} alt="test" />
     </article>
     <article class="prose lg:prose-xl max-w-none">
       <header><h2>Site map</h2></header>

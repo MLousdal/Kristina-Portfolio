@@ -1,5 +1,10 @@
 ---
+import ProjectCard from "../components/ProjectCard.astro";
 import Master from "../layouts/Master.astro";
+
+import Shockwave from "../assets/Shockwavepreview.png";
+import Shapespace from "../assets/architecturepreview.png";
+
 const title = "Home";
 const description = "This is the homepage";
 const image = {
@@ -34,6 +39,28 @@ const image = {
         />
       </div>
     </header>
-    <section class="h-screen"></section>
+    <section class="container">
+      <header class="section-header">
+        <h2 class="vert-header">Projects</h2>
+      </header>
+      <div class="flex flex-col gap-6 lg:gap-12 col-span-10">
+        <ProjectCard
+          pretitle="ShockWave"
+          title="festival website design"
+          text="Inspired by world-know festivals. My take features a modern design, with bold colour that captures the energetic and dynamic spirit of the event."
+          src={Shockwave}
+          color="#5B21B6"
+          link="/shockwave"
+        />
+        <ProjectCard
+          pretitle="ShapeSpace"
+          title="architecture blog design  "
+          text="The blog's gray color scheme evokes a sense of sophistication and professionalism, while its well-crafted content is easy to navigate."
+          src={Shapespace}
+          color="#342B2B"
+          link="/shapespace"
+        />
+      </div>
+    </section>
   </main>
 </Master>

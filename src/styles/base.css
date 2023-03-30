@@ -4,11 +4,15 @@
 
 @layer base {
   .container {
-    @apply px-1 sm:px-4 md:px-8 lg:px-12 xl:px-16 2xl:px-20;
+    @apply px-4 sm:px-8 md:px-12 lg:px-16 xl:px-20 2xl:px-24 relative;
   }
 
   .section-header {
-    @apply sticky top-20 w-fit h-[40px] lg:h-[110px] xl:h-[220px] -rotate-90 -translate-x-[7.5%] md:-translate-x-1/3 lg:-translate-x-[15%] xl:-translate-x-0 whitespace-nowrap translate-y-[5%] md:translate-y-full lg:translate-y-6 xl:translate-y-0;
+    @apply lg:absolute top-0 left-0 lg:w-4 lg:h-4 lg:translate-x-full mb-12 lg:mb-0;
+  }
+
+  .vert-header {
+    @apply uppercase font-serif text-xl md:text-3xl lg:text-5xl xl:text-7xl text-secondary-200 lg:rotate-90 whitespace-nowrap lg:-translate-y-1/3;
   }
 }
 

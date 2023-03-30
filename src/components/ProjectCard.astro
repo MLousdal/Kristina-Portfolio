@@ -1,0 +1,29 @@
+---
+import Image from "../components/Image.astro";
+interface Props {
+  pretitle: string;
+  title: string;
+  text: string;
+  src: string;
+  color: string;
+  link: string;
+}
+
+const { pretitle, title, text, src, color, link } = Astro.props;
+---
+
+<article class="w-full group relative">
+  <Image src={src} alt={pretitle + " mockup"} />
+  <div
+    tabindex="1"
+    class={`opacity-0 group-hover:opacity-100 group-focus:opacity-100 inset-0 absolute transition bg-secondary-200/80`}
+  >
+    <div class="p-12 absolute bottom-0 left-0 text-black w-2/3">
+      <h2 class="text-black text-6xl font-serif mb-4">
+        <small class="text-3xl">{pretitle}</small><br />{title}
+      </h2>
+      <p class="text-lg">{text}</p>
+    </div>
+    <a href={link} class="absolute inset-0" title={pretitle}></a>
+  </div>
+</article>

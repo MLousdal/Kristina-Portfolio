@@ -1,6 +1,10 @@
 ---
 import Master from "../layouts/Master.astro";
+
 import skumfidus from "../assets/skumfidus.jpg";
+import Aboutme1 from "../assets/Aboutme1.png";
+import Aboutme2 from "../assets/Aboutme2.png";
+
 import TextImage from "../components/TextImage.astro";
 import Skill from "../components/Skill.astro";
 import SkillCard from "../components/SkillCard.astro";
@@ -29,16 +33,12 @@ const image = {
         </h1>
       </div>
     </header>
-    <section class="container grid grid-cols-12">
+    <section class="container">
       <header class="section-header">
-        <h2
-          class="uppercase font-serif text-sm sm:text-xl md:text-3xl lg:text-5xl xl:text-7xl text-secondary-200"
-        >
-          About me
-        </h2>
+        <h2 class="vert-header">About me</h2>
       </header>
-      <div class="flex flex-col gap-6 lg:gap-12 col-span-10">
-        <TextImage title="A passion uncovered" src={skumfidus} alt="ME!">
+      <div class="flex flex-col gap-6 lg:gap-12">
+        <TextImage title="A passion uncovered" src={Aboutme1} alt="ME!">
           <p>
             My journey started in 2017 with my first lecture about graphic
             design in a Slovak high school. This continued through my studies of
@@ -50,7 +50,7 @@ const image = {
         </TextImage>
         <TextImage
           title="A passion uncovered"
-          src={skumfidus}
+          src={Aboutme2}
           alt="ME!"
           reverse={true}
         >
@@ -65,15 +65,11 @@ const image = {
         </TextImage>
       </div>
     </section>
-    <section class="container grid grid-cols-12">
+    <section class="container">
       <header class="section-header">
-        <h2
-          class="uppercase font-serif text-sm sm:text-xl md:text-3xl lg:text-5xl xl:text-7xl text-secondary-200"
-        >
-          Skills
-        </h2>
+        <h2 class="vert-header">Skills</h2>
       </header>
-      <div class="col-span-10">
+      <div>
         <div class="max-w-none lg:max-w-screen-md mx-auto">
           <header>
             <h2 class="font-bold text-4xl">My competencies and traits</h2>
@@ -88,13 +84,8 @@ const image = {
             design problems while meeting deadlines.`}
           />
           <Skill
-            title="Soft skill: Resourcefulness"
-            text={`The ability to find ways around obstacles and limitations is crucial
-            when working in a field with constantly changing clients, developing
-            trends, and technological innovations. I consider myself a person
-            who thrives in a fast-paced environment and enjoys working with
-            like-minded individuals who support each other in solving complex
-            design problems while meeting deadlines.`}
+            title="Soft skill: Attention to detail"
+            text={`To me, attention to detail means ensuring consistency throughout the interface, from the placement of buttons and icons to the spacing between text and images. This requires taking into account the user's needs and preferences, such as ensuring that the font size and color contrast make the content easy to read. Attention to detail is a crucial aspect of UI design because it can make the difference between a good design and a great one.`}
           />
           <Skill
             title="Soft skill: Resourcefulness"
@@ -106,13 +97,8 @@ const image = {
             design problems while meeting deadlines.`}
           />
           <Skill
-            title="Soft skill: Resourcefulness"
-            text={`The ability to find ways around obstacles and limitations is crucial
-            when working in a field with constantly changing clients, developing
-            trends, and technological innovations. I consider myself a person
-            who thrives in a fast-paced environment and enjoys working with
-            like-minded individuals who support each other in solving complex
-            design problems while meeting deadlines.`}
+            title="Soft skill: Time-management"
+            text={`I consider time management to be a core aspect of the design process. It helps me prioritize tasks and stay focused. A well-structured plan ensures that I can deliver high-quality work in a timely manner, manage multiple projects, and collaborate effectively with others.`}
           />
         </div>
         <div class="grid grid-cols-1 lg:grid-cols-3 gap-4 mt-6 lg:mt-12">
@@ -149,15 +135,14 @@ const image = {
         </div>
       </div>
     </section>
-    <section class="container grid grid-cols-12">
+    <section class="container">
       <header class="section-header">
-        <h2
-          class="uppercase font-serif text-sm sm:text-xl md:text-3xl lg:text-5xl xl:text-7xl text-secondary-200"
-        >
-          About me
-        </h2>
+        <h2 class="vert-header">Experience</h2>
       </header>
-      <div class="max-w-none lg:max-w-screen-md mx-auto col-span-10">
+      <div class="max-w-none lg:max-w-screen-md mx-auto">
+        <header>
+          <h2 class="font-bold text-4xl">My previous work places</h2>
+        </header>
         <Experience
           job="WEB DESIGNER"
           company="InternetZoo"
