@@ -1,6 +1,10 @@
 ---
 import Master from "../layouts/Master.astro";
+
 import skumfidus from "../assets/skumfidus.jpg";
+import Aboutme1 from "../assets/Aboutme1.png";
+import Aboutme2 from "../assets/Aboutme2.png";
+
 import TextImage from "../components/TextImage.astro";
 import Skill from "../components/Skill.astro";
 import SkillCard from "../components/SkillCard.astro";
@@ -31,14 +35,10 @@ const image = {
     </header>
     <section class="container grid grid-cols-12">
       <header class="section-header">
-        <h2
-          class="uppercase font-serif text-sm sm:text-xl md:text-3xl lg:text-5xl xl:text-7xl text-secondary-200"
-        >
-          About me
-        </h2>
+        <h2 class="vert-header">About me</h2>
       </header>
       <div class="flex flex-col gap-6 lg:gap-12 col-span-10">
-        <TextImage title="A passion uncovered" src={skumfidus} alt="ME!">
+        <TextImage title="A passion uncovered" src={Aboutme1} alt="ME!">
           <p>
             My journey started in 2017 with my first lecture about graphic
             design in a Slovak high school. This continued through my studies of
@@ -50,7 +50,7 @@ const image = {
         </TextImage>
         <TextImage
           title="A passion uncovered"
-          src={skumfidus}
+          src={Aboutme2}
           alt="ME!"
           reverse={true}
         >
@@ -67,11 +67,7 @@ const image = {
     </section>
     <section class="container grid grid-cols-12">
       <header class="section-header">
-        <h2
-          class="uppercase font-serif text-sm sm:text-xl md:text-3xl lg:text-5xl xl:text-7xl text-secondary-200"
-        >
-          Skills
-        </h2>
+        <h2 class="vert-header">Skills</h2>
       </header>
       <div class="col-span-10">
         <div class="max-w-none lg:max-w-screen-md mx-auto">
@@ -151,11 +147,7 @@ const image = {
     </section>
     <section class="container grid grid-cols-12">
       <header class="section-header">
-        <h2
-          class="uppercase font-serif text-sm sm:text-xl md:text-3xl lg:text-5xl xl:text-7xl text-secondary-200"
-        >
-          About me
-        </h2>
+        <h2 class="vert-header">Experience</h2>
       </header>
       <div class="max-w-none lg:max-w-screen-md mx-auto col-span-10">
         <Experience
