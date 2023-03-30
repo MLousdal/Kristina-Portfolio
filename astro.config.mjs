@@ -10,5 +10,6 @@ export default defineConfig({
     config: {
       applyBaseStyles: false
     }
-  }), sitemap(), image()]
+  }), sitemap(), image()],
+  site: "https://kristina-portfolio-mlousdal.vercel.app/"
 });
