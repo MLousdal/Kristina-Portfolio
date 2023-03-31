@@ -49,18 +49,19 @@ const image = {
           </p>
         </TextImage>
         <TextImage
-          title="A passion uncovered"
+          title="Building my UI skills one course and cake at a time"
           src={Aboutme2}
           alt="ME!"
           reverse={true}
         >
           <p>
-            My journey started in 2017 with my first lecture about graphic
-            design in a Slovak high school. This continued through my studies of
-            Design, Technology, and Business at UCN, where I also worked as a
-            graphic designer for a printing house. These valuable experiences in
-            the graphic design field led me to the realization that my true
-            passion lies within UI design.
+            My education and experience as a graphic designer have provided me
+            with a solid foundation, especially in color theory, fonts, visual
+            hierarchy, composition, and layouts. In the past few months, I have
+            expanded my knowledge of UI rules and principles through online
+            courses and by applying theoretical knowledge to personal projects.
+            During my free time, you can find me reading a book, baking
+            delicious cakes, or trying to beat my personal records at the gym.
           </p>
         </TextImage>
       </div>
@@ -97,14 +98,14 @@ const image = {
             design problems while meeting deadlines.`}
           />
           <Skill
-            title="Soft skill: Time-management"
-            text={`I consider time management to be a core aspect of the design process. It helps me prioritize tasks and stay focused. A well-structured plan ensures that I can deliver high-quality work in a timely manner, manage multiple projects, and collaborate effectively with others.`}
+            title="Soft skill: Resilience"
+            text={`As a resilient individual, I am able to remain optimistic and focused even in the face of significant challenges. This personal trait is valuable on both personal and professional levels. It helps me cope with stress, prevent burnout, and maintain healthy habits. Additionally, it helps me bounce back from professional setbacks and potential failures with a positive outlook on the situation.`}
           />
         </div>
         <div class="grid grid-cols-1 lg:grid-cols-3 gap-4 mt-6 lg:mt-12">
           <SkillCard
             title="Research"
-            text={`Lobortis blandit maecenas imperdiet nunc luctus nibh tempor phasellus ac. Sit tincidunt ut viverra sed. Vestibulum sit tortor rhoncus sit montes congue. Sit senectus dignissim amet amet.`}
+            text={`As a UI designer with a focus on user-centered design, I possess a range of hard skills that enable me to conduct comprehensive research and analysis to create intuitive and engaging user experiences. My expertise in user flows, user personas, competitors analysis, and information architecture allows me to gather valuable insights into user behavior and preferences, identify pain points and opportunities for improvement, and develop effective design solutions that meet user needs and achieve business goals.`}
             skills={[
               "User flow",
               "User personas",
@@ -113,23 +114,20 @@ const image = {
             ]}
           />
           <SkillCard
-            title="Research"
-            text={`Lobortis blandit maecenas imperdiet nunc luctus nibh tempor phasellus ac. Sit tincidunt ut viverra sed. Vestibulum sit tortor rhoncus sit montes congue. Sit senectus dignissim amet amet.`}
-            skills={[
-              "User flow",
-              "User personas",
-              "Competitors analysis",
-              "Information architecture",
-            ]}
+            title="Prototype"
+            text={`My expertise in wireframing allows me to rapidly and efficiently create low-fidelity mockups of user interfaces. Furthermore, my knowledge of design systems empowers me to develop consistent and cohesive designs across an entire product or platform. Lastly, my experience with interaction design equips me to create intuitive and engaging user experiences through the use of animations, micro-interactions, and other forms of feedback.`}
+            skills={["Wireframing", "Design systems", "Interaction design"]}
+            Lobortis
           />
           <SkillCard
-            title="Research"
-            text={`Lobortis blandit maecenas imperdiet nunc luctus nibh tempor phasellus ac. Sit tincidunt ut viverra sed. Vestibulum sit tortor rhoncus sit montes congue. Sit senectus dignissim amet amet.`}
+            title="Design"
+            text={`I am constantly learning and exploring new techniques and tools such as Figma and Adobe Suite to improve my skills. Typography is one of my favourite aspects of design, as it enables me to communicate the brand message effectively. I also strive to use color psychology and theory to create a harmonious color scheme that enhances the user experience. By using these design elements, I aim to create an effective interface that meets the needs of my users.`}
             skills={[
-              "User flow",
-              "User personas",
-              "Competitors analysis",
-              "Information architecture",
+              "Figma",
+              "Adobe Suite",
+              "Typography",
+              "Colour psychology",
+              "Colour theory",
             ]}
           />
         </div>
@@ -141,7 +139,7 @@ const image = {
       </header>
       <div class="max-w-none lg:max-w-screen-md mx-auto">
         <header>
-          <h2 class="font-bold text-4xl">My previous work places</h2>
+          <h2 class="font-bold text-4xl">Working experience</h2>
         </header>
         <Experience
           job="WEB DESIGNER"
@@ -163,39 +161,13 @@ const image = {
         />
         <Experience
           job="GRAPHIC DESIGNER"
-          company="Museum of Janko Kral (Slovakia)"
+          company="StraxSkilte (Denmark)"
           points={[
-            "Creating printed material for each exhibition, for visitors who chose not-guided tour",
-            "Visual side of exhibitions - print on walls or as a background of each display",
-            "Promotional materials for handouts at various location to spread awareness about museum",
+            "Menu cards for number of restaurant in North Jutland",
+            "Promotional materials for various businesses and purposes",
+            "Creating and recreating visual identities for different types of businesses",
           ]}
-          tools={[
-            "HTML",
-            "CSS",
-            "Photoshop",
-            "Figma",
-            "InDesign",
-            "Jira",
-            "CMS",
-          ]}
-        />
-        <Experience
-          job="WEB DESIGNER"
-          company="InternetZoo"
-          points={[
-            "Front-end and building of websites using CMS",
-            "Setting up new and redesigning old campaigns in company’s CMS",
-            "SoMe materials for existing and upcoming campaigns",
-          ]}
-          tools={[
-            "HTML",
-            "CSS",
-            "Photoshop",
-            "Figma",
-            "InDesign",
-            "Jira",
-            "CMS",
-          ]}
+          tools={["InDesign", "Illustrator", "Photoshop", "Printers"]}
         />
         <Experience
           job="GRAPHIC DESIGNER"
@@ -205,14 +177,23 @@ const image = {
             "Visual side of exhibitions - print on walls or as a background of each display",
             "Promotional materials for handouts at various location to spread awareness about museum",
           ]}
+          tools={["InDesign", "Illustrator", "Photoshop", "Printers"]}
+        />
+        <Experience
+          job="GRAPHIC DESIGNER"
+          company="ReproServis Kovac (Slovakia)"
+          points={[
+            "Posters, business cards, outdoor displays, magazines etc",
+            "Contact with customers as they fill the order",
+            "Finalising the orders using plotters, lasers or unconventional sized printers",
+          ]}
           tools={[
-            "HTML",
-            "CSS",
-            "Photoshop",
-            "Figma",
             "InDesign",
-            "Jira",
-            "CMS",
+            "Illustrator",
+            "Photoshop",
+            "Printers",
+            "Plotters",
+            "Lasers",
           ]}
         />
         <footer class="block">
