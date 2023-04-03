@@ -10,33 +10,28 @@ const { objectives, team, duration, tools } = Astro.props;
 ---
 
 <section class="container grid grid-cols-1 lg:grid-cols-3 gap-4 lg:gap-6">
+  <header class="section-header">
+    <h2 class="vert-header">Summary</h2>
+  </header>
   <article class="prose lg:prose-xl lg:col-span-2">
     <slot />
   </article>
   <aside>
     <ul class="flex flex-wrap lg:flex-col gap-3 md:gap-4 lg:gap-6">
       <li>
-        <h2 class="text-lg lg:text-xl text-secondary-400 font-bold mb-2">
-          Objectives
-        </h2>
+        <h2 class="text-lg lg:text-xl font-bold mb-2">Objectives</h2>
         <p>{objectives}</p>
       </li>
       <li>
-        <h2 class="text-lg lg:text-xl text-secondary-400 font-bold mb-2">
-          Tools
-        </h2>
+        <h2 class="text-lg lg:text-xl font-bold mb-2">Tools</h2>
         <p>{tools.join(" | ")}</p>
       </li>
       <li>
-        <h2 class="text-lg lg:text-xl text-secondary-400 font-bold mb-2">
-          Team
-        </h2>
+        <h2 class="text-lg lg:text-xl font-bold mb-2">Team</h2>
         <p>{team}</p>
       </li>
       <li>
-        <h2 class="text-lg lg:text-xl text-secondary-400 font-bold mb-2">
-          Duration
-        </h2>
+        <h2 class="text-lg lg:text-xl font-bold mb-2">Duration</h2>
         <p>{duration}</p>
       </li>
     </ul>

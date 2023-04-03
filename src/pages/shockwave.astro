@@ -73,6 +73,9 @@ const image = {
     </footer>
   </Summary>
   <section class="container">
+    <header class="section-header">
+      <h2 class="vert-header">RESEARCH</h2>
+    </header>
     <article class="prose lg:prose-xl max-w-none">
       <header><h2>Introduction</h2></header>
       <p>
@@ -103,7 +106,7 @@ const image = {
       </ul>
     </article>
     <article class="prose lg:prose-xl max-w-none">
-      <header><h2>Competitors analysis</h2></header>
+      <header><h2>Competitor analysis</h2></header>
       <h3>Scoping out the competition</h3>
       <p>
         In order to create a successful UI design for a Shockwave website, it's
@@ -281,12 +284,12 @@ const image = {
               switch/ check other offers.
             </li>
             <li>Lisa secures the desired tickets.</li>
-            <p>
-              Lisa is familiar with festival and attended before therefore she
-              have no need to check out page with practical information or about
-              page.
-            </p>
           </ol>
+          <p>
+            Lisa is familiar with festival and attended before therefore she
+            have no need to check out page with practical information or about
+            page.
+          </p>
         </div>
         <div
           class="prose lg:prose-xl shadow-lg p-6 rounded w-full max-w-none lg:max-w-1/2 shrink"
@@ -325,17 +328,20 @@ const image = {
               information such as transportation or rules to be able to plan the
               trip related to event most efficiently.
             </li>
-            <p>
-              Alex needs more information to became comfortable with purchasing
-              ticket than Lisa, therefore he explores website more in depth than
-              her.
-            </p>
           </ol>
+          <p>
+            Alex needs more information to became comfortable with purchasing
+            ticket than Lisa, therefore he explores website more in depth than
+            her.
+          </p>
         </div>
       </div>
     </article>
   </section>
   <section class="container">
+    <header class="section-header">
+      <h2 class="vert-header">Prototyping</h2>
+    </header>
     <article class="prose lg:prose-xl max-w-none">
       <header><h2>Introduction</h2></header>
       <p>
@@ -407,141 +413,134 @@ const image = {
       </p>
     </article>
 
-    <TextImage
-      title="Lisa - familiar user "
-      src={taskflow1}
-      alt="ME!"
-      reverse={true}
-    >
-      <ol>
-        <li>
-          Lisa arrives at ‘Home’ page. ‘Hero’ sections provides fast overview of
-          date and place of event.
-        </li>
-        <li>
-          Lisa scrolls down the page to find section with ‘Top artists’ that are
-          performing
-        </li>
-        <li>
-          Lisa click on ‘See more’ button which leads Lisa to ‘Artists’ page
-          where are more details about schedule, as well as details on
-          performers.
-        </li>
-      </ol>
-    </TextImage>
-
-    <TextImage title=" " src={taskflow2} alt="ME!" reverse={true}>
-      <ol>
-        <li>
-          Lisa finds desired artist in the lineup and clicks on the image which
-          opens the overlay
-        </li>
-        <li>
-          This overlay provides more detailed information about selected artist,
-          such as bio, social media links, music player and also date and time
-          of performance for easy access.
-        </li>
-        <li>
-          Once preferred artist and dates are selected Lisa proceeds to section
-          with ticket offers.
-        </li>
-
-        <li>
-          Detailed schedule broken down to days, times and stages provides easy
-          overview of each festival day.
-        </li>
-
-        <li>
-          Once Lisa has preferred artists and days selected she moves to next
-          section with ticket offers.
-        </li>
-        <li>
-          After scanning through offers and picking the most interesting one,
-          Lisa then clicks on ‘Buy ticket’ button and proceed to finish her
-          process by purchasing the ticket.
-        </li>
-      </ol>
-      <p>
-        Familiar user like Lisa will not visit every page of the website since
-        she has previous knowledge about event and is familiar with both website
-        and event.
-      </p>
-    </TextImage>
-
-    <TextImage
-      title="Alex - unfamiliar user "
-      src={taskflow3}
-      alt="ME!"
-      reverse={true}
-    >
-      <ol>
-        <li>
-          Alex first arrives at ‘Home’ page. ‘Hero’ sections provides fast
-          overview of date and place of event.
-        </li>
-        <li>
-          Since Alex is new user and is not familiar with event, he first seeks
-          knowledge about the event, therefore Alex clicks on ‘About’ in the
-          navigation bar to visit page which provides overview of event.
-        </li>
-      </ol>
-    </TextImage>
-
-    <TextImage title="" src={taskflow4} alt="ME!" reverse={true}>
-      <ol>
-        <li>
-          As a new user Alex wants to read about values, history and most
-          importantly experiences of former visitors. Alex also might have
-          desire to see who performed previous years. All these information help
-          Alex gain trust in the event and become comfortable enough to seek
-          information about the lineup.
-        </li>
-        <li>
-          After clicking on the button under the archive of previous artists,
-          Alex is redirected to ‘Artists’ page.
-        </li>
-      </ol>
-    </TextImage>
-
-    <TextImage title="" src={taskflow5} alt="ME!" reverse={true}>
-      <ol>
-        <li>
-          Here is where Alex might meet the behaviour of Lisa as he searches for
-          his desired artists.
-        </li>
-
-        <li>
-          After clicking on the selected artist, Alex opens the overlay which
-          provides more and detailed information, such as bio, photos, and
-          performance schedule. Can also listen to a song or visit the artist's
-          socials.
-        </li>
-        <li>
-          Next crucial step for Alex is choice of suitable day or days when he
-          wants to attend event, detailed schedule is therefore helpful tool to
-          speed up the process.
-        </li>
-        <li>
-          Once Alex selects a ticket which caught most of his interest, Alex is
-          directed to a specific ticket page where he can securely enter payment
-          and contact information to purchase a ticket.
-        </li>
-      </ol>
-    </TextImage>
-
-    <TextImage title="" src={taskflow6} alt="ME!" reverse={true}>
-      <ol>
-        <li>
-          Here can Alex see all the detail of selected ticket offer together
-          with option to switch to another ticket offer if desired.
-        </li>
-
-        <li>
-          Finally as a last step, Alex moves to the "Info" page to view
-          important information such as transportation and rules.
-        </li>
-      </ol>
-    </TextImage>
+    <div class="flex flex-col gap-6">
+      <TextImage
+        title="Lisa - familiar user "
+        src={taskflow1}
+        alt="ME!"
+        reverse={true}
+      >
+        <ol>
+          <li>
+            Lisa arrives at ‘Home’ page. ‘Hero’ sections provides fast overview
+            of date and place of event.
+          </li>
+          <li>
+            Lisa scrolls down the page to find section with ‘Top artists’ that
+            are performing
+          </li>
+          <li>
+            Lisa click on ‘See more’ button which leads Lisa to ‘Artists’ page
+            where are more details about schedule, as well as details on
+            performers.
+          </li>
+        </ol>
+      </TextImage>
+      <TextImage title=" " src={taskflow2} alt="ME!" reverse={true}>
+        <ol start="4">
+          <li>
+            Lisa finds desired artist in the lineup and clicks on the image
+            which opens the overlay
+          </li>
+          <li>
+            This overlay provides more detailed information about selected
+            artist, such as bio, social media links, music player and also date
+            and time of performance for easy access.
+          </li>
+          <li>
+            Once preferred artist and dates are selected Lisa proceeds to
+            section with ticket offers.
+          </li>
+          <li>
+            Detailed schedule broken down to days, times and stages provides
+            easy overview of each festival day.
+          </li>
+          <li>
+            Once Lisa has preferred artists and days selected she moves to next
+            section with ticket offers.
+          </li>
+          <li>
+            After scanning through offers and picking the most interesting one,
+            Lisa then clicks on ‘Buy ticket’ button and proceed to finish her
+            process by purchasing the ticket.
+          </li>
+        </ol>
+        <p>
+          Familiar user like Lisa will not visit every page of the website since
+          she has previous knowledge about event and is familiar with both
+          website and event.
+        </p>
+      </TextImage>
+      <TextImage
+        title="Alex - unfamiliar user "
+        src={taskflow3}
+        alt="ME!"
+        reverse={true}
+      >
+        <ol>
+          <li>
+            Alex first arrives at ‘Home’ page. ‘Hero’ sections provides fast
+            overview of date and place of event.
+          </li>
+          <li>
+            Since Alex is new user and is not familiar with event, he first
+            seeks knowledge about the event, therefore Alex clicks on ‘About’ in
+            the navigation bar to visit page which provides overview of event.
+          </li>
+        </ol>
+      </TextImage>
+      <TextImage title="" src={taskflow4} alt="ME!" reverse={true}>
+        <ol start="3">
+          <li>
+            As a new user Alex wants to read about values, history and most
+            importantly experiences of former visitors. Alex also might have
+            desire to see who performed previous years. All these information
+            help Alex gain trust in the event and become comfortable enough to
+            seek information about the lineup.
+          </li>
+          <li>
+            After clicking on the button under the archive of previous artists,
+            Alex is redirected to ‘Artists’ page.
+          </li>
+        </ol>
+      </TextImage>
+      <TextImage title="" src={taskflow5} alt="ME!" reverse={true}>
+        <ol start="5">
+          <li>
+            Here is where Alex might meet the behaviour of Lisa as he searches
+            for his desired artists.
+          </li>
+          <li>
+            After clicking on the selected artist, Alex opens the overlay which
+            provides more and detailed information, such as bio, photos, and
+            performance schedule. Can also listen to a song or visit the
+            artist's socials.
+          </li>
+          <li>
+            Next crucial step for Alex is choice of suitable day or days when he
+            wants to attend event, detailed schedule is therefore helpful tool
+            to speed up the process.
+          </li>
+          <li>
+            Once Alex selects a ticket which caught most of his interest, Alex
+            is directed to a specific ticket page where he can securely enter
+            payment and contact information to purchase a ticket.
+          </li>
+        </ol>
+      </TextImage>
+      <TextImage title="" src={taskflow6} alt="ME!" reverse={true}>
+        <ol start="9">
+          <li>
+            Here can Alex see all the detail of selected ticket offer together
+            with option to switch to another ticket offer if desired.
+          </li>
+          <li>
+            Finally as a last step, Alex moves to the "Info" page to view
+            important information such as transportation and rules.
+          </li>
+        </ol>
+      </TextImage>
+    </div>
 
     <article class="prose lg:prose-xl max-w-none">
       <header><h2>Responsive wireframes</h2></header>
@@ -573,8 +572,11 @@ const image = {
     </article>
   </section>
   <section class="container">
+    <header class="section-header">
+      <h2 class="vert-header">Design</h2>
+    </header>
     <article class="prose lg:prose-xl max-w-none">
-      <header><h2>Design</h2></header>
+      <header><h2>Designing the website</h2></header>
       <p>
         The design process is the final step of the process of creating a
         Shockwave website. This section summarizes the final outcome. By
@@ -624,7 +626,11 @@ const image = {
         responsive and user-friendly across all devices.
       </p>
     </article>
-
+  </section>
+  <section class="container">
+    <header class="section-header">
+      <h2 class="vert-header">Conclusion</h2>
+    </header>
     <article class="prose lg:prose-xl max-w-none">
       <header><h2>Sooon to be conclusion</h2></header>
       <h3>From challenge to triumph</h3>

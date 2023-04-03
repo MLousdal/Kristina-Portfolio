@@ -19,18 +19,40 @@ const image = {
 ---
 
 <Master title={title} description={description} image={image}>
-  <main class="flex flex-col gap-12 lg:gap-24">
+  <main class="flex flex-col gap-12 lg:gap-24 overflow-hidden">
     <header class="h-80vh grid place-items-center">
-      <div class="container">
+      <div class="container relative">
         <p
           class="text-primary-400 font-serif text-xl md:text-2xl lg:text-5xl mb-4 uppercase"
         >
           Get to know me <span class="">🍫</span>
         </p>
-        <h1 class="text-3xl sm:text-5xl md:text-7xl">
-          Your book-loving and weight-lifting designer, with a global mindset
+        <h1 class="text-5xl md:text-7xl">
+          Your book-loving and weight-lifting designer, with a <strong
+            class="text-primary-400">global mindset</strong
+          >
           that shines through in design.
         </h1>
+        <img
+          alt=""
+          src="/assets/hero1.svg"
+          class="absolute -left-[20%] md:-left-[5%] top-1/3 lg:top-1/4 lg:-left-5 -z-10 scale-50 md:scale-75 lg:scale-100"
+        />
+        <img
+          alt=""
+          src="/assets/hero2.svg"
+          class="absolute top-1/2 -right-1/4 lg:-top-[135%] lg:-right-[5%] -z-10 scale-50 md:scale-75 lg:scale-100"
+        />
+        <img
+          alt=""
+          src="/assets/hero3.svg"
+          class="absolute -top-1/3 right-0 lg:top-full md:left-2/3 -z-10 scale-[0.25] md:scale-75 lg:scale-100"
+        />
+        <img
+          alt=""
+          src="/assets/hero4.svg"
+          class="absolute top-[15%] lg:-bottom-full -right-1/4 md:-right-[20%] -z-10 scale-50 md:scale-75 lg:scale-100"
+        />
       </div>
     </header>
     <section class="container">
