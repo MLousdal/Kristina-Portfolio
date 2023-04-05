@@ -1,0 +1,61 @@
+---
+import Master from "../layouts/Master.astro";
+import Image from "../components/Image.astro";
+import Summary from "../components/Summary.astro";
+import TextImage from "../components/TextImage.astro";
+
+import architecturepreview from "../assets/architecturepreview.png";
+
+const title = "Shapespace";
+const description =
+  "Welcome to Shapespace, where architecture and design intersect. Immerse yourself in a visually stunning UI design proposal for an architecture blog. Discover how intuitive interfaces can make exploring the world of architecture an unforgettable experience.";
+const subTitle = "Architecture blog design";
+const image = {
+  url: "/",
+  alt: "Default",
+};
+---
+
+<Master title={title} description={description} image={image}>
+  <header class="container pt-24">
+    <h1 class="font-serif text-4xl lg:text-5xl text-center">{title}</h1>
+    <p class="text-lg lg:text-xl font-bold text-center">
+      {subTitle}
+    </p>
+    <div class="my-4 lg:my-6">
+      <Image src={architecturepreview} alt="mockups of the shapespace design" />
+    </div>
+  </header>
+
+  <Summary
+    duration="6 weeks"
+    objectives="Responsive website that is intuitive for easy access to new content."
+    team="Autonomous, with feedback from the mentor"
+    tools={["Figma"]}
+  >
+    <h2>Project overview</h2>
+    <p>
+      Shapespace is a UI design concept proposal for an architecture blog
+      website. The proposal is designed to capture the essence and creativity of
+      architecture while providing users with easy navigation and access to
+      necessary information.
+    </p>
+    <h3>Goals and objectives</h3>
+    <ul class="list-disc">
+      <li>
+        To display blog posts prominently on the homepage, making it easy for
+        users to discover new content
+      </li>
+      <li>
+        To organize the content in an intuitive way to make it easy to navigate
+      </li>
+    </ul>
+    <footer class="block">
+      <a
+        href="https://www.figma.com/proto/uz3kHCO2nvDGo1oTbb5WKF/Architecture-Blog?page-id=64%3A1168&node-id=255-2829&viewport=-414%2C904%2C0.06&scaling=min-zoom&starting-point-node-id=255%3A2829"
+        target="_blank"
+        class="btn">View prototype</a
+      >
+    </footer>
+  </Summary>
+</Master>

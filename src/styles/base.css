@@ -23,4 +23,7 @@
 }
 
 @layer utilities {
+  .mt-auto {
+    margin-top: auto !important;
+  }
 }
