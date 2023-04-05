@@ -19,8 +19,8 @@ const image = {
 ---
 
 <Master title={title} description={description} image={image}>
-  <main class="flex flex-col gap-12 lg:gap-24">
-    <header class="h-80vh grid place-items-center overflow-hidden">
+  <main class="flex flex-col gap-12 lg:gap-24 overflow-hidden">
+    <header class="h-80vh grid place-items-center">
       <div class="container relative">
         <p
           class="text-primary-400 font-serif text-xl md:text-2xl lg:text-5xl mb-4 uppercase"
@@ -56,8 +56,12 @@ const image = {
       </div>
     </header>
     <section class="container">
-      <header class="section-header">
-        <h2 class="vert-header">About me</h2>
+      <header class="mb-4">
+        <h2
+          class="text-xl md:text-2xl lg:text-5xl font-bold text-secondary-400"
+        >
+          About me
+        </h2>
       </header>
       <div class="flex flex-col gap-6 lg:gap-12">
         <TextImage title="A passion uncovered" src={Aboutme1} alt="ME!">
@@ -91,66 +95,68 @@ const image = {
       </div>
     </section>
     <section class="container">
-      <header class="section-header">
-        <h2 class="vert-header">Skills</h2>
+      <header class="max-w-none lg:max-w-screen-md mx-auto mb-4">
+        <h2 class="text-5xl font-bold text-secondary-400">Skills</h2>
       </header>
-      <div>
-        <div class="max-w-none lg:max-w-screen-md mx-auto">
-          <header>
-            <h2 class="font-bold text-4xl">My competencies and traits</h2>
-          </header>
-          <Skill
-            title="Soft skill: Resourcefulness"
-            text="The ability to find ways around obstacles and limitations is crucial when working in a field with constantly changing clients, developing trends, and technological innovations. I consider myself a person who thrives in a fast-paced environment and enjoys working with like-minded individuals who support each other in solving complex design problems while meeting deadlines."
-          />
-          <Skill
-            title="Soft skill:Attention to detail"
-            text="To me, attention to detail means ensuring consistency throughout the interface, from the placement of buttons and icons to the spacing between text and images. This requires taking into account the user's needs and preferences, such as ensuring that the font size and color contrast make the content easy to read. Attention to detail is a crucial aspect of UI design, as  it can make the difference between a good design and a great one."
-          />
-          <Skill
-            title="Soft skill: Resourcefulness"
-            text="I consider time management to be a core aspect of the design process. It helps me prioritize tasks, stay focused and on top of my schedule. A well-structured plan ensures that I can deliver high-quality work in a timely manner, manage multiple projects, and collaborate effectively with others."
-          />
-          <Skill
-            title="Soft skill: Resilience"
-            text="As a resilient individual, I am able to remain optimistic and focused even in the face of significant challenges. This personal trait is valuable on both personal and professional levels. It helps me cope with stress, prevent burnout, and maintain healthy habits. Additionally, it helps me bounce back from professional setbacks and potential failures with a positive outlook on the situation."
-          />
-        </div>
-        <div class="grid grid-cols-1 lg:grid-cols-3 gap-4 mt-6 lg:mt-12">
-          <SkillCard
-            title="Research"
-            text="As a UI designer with a focus on user-centered design, I possess a range of hard skills that enable me to conduct comprehensive research and analysis to create intuitive and engaging user experiences. My expertise in user flows, user personas, competitors analysis, and information architecture allows me to gather valuable insights into user behavior and preferences, identify pain points and opportunities for improvement, and develop effective design solutions that meet user needs and achieve business goals."
-            skills={[
-              "User flow",
-              "User personas",
-              "Competitors analysis",
-              "Information architecture",
-            ]}
-          />
-          <SkillCard
-            title="Prototype"
-            text="My expertise in wireframing allows me to rapidly and efficiently create low-fidelity mockups of user interfaces. Furthermore, my knowledge of design systems empowers me to develop consistent and cohesive designs across an entire product or platform. Lastly, my experience with interaction design equips me to create intuitive and engaging user experiences through the use of animations, micro-interactions, and other forms of feedback."
-            skills={["Wireframing", "Design systems", "Interaction design"]}
-          />
-          <SkillCard
-            title="Design"
-            text="I am constantly learning and exploring new techniques and tools such as Figma and Adobe Suite to improve my skills. Typography is one of my favorite aspects of design, as it enables me to communicate the brand message effectively. I also strive to use color psychology and theory to create a harmonious color scheme that enhances the user experience. By using these design elements, I aim to create an effective interface that meets the needs of my users."
-            skills={[
-              "Figma",
-              "Adobe Suite",
-              "Typography",
-              "Colour psychology",
-              "Colour theory",
-            ]}
-          />
-        </div>
-      </div>
+      <article class="max-w-none lg:max-w-screen-md mx-auto">
+        <header>
+          <h2 class="font-bold text-4xl">My competencies and traits</h2>
+        </header>
+        <Skill
+          title="Soft skill: Resourcefulness"
+          text="The ability to find ways around obstacles and limitations is crucial when working in a field with constantly changing clients, developing trends, and technological innovations. I consider myself a person who thrives in a fast-paced environment and enjoys working with like-minded individuals who support each other in solving complex design problems while meeting deadlines."
+        />
+        <Skill
+          title="Soft skill:Attention to detail"
+          text="To me, attention to detail means ensuring consistency throughout the interface, from the placement of buttons and icons to the spacing between text and images. This requires taking into account the user's needs and preferences, such as ensuring that the font size and color contrast make the content easy to read. Attention to detail is a crucial aspect of UI design, as  it can make the difference between a good design and a great one."
+        />
+        <Skill
+          title="Soft skill: Resourcefulness"
+          text="I consider time management to be a core aspect of the design process. It helps me prioritize tasks, stay focused and on top of my schedule. A well-structured plan ensures that I can deliver high-quality work in a timely manner, manage multiple projects, and collaborate effectively with others."
+        />
+        <Skill
+          title="Soft skill: Resilience"
+          text="As a resilient individual, I am able to remain optimistic and focused even in the face of significant challenges. This personal trait is valuable on both personal and professional levels. It helps me cope with stress, prevent burnout, and maintain healthy habits. Additionally, it helps me bounce back from professional setbacks and potential failures with a positive outlook on the situation."
+        />
+      </article>
+      <article class="grid grid-cols-1 lg:grid-cols-3 gap-4 mt-6 lg:mt-12">
+        <SkillCard
+          title="Research"
+          text="As a UI designer with a focus on user-centered design, I possess a range of hard skills that enable me to conduct comprehensive research and analysis to create intuitive and engaging user experiences. My expertise in user flows, user personas, competitors analysis, and information architecture allows me to gather valuable insights into user behavior and preferences, identify pain points and opportunities for improvement, and develop effective design solutions that meet user needs and achieve business goals."
+          skills={[
+            "User flow",
+            "User personas",
+            "Competitors analysis",
+            "Information architecture",
+          ]}
+        />
+        <SkillCard
+          title="Prototype"
+          text="My expertise in wireframing allows me to rapidly and efficiently create low-fidelity mockups of user interfaces. Furthermore, my knowledge of design systems empowers me to develop consistent and cohesive designs across an entire product or platform. Lastly, my experience with interaction design equips me to create intuitive and engaging user experiences through the use of animations, micro-interactions, and other forms of feedback."
+          skills={["Wireframing", "Design systems", "Interaction design"]}
+        />
+        <SkillCard
+          title="Design"
+          text="I am constantly learning and exploring new techniques and tools such as Figma and Adobe Suite to improve my skills. Typography is one of my favorite aspects of design, as it enables me to communicate the brand message effectively. I also strive to use color psychology and theory to create a harmonious color scheme that enhances the user experience. By using these design elements, I aim to create an effective interface that meets the needs of my users."
+          skills={[
+            "Figma",
+            "Adobe Suite",
+            "Typography",
+            "Colour psychology",
+            "Colour theory",
+          ]}
+        />
+      </article>
     </section>
     <section class="container">
-      <header class="section-header">
-        <h2 class="vert-header">Experience</h2>
+      <header class="max-w-none lg:max-w-screen-md mx-auto mb-4">
+        <h2
+          class="text-xl md:text-2xl lg:text-5xl font-bold text-secondary-400"
+        >
+          Experience
+        </h2>
       </header>
-      <div class="max-w-none lg:max-w-screen-md mx-auto">
+      <article class="max-w-none lg:max-w-screen-md mx-auto">
         <header>
           <h2 class="font-bold text-4xl">Working experience</h2>
         </header>
@@ -210,9 +216,11 @@ const image = {
           ]}
         />
         <footer class="block">
-          <a href="/assets/CV.pdf" download class="btn">Download Resume</a>
+          <a href="/assets/CV.pdf" download class="btn block w-fit"
+            >Download Resume</a
+          >
         </footer>
-      </div>
+      </article>
     </section>
   </main>
 </Master>

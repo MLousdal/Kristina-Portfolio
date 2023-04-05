@@ -9,10 +9,7 @@ interface Props {
 const { objectives, team, duration, tools } = Astro.props;
 ---
 
-<section class="container grid grid-cols-1 lg:grid-cols-3 gap-4 lg:gap-6">
-  <header class="section-header">
-    <h2 class="vert-header">Summary</h2>
-  </header>
+<section class="container grid grid-cols-1 lg:grid-cols-3 gap-4 lg:gap-6 mb-6">
   <article class="prose lg:prose-xl lg:col-span-2">
     <slot />
   </article>
