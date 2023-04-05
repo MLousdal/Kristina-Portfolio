@@ -1,10 +1,8 @@
 ---
 import Master from "../layouts/Master.astro";
 
-import skumfidus from "../assets/skumfidus.jpg";
 import Aboutme1 from "../assets/Aboutme1.png";
 import Aboutme2 from "../assets/Aboutme2.png";
-import me1 from "../assets/me1.jpg";
 
 import TextImage from "../components/TextImage.astro";
 import Skill from "../components/Skill.astro";
@@ -15,8 +13,8 @@ const title = "About me";
 const description =
   "Get to know me better! I am a UI designer dedicated to delivering visually stunning designs through wireframing and high-fidelity prototypes. I use design to solve problems and enhance user experiences. Learn more about my skills and personal story on the about page.";
 const image = {
-  url: "/me1",
-  alt: "Me!",
+  url: "/assets/ogaboutpage.png",
+  alt: "Your book-loving and weight-lifting designer, with a global mindset that shines through in design.",
 };
 ---
 
@@ -103,26 +101,25 @@ const image = {
           </header>
           <Skill
             title="Soft skill: Resourcefulness"
-            text={`The ability to find ways around obstacles and limitations is crucial when working in a field with constantly changing clients, developing trends, and technological innovations. I consider myself a person who thrives in a fast-paced environment and enjoys working with like-minded individuals who support each other in solving complex design problems while meeting deadlines.`}
+            text="The ability to find ways around obstacles and limitations is crucial when working in a field with constantly changing clients, developing trends, and technological innovations. I consider myself a person who thrives in a fast-paced environment and enjoys working with like-minded individuals who support each other in solving complex design problems while meeting deadlines."
           />
           <Skill
-            title="Soft skill: Attention to detail"
-            text={`To me, attention to detail means ensuring consistency throughout the interface, from the placement of buttons and icons to the spacing between text and images. This requires taking into account the user's needs and preferences, such as ensuring that the font size and color contrast make the content easy to read. Attention to detail is a crucial aspect of UI design, as  it can make the difference between a good design and a great one.`}
+            title="Soft skill:Attention to detail"
+            text="To me, attention to detail means ensuring consistency throughout the interface, from the placement of buttons and icons to the spacing between text and images. This requires taking into account the user's needs and preferences, such as ensuring that the font size and color contrast make the content easy to read. Attention to detail is a crucial aspect of UI design, as  it can make the difference between a good design and a great one."
           />
           <Skill
             title="Soft skill: Resourcefulness"
-            text={`I consider time management to be a core aspect of the design process. It helps me prioritize tasks, stay focused and on top of my schedule. A well-structured plan ensures that I can deliver high-quality work in a timely manner, manage multiple projects, and collaborate effectively with others.`}
+            text="I consider time management to be a core aspect of the design process. It helps me prioritize tasks, stay focused and on top of my schedule. A well-structured plan ensures that I can deliver high-quality work in a timely manner, manage multiple projects, and collaborate effectively with others."
           />
           <Skill
             title="Soft skill: Resilience"
-            text={`As a resilient individual, I am able to remain optimistic and focused even in the face of significant challenges. This personal trait is valuable on both personal and professional levels. It helps me cope with stress, prevent burnout, and maintain healthy habits. Additionally, it helps me bounce back from professional setbacks and potential failures with a positive outlook on the situation.`}
+            text="As a resilient individual, I am able to remain optimistic and focused even in the face of significant challenges. This personal trait is valuable on both personal and professional levels. It helps me cope with stress, prevent burnout, and maintain healthy habits. Additionally, it helps me bounce back from professional setbacks and potential failures with a positive outlook on the situation."
           />
         </div>
         <div class="grid grid-cols-1 lg:grid-cols-3 gap-4 mt-6 lg:mt-12">
           <SkillCard
             title="Research"
-            text={`As a UI designer with a focus on user-centered design, I possess a range of hard skills that enable me to conduct comprehensive research and analysis to create intuitive and engaging user experiences. My expertise in user flows, user personas, competitors analysis, and information architecture allows me to gather valuable insights into user behavior and preferences, identify pain points and opportunities for improvement, and develop effective design solutions that meet user needs and achieve business goals.
-              `}
+            text="As a UI designer with a focus on user-centered design, I possess a range of hard skills that enable me to conduct comprehensive research and analysis to create intuitive and engaging user experiences. My expertise in user flows, user personas, competitors analysis, and information architecture allows me to gather valuable insights into user behavior and preferences, identify pain points and opportunities for improvement, and develop effective design solutions that meet user needs and achieve business goals."
             skills={[
               "User flow",
               "User personas",
@@ -132,12 +129,12 @@ const image = {
           />
           <SkillCard
             title="Prototype"
-            text={`My expertise in wireframing allows me to rapidly and efficiently create low-fidelity mockups of user interfaces. Furthermore, my knowledge of design systems empowers me to develop consistent and cohesive designs across an entire product or platform. Lastly, my experience with interaction design equips me to create intuitive and engaging user experiences through the use of animations, micro-interactions, and other forms of feedback.`}
+            text="My expertise in wireframing allows me to rapidly and efficiently create low-fidelity mockups of user interfaces. Furthermore, my knowledge of design systems empowers me to develop consistent and cohesive designs across an entire product or platform. Lastly, my experience with interaction design equips me to create intuitive and engaging user experiences through the use of animations, micro-interactions, and other forms of feedback."
             skills={["Wireframing", "Design systems", "Interaction design"]}
           />
           <SkillCard
             title="Design"
-            text={`I am constantly learning and exploring new techniques and tools such as Figma and Adobe Suite to improve my skills. Typography is one of my favorite aspects of design, as it enables me to communicate the brand message effectively. I also strive to use color psychology and theory to create a harmonious color scheme that enhances the user experience. By using these design elements, I aim to create an effective interface that meets the needs of my users.`}
+            text="I am constantly learning and exploring new techniques and tools such as Figma and Adobe Suite to improve my skills. Typography is one of my favorite aspects of design, as it enables me to communicate the brand message effectively. I also strive to use color psychology and theory to create a harmonious color scheme that enhances the user experience. By using these design elements, I aim to create an effective interface that meets the needs of my users."
             skills={[
               "Figma",
               "Adobe Suite",
