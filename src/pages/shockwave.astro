@@ -1,16 +1,23 @@
 ---
 import Master from "../layouts/Master.astro";
 import Image from "../components/Image.astro";
+import Mockups from "../components/Mockups.astro";
 import Summary from "../components/Summary.astro";
 import TextImage from "../components/TextImage.astro";
 
 import persona1 from "../assets/persona1.png";
 import persona2 from "../assets/persona2.png";
 import persona3 from "../assets/persona3.png";
+
 import coachella from "../assets/coachella.png";
 import tomorrowland from "../assets/tomorrowland.png";
 import sziget from "../assets/sziget.png";
-import heroimage from "../assets/heroimage.png";
+
+import shockwave1 from "../assets/shockwave1.png";
+import shockwave2 from "../assets/shockwave2.png";
+import shockwave3 from "../assets/shockwave3.png";
+
+import heroimage from "../assets/Shockwavepreview.png";
 import sitemap from "../assets/sitemap.png";
 import wireframe_sketches1 from "../assets/wireframe_sketches1.png";
 import wireframe_sketches2 from "../assets/wireframe_sketches2.png";
@@ -77,6 +84,14 @@ const image = {
       >
     </footer>
   </Summary>
+
+  <Mockups
+    images={[
+      { src: shockwave1, alt: "shockwave laptop mockup" },
+      { src: shockwave2, alt: "shockwave tablet mockup" },
+      { src: shockwave3, alt: "shockwave phone mockup" },
+    ]}
+  />
 
   <section class="container">
     <header class="mt-14">
@@ -674,7 +689,6 @@ const image = {
       </p>
     </article>
   </section>
-
   <section class="container">
     <header class="mt-14">
       <h2 class="text-xl md:text-2xl lg:text-5xl font-bold text-secondary-400">

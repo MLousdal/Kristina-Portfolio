@@ -1,0 +1,26 @@
+---
+import { Picture } from "@astrojs/image/components";
+
+interface Props {
+  images: { src: string; alt: string }[];
+}
+
+const { images } = Astro.props;
+---
+
+<div class="container flex gap-4 flex-col xl:flex-row">
+  {
+    images.map((image) => (
+      <Picture
+        src={image.src}
+        alt={image.alt}
+        widths={[200, 400, 800, 1200, 1400]}
+        sizes="((min-width: 50em) and (max-width: 60em)) 50em, ((min-width: 30em) and (max-width: 50em)) 30em, (max-width: 30em) 20em"
+        formats={["avif", "webp", "jpg"]}
+        quality={100}
+        class="w-full xl:aspect-square object-cover"
+        fit="cover"
+      />
+    ))
+  }
+</div>
