@@ -17,18 +17,25 @@ import "../styles/base.css";
       description={description}
       openGraph={{
         basic: {
-          title: title,
+          title: title + " | Kristina Linhartova",
           type: "text",
           image: image.url,
+          url: "https://www.kristinalinhartova.com/",
         },
         image: {
           alt: image.alt,
         },
       }}
+      twitter={{
+        title: title + " | Kristina Linhartova",
+        card: "summary_large_image",
+        image: image.url,
+        description: description,
+      }}
       extend={{
         // extending the default link tags
         link: [
-          { rel: "icon", href: "/favicon.svg" },
+          { rel: "icon", href: "/favicon.ico" },
           { rel: "preconnect", href: "https://fonts.googleapis.com" },
           {
             rel: "preconnect",
@@ -39,15 +46,6 @@ import "../styles/base.css";
             rel: "stylesheet",
             href: "https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:wght@400;700&display=swap",
           },
-        ],
-        // extending the default meta tags
-        meta: [
-          {
-            name: "twitter:image",
-            content: image.url,
-          },
-          { name: "twitter:title", content: title + " | Kristina Linhartova" },
-          { name: "twitter:description", content: description },
         ],
       }}
     />
