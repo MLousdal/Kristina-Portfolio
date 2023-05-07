@@ -1,15 +1,15 @@
 {
   "home": {
     "home": "Hjem",
-    "description": "Hello and welcome to my portfolio! My name is Kristina and I am a junior UI designer with a background in graphic design. Whether I'm creating intuitive interfaces or pushing my limits at the gym, I approach everything I do with passion and dedication. This portfolio showcases my skills and vision as a UI designer, and I'm excited to share it with you.",
+    "description": "Hej og velkommen til min portfolio! Mit navn er Kristina og jeg er junior UI designer med en baggrund i grafisk design. Uanset om jeg opretter intuitive grænseflader eller flytter mine grænser i fitnesscentret, går jeg til alt, hvad jeg gør med passion og dedikation. Denne portefølje viser mine evner og vision som UI-designer, og jeg glæder mig til at dele den med dig.",
     "preTitle": "Hejsa",
     "title": "Jeg er Kristina, en frisk <0>ui designer</0>, der designer internettet, en pixel ad gangen",
     "projects": {
-      "projects": "projects",
+      "projects": "Projekter",
       "shockwaveTitle": "Festival website design",
-      "shockwaveText": "Inspired by world-know festivals. My take features a modern design, with bold colour that captures the energetic and dynamic spirit of the event.",
-      "shapespaceTitle": "Architecture blog design",
-      "shapespaceText": "The blog's gray color scheme evokes a sense of sophistication and professionalism, while its well-crafted content is easy to navigate"
+      "shockwaveText": "Inspireret af verdenskendte festivaler. Mit udspil har en moderne design med kraftige farver, der fanger begivenhedens energiske og dynamiske ånd.",
+      "shapespaceTitle": "Arkitektur blog design",
+      "shapespaceText": "Bloggens grå farveskema fremkalder en følelse af sofistikation og professionalisme, mens dens gennemarbejdede indhold er let at navigere i"
     }
   },
   "about": {
@@ -18,6 +18,7 @@
     "description": "Lær mig bedre at kende! Jeg er en UI-designer dedikeret til at levere visuelt fantastiske designs gennem wireframing og high-fidelity prototyper. Jeg bruger design til at løse problemer og forbedre brugeroplevelsen. Lær mere om mine færdigheder og personlige historie på siden om.",
     "heroTitle": "Lær mig at kende",
     "hero": "Din bogelskende og vægtløftende designer med <0>en global tankegang</0>, der skinner igennem i design.",
+    "downloadResume": "Hent Resume",
     "aboutMe": {
       "preTitle": "Om mig ",
       "passionTitle": "En lidenskab afsløret.",
@@ -51,18 +52,26 @@
       "experience": {
         "preTitle": "Erfaring",
         "skillsTitle": "Erhvervserfaring",
-        "internetZoosTitle": "WEB DESIGNER | InternetZoo",
-        "internetZooDescription": "<0>Front-end og opbygning af hjemmesider vha. CMS</0><1>Opsætning af nye og redesign af gamle kampagner i virksomhedens CMS</1><2>SoMe materialer til eksisterende og kommende kampagne</2>",
+        "internetZoosJob": "WEB DESIGNER",
+        "internetZooPoint1": "Front-end og opbygning af hjemmesider vha. CMS",
+        "internetZooPoint2": "Opsætning af nye og redesign af gamle kampagner i virksomhedens CMS",
+        "internetZooPoint3": "SoMe materialer til eksisterende og kommende kampagne",
         "internetZooKeyWords": "HTML | CSS | Photoshop | Figma | InDesign | Jira | CMS",
-        "straxSkilteTitle": "GRAFISK DESIGNER | StraxSkilte",
-        "straxSkilteDescription": "<0>Menukort til antal restaurant i Nordjylland</0><1>Salgsfremmende materialer til forskellige virksomheder og formål</1><2>Oprettelse og genskabelse af visuelle identiteter for forskellige typer virksomheder</2>",
-        "straxSkilteoKeyWords": "InDesign | Illustrator | Photoshop | Printers",
-        "museumTitle": "GRAFISK DESIGNER | Museum of Janko Kral (Slovakiet)",
-        "museumDescription": "<0>Oprettelse af trykt materiale til hver udstilling, for besøgende, der valgte ikke-guidet tur</0><1>Visuel side af udstillinger - print på vægge eller som baggrund for hver udstilling</1><2>Salgsfremmende materialer til uddelinger på forskellige steder for at udbrede kendskabet til museet</2>",
+        "straxSkilteJob": "GRAFISK DESIGNER",
+        "straxSkiltePoint1": "Menukort til antal restaurant i Nordjylland",
+        "straxSkiltePoint2": "Salgsfremmende materialer til forskellige virksomheder og formål",
+        "straxSkiltePoint3": "Oprettelse og genskabelse af visuelle identiteter for forskellige typer virksomheder",
+        "straxSkilteoKeyWords": "InDesign | Illustrator | Photoshop | Printere",
+        "museumJob": "GRAFISK DESIGNER",
+        "museumPoint1": "Oprettelse af trykt materiale til hver udstilling, for besøgende, der valgte ikke-guidet tur",
+        "museumPoint2": "Visuel side af udstillinger - print på vægge eller som baggrund for hver udstilling",
+        "museumPoint3": "Salgsfremmende materialer til uddelinger på forskellige steder for at udbrede kendskabet til museet",
         "museumKeyWords": "InDesign | Illustrator | Photoshop | Printers",
-        "reproTitle": "GRAFISK DESIGNER | ReproServis Kovac (Slovakiet)",
-        "reproDescription": "<0>Plakater, visitkort, udendørs displays, magasiner mm</0><1>Kontakt med kunder, mens de udfylder ordren</1><2>Afslutning af ordrer ved hjælp af plottere, lasere eller printere i ukonventionelle størrelser</2>",
-        "reproKeyWords": "InDesign | Illustrator | Photoshop | Printers | Plotters | Lasers"
+        "reproJob": "GRAFISK DESIGNER",
+        "reproPoint1": "Plakater, visitkort, udendørs displays, magasiner mm.",
+        "reproPoint2": "Kontakt med kunder, mens de udfylder ordren",
+        "reproPoint3": "Afslutning af ordrer ved hjælp af plottere, lasere eller printere i ukonventionelle størrelser",
+        "reproKeyWords": "InDesign | Illustrator | Photoshop | Printere | Plottere | Lasere"
       }
     }
   }
