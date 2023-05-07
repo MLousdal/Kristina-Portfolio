@@ -3,7 +3,7 @@ interface Props {
   job: string;
   company: string;
   points: string[];
-  tools: string[];
+  tools: string;
 }
 
 const { job, company, points, tools } = Astro.props;
@@ -21,6 +21,6 @@ const { job, company, points, tools } = Astro.props;
     {points.map((point) => <li>{point}</li>)}
   </ul>
   <footer>
-    <p>{tools.join(" | ")}</p>
+    <p>{tools}</p>
   </footer>
 </article>

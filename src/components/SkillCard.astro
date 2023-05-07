@@ -2,7 +2,7 @@
 interface Props {
   title: string;
   text: string;
-  skills: string[];
+  skills: string;
 }
 
 const { title, text, skills } = Astro.props;
@@ -15,7 +15,7 @@ const { title, text, skills } = Astro.props;
   <p>{text}</p>
   <hr class="mt-auto" />
   <p>
-    {skills.join(" | ")}
+    {skills}
   </p>
 </article>
 

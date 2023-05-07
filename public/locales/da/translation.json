@@ -1,7 +1,7 @@
 {
   "home": {
     "home": "Hjem",
-        "description": "Hello and welcome to my portfolio! My name is Kristina and I am a junior UI designer with a background in graphic design. Whether I'm creating intuitive interfaces or pushing my limits at the gym, I approach everything I do with passion and dedication. This portfolio showcases my skills and vision as a UI designer, and I'm excited to share it with you.",
+    "description": "Hello and welcome to my portfolio! My name is Kristina and I am a junior UI designer with a background in graphic design. Whether I'm creating intuitive interfaces or pushing my limits at the gym, I approach everything I do with passion and dedication. This portfolio showcases my skills and vision as a UI designer, and I'm excited to share it with you.",
     "preTitle": "Hejsa",
     "title": "Jeg er Kristina, en frisk <0>ui designer</0>, der designer internettet, en pixel ad gangen",
     "projects": {
@@ -13,6 +13,6 @@
     }
   },
   "about": {
-    "about": "About"
+    "about": "Om mig"
   }
 }

@@ -1,5 +1,6 @@
 ---
-import { changeLanguage } from "i18next";
+import { Trans } from "astro-i18next/components";
+import { t, changeLanguage } from "i18next";
 import Master from "../../layouts/Master.astro";
 import Aboutme1 from "../../assets/Aboutme1.png";
 import Aboutme2 from "../../assets/Aboutme2.png";
@@ -10,11 +11,11 @@ import Experience from "../../components/Experience.astro";
 
 changeLanguage("da");
 
-const title = "About me";
-const description = "Get to know me better! I am a UI designer dedicated to delivering visually stunning designs through wireframing and high-fidelity prototypes. I use design to solve problems and enhance user experiences. Learn more about my skills and personal story on the about page.";
+const title = t("about.title");
+const description = t("about.description");
 const image = {
     url: "/assets/ogaboutpage.png",
-    alt: "Your book-loving and weight-lifting designer, with a global mindset that shines through in design.",
+    alt: t("about.hero"),
 };
 ---
 
@@ -25,13 +26,15 @@ const image = {
         <p
           class="text-primary-400 font-serif text-xl md:text-2xl lg:text-5xl mb-4 uppercase"
         >
-          Get to know me <span class="">🍫</span>
+          {t("about.heroTitle")}<span>🍫</span>
         </p>
         <h1 class="text-5xl md:text-7xl">
-          Your book-loving and weight-lifting designer, with a <strong
-            class="text-primary-400">global mindset</strong
-          >
-          that shines through in design.
+          <Trans i18nKey="about.hero">
+            Your book-loving and weight-lifting designer, with a <strong
+              class="text-primary-400">global mindset</strong
+            >
+            that shines through in design.
+          </Trans>
         </h1>
         <img
           alt=""
@@ -60,91 +63,75 @@ const image = {
         <h2
           class="text-xl md:text-2xl lg:text-5xl font-bold text-secondary-400"
         >
-          About me
+          {t("about.aboutMe.preTitle")}
         </h2>
       </header>
       <div class="flex flex-col gap-6 lg:gap-12">
-        <TextImage title="A passion uncovered" src={Aboutme1} alt="ME!">
+        <TextImage
+          title={t("about.aboutMe.passinTitle")}
+          src={Aboutme1}
+          alt="ME!"
+        >
           <p>
-            My journey started in 2017 with my first lecture on graphic design
-            at a Slovak high school, continued through my studies of Design,
-            Technology, and Business at UCN. During this time, I also worked as
-            a graphic designer for a printing house, which was a priceless
-            opportunity, that allowed me to put my fresh theoretical knowledge
-            under the test in the real life. Despite my deep passion for printed
-            media, these valuable experiences in the graphic design field led me
-            to realization that my true passion lies within UI design
+            {t("about.aboutMe.passionText")}
           </p>
         </TextImage>
         <TextImage
-          title="Building my UI skills one course and cake at a time"
+          title={t("about.aboutMe.buildingTitle")}
           src={Aboutme2}
           alt="ME!"
           reverse={true}
         >
           <p>
-            My education and experience as a graphic designer have provided me a
-            solid foundation, especially in color theory, fonts, visual
-            hierarchy, composition, and layouts. In the past few months, I have
-            expanded my knowledge of UI rules and principles through online
-            courses and by applying theoretical knowledge to personal projects.
-            During my free time, you can find me reading a book, baking
-            delicious cakes, or trying to beat my personal records at the gym.
+            {t("about.aboutMe.buildingText")}
           </p>
         </TextImage>
       </div>
     </section>
     <section class="container">
       <header class="max-w-none lg:max-w-screen-md mx-auto mb-4">
-        <h2 class="text-5xl font-bold text-secondary-400">Skills</h2>
+        <h2 class="text-5xl font-bold text-secondary-400">
+          {t("about.aboutMe.skills.preTitle")}
+        </h2>
       </header>
       <article class="max-w-none lg:max-w-screen-md mx-auto">
         <header>
-          <h2 class="font-bold text-4xl">My competencies and traits</h2>
+          <h2 class="font-bold text-4xl">
+            {t("about.aboutMe.skills.skillsTitle")}
+          </h2>
         </header>
         <Skill
-          title="Soft skill: Resourcefulness"
-          text="The ability to find ways around obstacles and limitations is crucial when working in a field with constantly changing clients, developing trends, and technological innovations. I consider myself a person who thrives in a fast-paced environment and enjoys working with like-minded individuals who support each other in solving complex design problems while meeting deadlines."
+          title={t("about.aboutMe.skills.resourcefulnessTitle")}
+          text={t("about.aboutMe.skills.resourcefulnessText")}
         />
         <Skill
-          title="Soft skill:Attention to detail"
-          text="To me, attention to detail means ensuring consistency throughout the interface, from the placement of buttons and icons to the spacing between text and images. This requires taking into account the user's needs and preferences, such as ensuring that the font size and color contrast make the content easy to read. Attention to detail is a crucial aspect of UI design, as  it can make the difference between a good design and a great one."
+          title={t("about.aboutMe.skills.attentionToDetailTitle")}
+          text={t("about.aboutMe.skills.attentionToDetailText")}
         />
         <Skill
-          title="Soft skill: Resourcefulness"
-          text="I consider time management to be a core aspect of the design process. It helps me prioritize tasks, stay focused and on top of my schedule. A well-structured plan ensures that I can deliver high-quality work in a timely manner, manage multiple projects, and collaborate effectively with others."
+          title={t("about.aboutMe.skills.timeManagentTitle")}
+          text={t("about.aboutMe.skills.timeManagementText")}
         />
         <Skill
-          title="Soft skill: Resilience"
-          text="As a resilient individual, I am able to remain optimistic and focused even in the face of significant challenges. This personal trait is valuable on both personal and professional levels. It helps me cope with stress, prevent burnout, and maintain healthy habits. Additionally, it helps me bounce back from professional setbacks and potential failures with a positive outlook on the situation."
+          title={t("about.aboutMe.skills.resilienceTitle")}
+          text={t("about.aboutMe.skills.resilienceText")}
         />
       </article>
       <article class="grid grid-cols-1 lg:grid-cols-3 gap-4 mt-6 lg:mt-12">
         <SkillCard
-          title="Research"
-          text="As a UI designer with a focus on user-centered design, I possess a range of hard skills that enable me to conduct comprehensive research and analysis to create intuitive and engaging user experiences. My expertise in user flows, user personas, competitors analysis, and information architecture allows me to gather valuable insights into user behavior and preferences, identify pain points and opportunities for improvement, and develop effective design solutions that meet user needs and achieve business goals."
-          skills={[
-            "User flow",
-            "User personas",
-            "Competitors analysis",
-            "Information architecture",
-          ]}
+          title={t("about.aboutMe.experience.internetZoosJob")}
+          text={t("about.aboutMe.skills.researchText")}
+          skills={t("about.aboutMe.skills.researchKeyWords")}
         />
         <SkillCard
-          title="Prototype"
-          text="My expertise in wireframing allows me to rapidly and efficiently create low-fidelity mockups of user interfaces. Furthermore, my knowledge of design systems empowers me to develop consistent and cohesive designs across an entire product or platform. Lastly, my experience with interaction design equips me to create intuitive and engaging user experiences through the use of animations, micro-interactions, and other forms of feedback."
-          skills={["Wireframing", "Design systems", "Interaction design"]}
+          title={t("about.aboutMe.skills.prototypingTitle")}
+          text={t("about.aboutMe.skills.prototypingText")}
+          skills={t("about.aboutMe.skills.prototypingKeyWords")}
         />
         <SkillCard
-          title="Design"
-          text="I am constantly learning and exploring new techniques and tools such as Figma and Adobe Suite to improve my skills. Typography is one of my favorite aspects of design, as it enables me to communicate the brand message effectively. I also strive to use color psychology and theory to create a harmonious color scheme that enhances the user experience. By using these design elements, I aim to create an effective interface that meets the needs of my users."
-          skills={[
-            "Figma",
-            "Adobe Suite",
-            "Typography",
-            "Colour psychology",
-            "Colour theory",
-          ]}
+          title={t("about.aboutMe.skills.designTitle")}
+          text={t("about.aboutMe.skills.designText")}
+          skills={t("about.aboutMe.skills.designKeyWords")}
         />
       </article>
     </section>
@@ -153,73 +140,60 @@ const image = {
         <h2
           class="text-xl md:text-2xl lg:text-5xl font-bold text-secondary-400"
         >
-          Experience
+          {t("about.aboutMe.experience.preTitle")}
         </h2>
       </header>
       <article class="max-w-none lg:max-w-screen-md mx-auto">
         <header>
-          <h2 class="font-bold text-4xl">Working experience</h2>
+          <h2 class="font-bold text-4xl">
+            {t("about.aboutMe.experience.skillsTitle")}
+          </h2>
         </header>
         <Experience
-          job="WEB DESIGNER"
+          job={t("about.aboutMe.experience.internetZoosJob")}
           company="InternetZoo"
           points={[
-            "Front-end and building of websites using CMS",
-            "Setting up new and redesigning old campaigns in company’s CMS",
-            "SoMe materials for existing and upcoming campaigns",
+            t("about.aboutMe.experience.internetZooPoint1"),
+            t("about.aboutMe.experience.internetZooPoint2"),
+            t("about.aboutMe.experience.internetZooPoint3"),
           ]}
-          tools={[
-            "HTML",
-            "CSS",
-            "Photoshop",
-            "Figma",
-            "InDesign",
-            "Jira",
-            "CMS",
-          ]}
+          tools={t("about.aboutMe.experience.internetZooKeyWords")}
         />
         <Experience
-          job="GRAPHIC DESIGNER"
+          job={t("about.aboutMe.experience.straxSkilteJob")}
           company="StraxSkilte"
           points={[
-            "Menu cards for number of restaurant in North Jutland",
-            "Promotional materials for various businesses and purposes",
-            "Creating and recreating visual identities for different types of businesses",
+            t("about.aboutMe.experience.straxSkiltePoint1"),
+            t("about.aboutMe.experience.straxSkiltePoint2"),
+            t("about.aboutMe.experience.straxSkiltePoint3"),
           ]}
-          tools={["InDesign", "Illustrator", "Photoshop", "Printers"]}
+          tools={t("about.aboutMe.experience.straxSkilteoKeyWords")}
         />
         <Experience
-          job="GRAPHIC DESIGNER"
+          job={t("about.aboutMe.experience.museumJob")}
           company="Museum of Janko Kral (Slovakia)"
           points={[
-            "Creating printed material for each exhibition, for visitors who chose not-guided tour",
-            "Visual side of exhibitions - print on walls or as a background of each display",
-            "Promotional materials for handouts at various location to spread awareness about museum",
+            t("about.aboutMe.experience.museumPoint1"),
+            t("about.aboutMe.experience.museumPoint2"),
+            t("about.aboutMe.experience.museumPoint3"),
           ]}
-          tools={["InDesign", "Illustrator", "Photoshop", "Printers"]}
+          tools={t("about.aboutMe.experience.museumKeyWords")}
         />
         <Experience
-          job="GRAPHIC DESIGNER"
+          job={t("about.aboutMe.experience.reproJob")}
           company="ReproServis Kovac (Slovakia)"
           points={[
-            "Posters, business cards, outdoor displays, magazines etc",
-            "Contact with customers as they fill the order",
-            "Finalising the orders using plotters, lasers or unconventional sized printers",
+            t("about.aboutMe.experience.reproPoint1"),
+            t("about.aboutMe.experience.reproPoint2"),
+            t("about.aboutMe.experience.reproPoint3"),
           ]}
-          tools={[
-            "InDesign",
-            "Illustrator",
-            "Photoshop",
-            "Printers",
-            "Plotters",
-            "Lasers",
-          ]}
+          tools={t("about.aboutMe.experience.reproKeyWords")}
         />
         <footer class="block">
           <a
             href="/assets/KristinaLinhartova_resume.pdf"
             download
-            class="btn block w-fit">Download Resume</a
+            class="btn block w-fit">{t("about.downloadResume")}</a
           >
         </footer>
       </article>
