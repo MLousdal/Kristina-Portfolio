@@ -5,14 +5,65 @@
     "preTitle": "Hejsa",
     "title": "Jeg er Kristina, en frisk <0>ui designer</0>, der designer internettet, en pixel ad gangen",
     "projects": {
-      "projects": "Projekter",
-      "shockwaveTitle": "Festival hjemmeside design",
-      "shockwaveText": "Inspireret af verdenskendte festivaler. Mit udspil har en moderne design med kraftige farver, der fanger begivenhedens energiske og dynamiske ånd.",
-      "shapespaceTitle": "Arkitektur blog design",
-      "shapespaceText": "Bloggens grå farveskema fremkalder en følelse af sofistikation og professionalisme, mens dens gennemarbejdede indhold er let at navigere i"
+      "projects": "projects",
+      "shockwaveTitle": "Festival website design",
+      "shockwaveText": "Inspired by world-know festivals. My take features a modern design, with bold colour that captures the energetic and dynamic spirit of the event.",
+      "shapespaceTitle": "Architecture blog design",
+      "shapespaceText": "The blog's gray color scheme evokes a sense of sophistication and professionalism, while its well-crafted content is easy to navigate"
     }
   },
   "about": {
-    "about": "Om mig"
+    "about": "Om",
+    "title": "Om mig",
+    "description": "Lær mig bedre at kende! Jeg er en UI-designer dedikeret til at levere visuelt fantastiske designs gennem wireframing og high-fidelity prototyper. Jeg bruger design til at løse problemer og forbedre brugeroplevelsen. Lær mere om mine færdigheder og personlige historie på siden om.",
+    "heroTitle": "Lær mig at kende",
+    "hero": "Din bogelskende og vægtløftende designer med <0>en global tankegang</0>, der skinner igennem i design.",
+    "aboutMe": {
+      "preTitle": "Om mig ",
+      "passionTitle": "En lidenskab afsløret.",
+      "passionText": "Min designrejse startede i 2017 med min første forelæsning om grafisk design på en slovakisk gymnasium. Den fortsatte gennem mine studier i Design, Teknologi og Business på UCN. I løbet af denne tid arbejdede jeg også som grafisk designer for et trykkeri, hvilket var en uvurderlig mulighed, der tillod mig at teste mine friske teoretiske kundskaber i virkeligheden. På trods af min dybe passion for trykte medier, førte disse værdifulde oplevelser i grafisk designfeltet mig til erkendelsen af, at min sande lidenskab ligger inden for UI-design.",
+      "buildingTitle": "Opbygning af mine UI-færdigheder en kursus og en kage ad gangen",
+      "buildingText": "Min uddannelse og erfaring som grafisk designer har givet mig en solid grund, især inden for farveteori, skrifttyper, visuel hierarki, komposition og layout. I de seneste måneder har jeg udvidet min viden om UI-regler og principper gennem onlinekurser og ved at anvende teoretisk viden på personlige projekter. I min fritid kan du finde mig med en bog, bage lækre kager eller prøve at slå mine personlige rekorder i fitnesscentret.",
+      "skills": {
+        "preTitle": "Færdigheder",
+        "skillsTitle": "Mine kompetencer og egenskaber",
+        "resourcefulnessTitle": "Blød færdighed: Opfindsomhed",
+        "resourcefulnessText": "Evnen til at finde veje uden om forhindringer og begrænsninger er afgørende, når man arbejder i et felt med konstant skiftende kunder, udviklingstendenser og teknologiske innovationer. Jeg betragter mig selv som en person, der trives i et tempofyldt miljø og nyder at arbejde med ligesindede personer, der støtter hinanden i at løse komplekse designproblemer og samtidig overholde deadlines.",
+        "attentionToDetailTitle": "Blød færdighed: Opmærksomhed på detaljer",
+        "attentionToDetailText": "For mig betyder opmærksomhed på detaljer at sikre ensartethed i hele grænsefladen, fra placeringen af knapper og ikoner til afstanden mellem tekst og billeder. Dette kræver, at man tager hensyn til brugerens behov og præferencer, såsom at sikre, at skriftstørrelsen og farvekontrasten gør indholdet let at læse. Opmærksomhed på detaljer er et afgørende aspekt af UI-design, da det kan gøre forskellen mellem et godt design og et fantastisk design.",
+        "timeManagentTitle": "Blød færdighed: Tidsstyring",
+        "timeManagementText": "Jeg betragter tidsstyring som et centralt aspekt af designprocessen. Det hjælper mig med at prioritere opgaver, holde fokus og på toppen af min tidsplan. En velstruktureret plan sikrer, at jeg kan levere arbejde af høj kvalitet rettidigt, styre flere projekter og samarbejde effektivt med andre.",
+        "resilienceTitle": "Blød færdighed: Modstandsdygtighed",
+        "resilienceText": "Som en modstandsdygtig person er jeg i stand til at forblive optimistisk og fokuseret selv i forhold til store udfordringer. Denne personlige egenskab er værdifuld på både personligt og professionelt plan. Det hjælper mig med at håndtere stress, forebygge udbrændthed og opretholde sunde vaner. Derudover hjælper det mig med at komme tilbage fra professionelle tilbageslag og potentielle fiaskoer med et positivt syn på situationen.",
+
+        "researchTitle": "Forskning",
+        "researchText": "Som UI-designer med fokus på brugercentreret design besidder jeg en række hårde færdigheder, der gør mig i stand til at udføre omfattende research og analyser for at skabe intuitive og engagerende brugeroplevelser. Min ekspertise inden for brugerstrømme, brugerpersonas, konkurrentanalyser og informationsarkitektur giver mig mulighed for at indsamle værdifuld indsigt i brugeradfærd og præferencer, identificere smertepunkter og muligheder for forbedringer og udvikle effektive designløsninger, der opfylder brugernes behov og opnår forretningsmål.",
+        "researchKeyWords": "User flow | User personas | Competitors analysis | Information architecture ",
+
+        "prototypingTitle": "Prototyping",
+        "prototypingText": "Min ekspertise inden for wireframing giver mig mulighed for hurtigt og effektivt at skabe low-fidelity mockups af brugergrænseflader. Ydermere giver min viden om designsystemer mig mulighed for at udvikle konsistente og sammenhængende designs på tværs af et helt produkt eller platform. Endelig klæder min erfaring med interaktionsdesign mig på til at skabe intuitive og engagerende brugeroplevelser gennem brug af animationer, mikro-interaktioner og andre former for feedback.",
+        "prototypingKeyWords": "Wireframing | Design systems | Interaction design ",
+
+        "designTitle": "Design",
+        "designText": "Jeg lærer og udforsker konstant nye teknikker og værktøjer som Figma og Adobe Suite for at forbedre mine færdigheder. Typografi er et af mine yndlingsaspekter af design, da det sætter mig i stand til at kommunikere brandbudskabet effektivt. Jeg bestræber mig også på at bruge farvepsykologi og teori til at skabe et harmonisk farveskema, der forbedrer brugeroplevelsen. Ved at bruge disse designelementer tilstræber jeg at skabe en effektiv grænseflade, der opfylder mine brugeres behov.",
+        "designKeyWords": "Figma | Adobe Suite | Typography | Colour psychology | Colour theory "
+      },
+      "experience": {
+        "preTitle": "Erfaring",
+        "skillsTitle": "Erhvervserfaring",
+        "internetZoosTitle": "WEB DESIGNER | InternetZoo",
+        "internetZooDescription": "<0>Front-end og opbygning af hjemmesider vha. CMS</0><1>Opsætning af nye og redesign af gamle kampagner i virksomhedens CMS</1><2>SoMe materialer til eksisterende og kommende kampagne</2>",
+        "internetZooKeyWords": "HTML | CSS | Photoshop | Figma | InDesign | Jira | CMS",
+        "straxSkilteTitle": "GRAFISK DESIGNER | StraxSkilte",
+        "straxSkilteDescription": "<0>Menukort til antal restaurant i Nordjylland</0><1>Salgsfremmende materialer til forskellige virksomheder og formål</1><2>Oprettelse og genskabelse af visuelle identiteter for forskellige typer virksomheder</2>",
+        "straxSkilteoKeyWords": "InDesign | Illustrator | Photoshop | Printers",
+        "museumTitle": "GRAFISK DESIGNER | Museum of Janko Kral (Slovakiet)",
+        "museumDescription": "<0>Oprettelse af trykt materiale til hver udstilling, for besøgende, der valgte ikke-guidet tur</0><1>Visuel side af udstillinger - print på vægge eller som baggrund for hver udstilling</1><2>Salgsfremmende materialer til uddelinger på forskellige steder for at udbrede kendskabet til museet</2>",
+        "museumKeyWords": "InDesign | Illustrator | Photoshop | Printers",
+        "reproTitle": "GRAFISK DESIGNER | ReproServis Kovac (Slovakiet)",
+        "reproDescription": "<0>Plakater, visitkort, udendørs displays, magasiner mm</0><1>Kontakt med kunder, mens de udfylder ordren</1><2>Afslutning af ordrer ved hjælp af plottere, lasere eller printere i ukonventionelle størrelser</2>",
+        "reproKeyWords": "InDesign | Illustrator | Photoshop | Printers | Plotters | Lasers"
+      }
+    }
   }
 }
