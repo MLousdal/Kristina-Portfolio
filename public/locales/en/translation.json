@@ -1,0 +1,18 @@
+{
+  "home": {
+    "home": "Home",
+    "description": "Hello and welcome to my portfolio! My name is Kristina and I am a junior UI designer with a background in graphic design. Whether I'm creating intuitive interfaces or pushing my limits at the gym, I approach everything I do with passion and dedication. This portfolio showcases my skills and vision as a UI designer, and I'm excited to share it with you.",
+    "preTitle": "Hello",
+    "title": "I’m Kristina, a fresh <0>ui designer</0>, designing the web, one pixel at a time",
+    "projects": {
+      "projects": "projects",
+      "shockwaveTitle": "Festival website design",
+      "shockwaveText": "Inspired by world-know festivals. My take features a modern design, with bold colour that captures the energetic and dynamic spirit of the event.",
+      "shapespaceTitle": "Architecture blog design",
+      "shapespaceText": "The blog's gray color scheme evokes a sense of sophistication and professionalism, while its well-crafted content is easy to navigate"
+    }
+  },
+  "about": {
+    "about": "About"
+  }
+}
