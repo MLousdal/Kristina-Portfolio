@@ -21,81 +21,49 @@
     "aboutMe": {
       "preTitle": "About me",
       "passionTitle": "A passion uncovered",
-      "passionText":"My journey started in 2017 with my first lecture on graphic design
-      at a Slovak high school, continued through my studies of Design,
-      Technology, and Business at UCN. During this time, I also worked as
-      a graphic designer for a printing house, which was a priceless
-      opportunity, that allowed me to put my fresh theoretical knowledge
-      under the test in the real life. Despite my deep passion for printed
-      media, these valuable experiences in the graphic design field led me
-      to realization that my true passion lies within UI design",
+      "passionText": "My journey started in 2017 with my first lecture on graphic design at a Slovak high school, continued through my studies of Design, Technology, and Business at UCN. During this time, I also worked as a graphic designer for a printing house, which was a priceless opportunity, that allowed me to put my fresh theoretical knowledge under the test in the real life. Despite my deep passion for printed media, these valuable experiences in the graphic design field led me to realization that my true passion lies within UI design",
       "buildingTitle": "Building my UI skills one course and cake at a time",
-      "buildingText":"My education and experience as a graphic designer have provided me a
-      solid foundation, especially in color theory, fonts, visual
-      hierarchy, composition, and layouts. In the past few months, I have
-      expanded my knowledge of UI rules and principles through online
-      courses and by applying theoretical knowledge to personal projects.
-      During my free time, you can find me reading a book, baking
-      delicious cakes, or trying to beat my personal records at the gym.",
-      "skills": { 
+      "buildingText": "My education and experience as a graphic designer have provided me a solid foundation, especially in color theory, fonts, visual hierarchy, composition, and layouts. In the past few months, I have expanded my knowledge of UI rules and principles through online courses and by applying theoretical knowledge to personal projects. During my free time, you can find me reading a book, baking delicious cakes, or trying to beat my personal records the gym.",
+      "skills": {
         "preTitle": "Skills",
         "skillsTitle": "My competencies and traits",
-          "resourcefulnessTitle": "Soft skill: Resourcefulness",
-          "resourcefulnessText": "The ability to find ways around obstacles and limitations is crucial when working in a field with constantly changing clients, developing trends, and technological innovations. I consider myself a person who thrives in a fast-paced environment and enjoys working with like-minded individuals who support each other in solving complex design problems while meeting deadlines.",
-          "attentionToDetailTitle": "Soft skill: Attention to detail",
-          "attentionToDetailText": "To me, attention to detail means ensuring consistency throughout the interface, from the placement of buttons and icons to the spacing between text and images. This requires taking into account the user's needs and preferences, such as ensuring that the font size and color contrast make the content easy to read. Attention to detail is a crucial aspect of UI design, as it can make the difference between a good design and a great one.",
-          "timeManagentTitle": "Soft skill: Resourcefulness",
-          "timeManagementText": "As a designer, I believe that resourcefulness is a fundamental skill that can elevate one's design process. Resourcefulness allows me to approach problems from different angles, find creative solutions, and make the most out of the resources available to me. By being resourceful, I can optimize my workflow, tackle design challenges efficiently, and produce innovative designs that meet the needs of my clients. Moreover, resourcefulness enables me to think outside the box, experiment with new techniques, and continuously improve my design skills. Overall, incorporating resourcefulness into my design process helps me to be more versatile, adaptable, and successful as a designer.",
-          "resilienceTitle": "Soft skill: Resilience",
-          "resilienceText": "As a resilient individual, I am able to remain optimistic and focused even in the face of significant challenges. This personal trait is valuable on both personal and professional levels. It helps me cope with stress, prevent burnout, and maintain healthy habits. Additionally, it helps me bounce back from professional setbacks and potential failures with a positive outlook on the situation.",
+        "resourcefulnessTitle": "Soft skill: Resourcefulness",
+        "resourcefulnessText": "The ability to find ways around obstacles and limitations is crucial when working in a field with constantly changing clients, developing trends, and technological innovations. I consider myself a person who thrives in a fast-paced environment and enjoys working with like-minded individuals who support each other in solving complex design problems while meeting deadlines.",
+        "attentionToDetailTitle": "Soft skill: Attention to detail",
+        "attentionToDetailText": "To me, attention to detail means ensuring consistency throughout the interface, from the placement of buttons and icons to the spacing between text and images. This requires taking into account the user's needs and preferences, such as ensuring that the font size and color contrast make the content easy to read. Attention to detail is a crucial aspect of UI design, as it can make the difference between a good design and a great one.",
+        "timeManagentTitle": "Soft skill: Resourcefulness",
+        "timeManagementText": "As a designer, I believe that resourcefulness is a fundamental skill that can elevate one's design process. Resourcefulness allows me to approach problems from different angles, find creative solutions, and make the most out of the resources available to me. By being resourceful, I can optimize my workflow, tackle design challenges efficiently, and produce innovative designs that meet the needs of my clients. Moreover, resourcefulness enables me to think outside the box, experiment with new techniques, and continuously improve my design skills. Overall, incorporating resourcefulness into my design process helps me to be more versatile, adaptable, and successful as a designer.",
+        "resilienceTitle": "Soft skill: Resilience",
+        "resilienceText": "As a resilient individual, I am able to remain optimistic and focused even in the face of significant challenges. This personal trait is valuable on both personal and professional levels. It helps me cope with stress, prevent burnout, and maintain healthy habits. Additionally, it helps me bounce back from professional setbacks and potential failures with a positive outlook on the situation.",
 
-          "researchTitle": "Research",
-          "researchText": "As a UI designer with a focus on user-centered design, I possess a range of hard skills that enable me to conduct comprehensive research and analysis to create intuitive and engaging user experiences. My expertise in user flows, user personas, competitors analysis, and information architecture allows me to gather valuable insights into user behavior and preferences, identify pain points and opportunities for improvement, and develop effective design solutions that meet user needs and achieve business goals.",
-          "researchKeyWords": "User flow | User personas | Competitors analysis | Information architecture ",
+        "researchTitle": "Research",
+        "researchText": "As a UI designer with a focus on user-centered design, I possess a range of hard skills that enable me to conduct comprehensive research and analysis to create intuitive and engaging user experiences. My expertise in user flows, user personas, competitors analysis, and information architecture allows me to gather valuable insights into user behavior and preferences, identify pain points and opportunities for improvement, and develop effective design solutions that meet user needs and achieve business goals.",
+        "researchKeyWords": "User flow | User personas | Competitors analysis | Information architecture ",
 
-          "prototypingTitle": "Prototyping",
-          "prototypingText": "My expertise in wireframing allows me to rapidly and efficiently create low-fidelity mockups of user interfaces. Furthermore, my knowledge of design systems empowers me to develop consistent and cohesive designs across an entire product or platform. Lastly, my experience with interaction design equips me to create intuitive and engaging user experiences through the use of animations, micro-interactions, and other forms of feedback.",
-          "prototypingKeyWords": "Wireframing | Design systems | Interaction design ",
+        "prototypingTitle": "Prototyping",
+        "prototypingText": "My expertise in wireframing allows me to rapidly and efficiently create low-fidelity mockups of user interfaces. Furthermore, my knowledge of design systems empowers me to develop consistent and cohesive designs across an entire product or platform. Lastly, my experience with interaction design equips me to create intuitive and engaging user experiences through the use of animations, micro-interactions, and other forms of feedback.",
+        "prototypingKeyWords": "Wireframing | Design systems | Interaction design ",
 
-          "designTitle": "Design",
-          "designText": "I am constantly learning and exploring new techniques and tools such as Figma and Adobe Suite to improve my skills. Typography is one of my favorite aspects of design, as it enables me to communicate the brand message effectively. I also strive to use color psychology and theory to create a harmonious color scheme that enhances the user experience. By using these design elements, I aim to create an effective interface that meets the needs of my users.",
-          "designKeyWords": "Figma | Adobe Suite | Typography | Colour psychology | Colour theory ",
-        "experience": { 
-          "preTitle": "Experience",
-          "skillsTitle": "Working experience",
-            "internetZoosTitle": "WEB DESIGNER | InternetZoo",
-            "internetZooDescription": "Front-end and building of websites using CMS 
-            Setting up new and redesigning old campaigns in company’s CMS
-            SoMe materials for existing and upcoming campaigns",
-            "internetZooKeyWords": "HTML | CSS | Photoshop | Figma | InDesign | Jira | CMS",
-            "straxSkilteTitle": "GRAPHIC DESIGNER | StraxSkilte",
-            "straxSkilteDescription": "Menu cards for number of restaurant in North Jutland
-            Promotional materials for various businesses and purposes
-            Creating and recreating visual identities for different types of businesses",
-            "straxSkilteoKeyWords": "InDesign | Illustrator | Photoshop | Printers",
-            "museumTitle": "GRAPHIC DESIGNER | Museum of Janko Kral (Slovakia)",
-            "museumDescription": "Creating printed material for each exhibition, for visitors who chose not-guided tour
-            Visual side of exhibitions - print on walls or as a background of each display
-            Promotional materials for handouts at various location to spread awareness about museum",
-            "museumKeyWords": "InDesign | Illustrator | Photoshop | Printers",
-            "reproTitle": "GRAPHIC DESIGNER | ReproServis Kovac (Slovakia)",
-            "reproDescription": "Posters, business cards, outdoor displays, magazines etc
-            Contact with customers as they fill the order
-            Finalising the orders using plotters, lasers or unconventional sized printers",
-            "reproKeyWords": "InDesign | Illustrator | Photoshop | Printers | Plotters | Lasers",
-
-
-
-
-        
-
-
-          
-
-
-
-
-
+        "designTitle": "Design",
+        "designText": "I am constantly learning and exploring new techniques and tools such as Figma and Adobe Suite to improve my skills. Typography is one of my favorite aspects of design, as it enables me to communicate the brand message effectively. I also strive to use color psychology and theory to create a harmonious color scheme that enhances the user experience. By using these design elements, I aim to create an effective interface that meets the needs of my users.",
+        "designKeyWords": "Figma | Adobe Suite | Typography | Colour psychology | Colour theory "
+      },
+      "experience": {
+        "preTitle": "Experience",
+        "skillsTitle": "Working experience",
+        "internetZoosTitle": "WEB DESIGNER | InternetZoo",
+        "internetZooDescription": "<0>Front-end and building of websites using CMS</0><1>Setting up new and redesigning old campaigns in company’s CMS</1><2>SoMe materials for existing and upcoming campaigns</2>",
+        "internetZooKeyWords": "HTML | CSS | Photoshop | Figma | InDesign | Jira | CMS",
+        "straxSkilteTitle": "GRAPHIC DESIGNER | StraxSkilte",
+        "straxSkilteDescription": "<0>Menu cards for number of restaurant in North Jutland</0><1>Promotional materials for various businesses and purposes</1><2>Creating and recreating visual identities for different types of businesses</2>",
+        "straxSkilteoKeyWords": "InDesign | Illustrator | Photoshop | Printers",
+        "museumTitle": "GRAPHIC DESIGNER | Museum of Janko Kral (Slovakia)",
+        "museumDescription": "<0>Creating printed material for each exhibition, for visitors who chose not-guided tour</0><1>Visual side of exhibitions - print on walls or as a background of each display</1><2>Promotional materials for handouts at various location to spread awareness about museum</2>",
+        "museumKeyWords": "InDesign | Illustrator | Photoshop | Printers",
+        "reproTitle": "GRAPHIC DESIGNER | ReproServis Kovac (Slovakia)",
+        "reproDescription": "<0>Posters, business cards, outdoor displays, magazines etc</0><1>Contact with customers as they fill the order</1><2>Finalising the orders using plotters, lasers or unconventional sized printers</2>",
+        "reproKeyWords": "InDesign | Illustrator | Photoshop | Printers | Plotters | Lasers"
+      }
     }
   }
 }
