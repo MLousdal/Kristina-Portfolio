@@ -1,6 +1,8 @@
 ---
 import { SEO } from "astro-seo";
 import i18next, { t } from "i18next";
+import { localizePath } from "astro-i18next";
+import { LanguageSelector, HeadHrefLangs } from "astro-i18next/components";
 const { title, description, image } = Astro.props;
 import "../styles/base.css";
 ---
@@ -12,6 +14,7 @@ import "../styles/base.css";
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="sitemap" href="/sitemap-index.xml" />
+    <HeadHrefLangs />
     <SEO
       title={title}
       titleTemplate={"%s | Kristina Linhartova"}
@@ -64,13 +67,22 @@ import "../styles/base.css";
   <body class="h-screen bg-offwhite">
     <header class="fixed inset-x-0 top-0 bg-offwhite z-10" id="nav">
       <nav class="container py-4 flex justify-between items-center">
-        <a href="/" class="font-serif text-4xl" title={t("home.home")}>KL</a>
-        <div>
+        <a
+          href={localizePath("/")}
+          class="font-serif text-4xl"
+          title={t("home.home")}>KL</a
+        >
+        <div class="flex gap-4 items-center">
           <a
-            href="/about"
+            href={localizePath("/about")}
             class="font-serif text-lg uppercase cursor-pointer relative px-1 before:absolute before:bg-primary-400 before:bottom-0 before:left-0 before:h-full before:w-full before:origin-bottom before:scale-y-[0.15] hover:before:scale-y-100 before:transition-transform before:ease-in-out before:duration-200"
             ><span class="relative">{t("about.about")}</span></a
           >
+          <LanguageSelector
+            showFlag={true}
+            languageMapping={{ da: "Dansk" }}
+            class="bg-offwhite border border-primary-300 text-primary-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-1"
+          />
         </div>
       </nav>
     </header>
