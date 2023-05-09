@@ -76,96 +76,100 @@
     }
   },
   "summary": {
+    "objectives": "Objectives",
+    "tools": "Tools",
+    "team": "Team",
+    "duration": "Duration"
+  },
+  "cases": {
+    "introduction": "Introduction",
+    "competitorAnalysis": "Competitor analysis",
+    "strengths": "Strengths",
+    "weaknesses": "Weaknesses",
+    "userPersonas": "User Persona",
+    "siteMap": "Site map",
+    "taskFlow": "Task Flow",
+    "wireframeSketches": "Wireframe sketches",
+    "lowFidelityPrototypes": "Low-fidelity prototypes",
+    "taskFlowWireframes": "Task flow wireframes",
+    "responsiveWireframes": "Responsive wireframes",
+    "finalLowFidelity": "Final Low-fidelity prototypes",
+    "designSystem": "Design system",
+    "finalResponsivePrototype": "Final responsive prototype",
+    "conclusion": "Conclusion"
+  },
+  "shockwave": {
+    "about": "Shockwave",
+    "title": "Festival website design",
     "summary": {
-      "objectives": "Objectives",
-      "tools": "Tools",
-      "team": "Team",
-      "duration": "Duration"
-    },
-    "cases": {
-      "introduction": "Introduction",
-      "competitorAnalysis": "Competitor analysis",
-      "strengths": "Strengths",
-      "weaknesses": "Weaknesses",
-      "userPersonas": "User Persona",
-      "siteMap": "Site map",
-      "taskFlow": "Task Flow",
-      "wireframeSketches": "Wireframe sketches",
-      "lowFidelityPrototypes": "Low-fidelity prototypes",
-      "taskFlowWireframes": "Task flow wireframes",
-      "responsiveWireframes": "Responsive wireframes",
-      "finalLowFidelity": "Final Low-fidelity prototypes",
-      "designSystem": "Design system",
-      "finalResponsivePrototype": "Final responsive prototype",
-      "conclusion": "Conclusion"
-    },
-    "shockwave": {
-      "about": "Shockwave",
       "title": "Festival website design",
-      "summary": {
-        "title": "Festival website design",
-        "duration": "4 weeks",
-        "objectives": "Responsive website that informs about event",
-        "team": "Autonomous, with feedback from the mentor",
-        "tools": "Figma"
-      },
-      "projectOverviewTitle": "Project overview",
-      "projectOverviewText": "Shockwave is a design concept proposal for a pop and rock music festival. The main challenge was to design a website that captures the spirit and energy of the festival while providing users with easy navigation and access to the necessary information.",
-      "goalsTitle": "Goals and objectives",
-      "goalsText1": "To make design responsive for various devices",
-      "goalsText2": "To create a user-friendly and visually appealing user interface for afestival website that showcases the event schedule, performers, and ticket information",
-      "button": "View prototype",
+      "duration": "4 weeks",
+      "objectives": "Responsive website that informs about event",
+      "team": "Autonomous, with feedback from the mentor",
+      "tools": "Figma"
+    },
+    "projectOverviewTitle": "Project overview",
+    "projectOverviewText": "Shockwave is a design concept proposal for a pop and rock music festival. The main challenge was to design a website that captures the spirit and energy of the festival while providing users with easy navigation and access to the necessary information.",
+    "goalsTitle": "Goals and objectives",
+    "goalsText1": "To make design responsive for various devices",
+    "goalsText2": "To create a user-friendly and visually appealing user interface for afestival website that showcases the event schedule, performers, and ticket information",
+    "button": "View prototype",
 
-      "research": {
-        "title": "Introduction",
-        "introductionText": "User research is a critical component of UI design, which helped me gain insights into the target audience's behaviors, goals, and pain points. By understanding how users interact with a product or service, designers can create user-centered designs that meet the needs and expectations of the users. For this UI design case study, I conducted user research to ensure that the final product would be effective and engaging. A variety of research methods were used to gather data on our target audience's demographics and preferences.",
-        "researchGoals1": " To understand the music culture and what leads people to attend festival",
-        "researchGoals2": "To identify the target audience",
-        "researchGoals3": " To learn about the main competitors and how these are accommodating user’s needs, together with their strengths and weaknesses",
-        "researchGoals4": "To understand what features are necessary by understanding user’s behavior",
+    "research": {
+      "title": "Introduction",
+      "introductionText": "User research is a critical component of UI design, which helped me gain insights into the target audience's behaviors, goals, and pain points. By understanding how users interact with a product or service, designers can create user-centered designs that meet the needs and expectations of the users. For this UI design case study, I conducted user research to ensure that the final product would be effective and engaging. A variety of research methods were used to gather data on our target audience's demographics and preferences.",
+      "goals1": " To understand the music culture and what leads people to attend festival",
+      "goals2": "To identify the target audience",
+      "goals3": " To learn about the main competitors and how these are accommodating user’s needs, together with their strengths and weaknesses",
+      "goals4": "To understand what features are necessary by understanding user’s behavior",
 
-        "competitorsTitle": "Competitor analysis",
-        "competitorsSubtitle": "Scoping out the competitors",
-        "competitorsText": " In order to create a successful UI design for a Shockwave website, it's important to take a look at what other festivals are doing. By conducting a thorough competitor analysis, I could identify industry trends, best practices, and areas for improvement. In this section, I'll examine the websites of three competing music festivals and evaluatetheir strengths and weaknesses in terms of design, user experience, and functionality.",
+      "competitorsTitle": "Competitor analysis",
+      "competitorsSubtitle": "Scoping out the competitors",
+      "competitorsText": " In order to create a successful UI design for a Shockwave website, it's important to take a look at what other festivals are doing. By conducting a thorough competitor analysis, I could identify industry trends, best practices, and areas for improvement. In this section, I'll examine the websites of three competing music festivals and evaluatetheir strengths and weaknesses in terms of design, user experience, and functionality.",
 
-        "competitors": {
-          "coachella": {
-            "title": "Coachella",
-            "strengths1": "Visually appealing design",
-            "strengths2": "Clear and easy-to-use navigation",
-            "strengths3": "Responsive layout for different devices",
-            "strengths4": "Interactive features such as the lineup and schedule",
-            "strengths5": "Integration with social media platforms",
-            "weaknesses1": "Some pages are cluttered and difficult to navigate",
-            "weaknesses2": "The ticket purchasing process can be confusing for some users",
-            "weaknesses3": " The website has a lot of promotional content that can detract from the user experience",
-            "weaknesses4": "  Some users may find the website's font size too small and difficult to read"
-          },
-          "tomorrowland": {
-            "title": "Tomorrowland",
-            "strengths1": "High-quality images that create a visually striking and engaging experience",
-            "strengths2": "Clear and consistent navigation throughout the site",
-            "strengths3": "Effective use of whitespace and typography that enhances readability",
-            "strengths4": "Integration of interactive features such as video backgrounds or animations",
-            "weaknesses1": "Overuse of animations and effects",
-            "weaknesses2": "Inconsistent visual design elements and typography, which can make the website feel cluttered and confusing",
-            "weaknesses3": "Lack of clear hierarchy in the content"
-          },
-          "sziget": {
-            "title": "Sziget",
-            "strengths1": "Effective use of visuals to convey the festival's atmosphere and vibe",
-            "strengths2": "Multilingual support for a global audience",
-            "strengths3": "Responsive layout for different devices",
-            "strengths4": "User-generated content, such as photos or videos, that showcase the festival and engage users",
-            "weaknesses1": "Pages are cluttered with too much information, making it difficult to navigate",
-            "weaknesses2": "The website can be slow to load, especially during peak traffic times",
-            "weaknesses3": "The ticket purchasing process can be confusing or difficult to navigate"
-          }
+      "competitors": {
+        "coachella": {
+          "title": "Coachella",
+          "strengths1": "Visually appealing design",
+          "strengths2": "Clear and easy-to-use navigation",
+          "strengths3": "Responsive layout for different devices",
+          "strengths4": "Interactive features such as the lineup and schedule",
+          "strengths5": "Integration with social media platforms",
+          "weaknesses1": "Some pages are cluttered and difficult to navigate",
+          "weaknesses2": "The ticket purchasing process can be confusing for some users",
+          "weaknesses3": " The website has a lot of promotional content that can detract from the user experience",
+          "weaknesses4": "  Some users may find the website's font size too small and difficult to read"
         },
+        "tomorrowland": {
+          "title": "Tomorrowland",
+          "strengths1": "High-quality images that create a visually striking and engaging experience",
+          "strengths2": "Clear and consistent navigation throughout the site",
+          "strengths3": "Effective use of whitespace and typography that enhances readability",
+          "strengths4": "Integration of interactive features such as video backgrounds or animations",
+          "weaknesses1": "Overuse of animations and effects",
+          "weaknesses2": "Inconsistent visual design elements and typography, which can make the website feel cluttered and confusing",
+          "weaknesses3": "Lack of clear hierarchy in the content"
+        },
+        "sziget": {
+          "title": "Sziget",
+          "strengths1": "Clear and prominent branding, with the Sziget logo and color scheme used consistently throughout the site.",
+          "strengths2": "Visually appealing design, with high-quality images and videos showcasing the festival atmosphere and performers.",
+          "strengths3": "Interactive elements, such as the lineup and schedule features, that allow users to customize their festival experience.",
+          "strengths4": "Localization in multiple languages, catering to a global audience and enhancing accessibility.",
+          "weaknesses1": "Overwhelming amount of content on some pages, making it difficult for users to find what they are looking for quickly.",
+          "weaknesses2": "Limited search functionality, which could be improved by providing more filters or categories to narrow down results.",
+          "weaknesses3": "Slow loading times on some pages, particularly those with high-resolution images or videos."
+        }
+      },
 
-        "userPersonas": {
+      "userPersonas": {
+        "subTitle": "Get to know your user",
+        "text": "In the process of designing a website, it is also important to understand the needs and behaviors of the target audience. To achieve this, I have created user personas that represent the different types of users that our product aims to serve. By using these personas as a reference, I can ensure that design decisions are informed by user insights and aligned with their goals and expectations. So let’s meet sample users John, Lisa and Alex.",
+
+        "taskFlow": {
           "subTitle": "Get to know your user",
           "text": "In the process of designing a website, it is also important to understand the needs and behaviors of the target audience. To achieve this, I have created user personas that represent the different types of users that our product aims to serve. By using these personas as a reference, I can ensure that design decisions are informed by user insights and aligned with their goals and expectations. So let’s meet sample users John, Lisa and Alex.",
+
           "lisa": {
             "title": "Lisa - the familiar user",
             "text": "<0><1>Lisa arrives at ‘Home’ page</1><2>Lisa scrolls down the page to find information about dates and lineup.</2><3> After checking lineup section at home page, Lisa click on ‘See more’ button which leads Lisa to ‘Artists’ page where are more details about schedule, as well as details on performers.</3><4>Lisa searches and selects the desired artist and based on performance schedule decide how many days they wish to attend.</4><5>After deciding on which performer and date is desired, Lisa looks for ticket offers.</5><6>After choosing specific ticket offer, Lisa can click on ‘More info’ button to get to the page with more detailed description of specific ticket offer. She can also click on ‘Buy ticket’ button, which would be the last step the process.</6><7>In case Lisa clicks on ‘More info’ button she has option to switch/ check other offers.</7><8>In case Lisa clicks on ‘More info’ button she has option to switch/ check other offers.</8><9>Lisa secures the desired tickets.</9></0><10>¨Lisa is familiar with festival and attended before therefore she have no need to check out page with practical information or about page.</10>"
@@ -174,23 +178,72 @@
             "title": "Alex - the new user",
             "text": "<0><1>Alex arrives at the festival website and clicks on the 'About' section in the navigation bar to learn more about the event.</1><2>After reading about the festival's history, mission, values, and testimonials, Alex feels comfortable with attending and decides to explore the lineup of artists.</2><3>Alex then moves to the 'Artists' page to view the festival's performers and schedule in more detail.</3><4>Upon finding a desired artist, Alex clicks on their name to view their bio, photos, and performance schedule, and can also listen to a song or visit the artist's socials.</4><5>Once Alex has made a decision on which performances to attend, he proceed to check out ticket options.</5><6>After selecting a ticket, Alex is directed to a specific ticket page where they can securely enter payment and contact information.</6><7>Finally, Alex moves to the 'Info' page to view important information such as transportation or rules to be able to plan the trip related to event most efficiently.</7><8>Alex needs more information to became comfortable with purchasing ticket than Lisa, therefore he explores website more in depth than her.</8></0>"
           }
-        },
-        "taskFlow": {
-          "subTitle": "Get to know your user",
-          "text": "In the process of designing a website, it is also important to understand the needs and behaviors of the target audience. To achieve this, I have created user personas that represent the different types of users that our product aims to serve. By using these personas as a reference, I can ensure that design decisions are informed by user insights and aligned with their goals and expectations. So let’s meet sample users John, Lisa and Alex."
-        },
-        "prototyping": {
-          "title": "Prototyping",
-          "introductionText": "The prototyping phase of the UI design process involved creating wireframes together with low and high-fidelity interactive prototype of the Shockwave website. I aimed to create a prototype that accurately reflected the final product and allowed to test user interactions and gather feedback before moving on to development. To achieve this, I used Figma to create a clickable prototype that included all the key features and functionality of the website. In the following sections, I will discuss the design decisions made during the prototyping phase.",
-
-          "goals": "<0><1> To create a high-fidelity representation of the final product to simulate real-world usage and interactions</1><2>To identify and address usability issues and gather feedback</2><3>To refine and iterate on design solutions based on feedback</3><4> To save time and resources by identifying and addressing design problems early in the proces</4></0>",
-
-          "wireframeSketches": {
-            "subTitle": "A Blueprint for Shockwave",
-            "text": "In the initial stages of designing Shockwave website, wireframe sketches were created to establish the basic layout and structure of the site. These sketches served as a roadmap for the design process, allowing me to quickly iterate on different design ideas. By visualizing the site's layout and structure in wireframes, I was able to identify potential issues early on and make necessary changes before moving on to high-fidelity designs."
-          }
         }
       }
-    }
+    },
+    "prototyping": {
+      "title": "Prototyping",
+      "introductionText": "The prototyping phase of the UI design process involved creating wireframes together with low and high-fidelity interactive prototype of the Shockwave website. I aimed to create a prototype that accurately reflected the final product and allowed to test user interactions and gather feedback before moving on to development. To achieve this, I used Figma to create a clickable prototype that included all the key features and functionality of the website. In the following sections, I will discuss the design decisions made during the prototyping phase.",
+      "goals": "<0><1> To create a high-fidelity representation of the final product to simulate real-world usage and interactions</1><2>To identify and address usability issues and gather feedback</2><3>To refine and iterate on design solutions based on feedback</3><4> To save time and resources by identifying and addressing design problems early in the proces</4></0>",
+      "wireframes": {
+        "subTitle": " Blueprint for Shockwave",
+        "text": " In the initial stages of designing Shockwave website, wireframe sketches were created to establish the basic layout and structure of the site. These sketches served as a roadmap for the design process, allowing me to quickly iterate on different design ideas. By visualizing the site's layout and structure in wireframes, I was able to identify potential issues early on and make necessary changes before moving on to high-fidelity designs."
+      },
+
+      "lowFidelityPrototypes": {
+        "subTitle": "Testing the waters",
+        "text": "In order to validate design decisions and test the usability of proposed solutions, I created a series of low-fidelity prototypes for the music  festival website. These rough sketches and wireframes allowed to quickly iterate on ideas and gather feedback from users before committing to a more polished design."
+      },
+      "taskFlowWireframes": {
+        "subTitle": "Navigating the festival experience",
+        "text": " The task flow section of Shockwave website was designed with users in mind. From the research I gained understanding that festival-goers want to quickly and easily access information about the lineup, schedule, and locations of various stages. To meet this need, I created a task flow  that show users interaction with the website with ease and efficiency. In this section of the case study, I'll explore the steps of two different types of user. Lisa - familiar user and Alex - new user. Exploring behavior of users who are on different levels of familiarity with the website is crucial for user-centered interface.",
+
+        "lisa": {
+          "title": "Lisa - the familiar user",
+
+          "text1": "<0><1>Lisa arrives at ‘Home’ page. ‘Hero’ sections provides fast overview of date and place of event.</1> <2>  Lisa scrolls down the page to find section with ‘Top artists’ that are performing.</2> <3>Lisa click on ‘See more’ button which leads Lisa to ‘Artists’ page where are more details about schedule,as well as details on performers.</3></0>",
+          "text2": "<0> <1> Lisa finds desired artist in the lineup and clicks on the image which opens the overlay </1> <2> This overlay provides more detailed information about selected artist, such as bio, social media links, music player and also date and time of performance for easy access.</2><3> Once preferred artist and dates are selected Lisa proceeds to section with ticket offers.</3> <4>Detailed schedule broken down to days, times and stages provides easy overview of each festival day.</4> <5>After scanning through offers and picking the most interesting one, Lisa then clicks on ‘Buy ticket’ button and proceed to finish her  process by purchasing the ticket.</5></0><6>Familiar user like Lisa will not visit every page of the website since she has previous knowledge about event and is familiar with both website and event.</6>"
+        },
+        "alex": {
+          "title": "Alex - the new user",
+          "text1": " <0> <1>Alex first arrives at ‘Home’ page. ‘Hero’ sections provides fast overview of date and place of event. </1> <2>Since Alex is new user and is not familiar with event, he first seeks knowledge about the event, therefore Alex clicks on ‘About’ in the navigation bar to visit page which provides overview of event. </2>",
+          "text2": "</0> <1> As a new user Alex wants to read about values, history and most importantly experiences of former visitors. Alex also might have desire to see who performed previous years. All these information help Alex gain trust in the event and become comfortable enough to seek information about the lineup.</1> <2>After clicking on the button under the archive of previous artists, Alex is redirected to ‘Artists’ page.</2> </0>",
+          "text3": "</0> <1>Here is where Alex might meet the behaviour of Lisa as he searches for his desired artists. After clicking on the selected artist, Alex opens the overlay which provides more and detailed information, such as bio, photos, and performance schedule. Can also listen to a song or visit the artist's socials. </1> <2>Next crucial step for Alex is choice of suitable day or days when he wants to attend event, detailed schedule is therefore helpful tool to speed up the process. </2><3> Once Alex selects a ticket which caught most of his interest, Alex is directed to a specific ticket page where he can securely enter payment and contact information to purchase a ticket. </3></0>",
+          "text4": " <0><1>Here can Alex see all the detail of selected ticket offer together with option to switch to another ticket offer if desired. </1> <2>  Finally, as a last step, Alex moves to the 'Info' page to view important information such as transportation and rules. </2> </0>"
+        }
+      },
+      "responsiveWireframes": {
+        "subTitle": "From desktop to mobile",
+        "text": "In order to ensure a seamless user experience across all devices, I created responsive wireframes for the Shockwave website. These wireframes allowed me to design and test the website's layout and functionality on desktop, tablet, and mobile screens. In this section, I will present you the process of the final responsive wireframes, which are based on the insights gained from user testing."
+      },
+      "finalLowFidelity": {
+        "subTitle": "Behind the scenes",
+        "text": " In this section, I would like to present the final low-fidelity prototypes for the user interface of Shockwave website. The prototypes showcase design concepts and are intended to provide a starting point for further development and refinement of the UI. By using low-fidelity prototypes, I was able to quickly iterate on our design ideas and gather        feedback from users before transforming them into high-fidelity versions."
+      }
+      }, 
+    },
+  "design": {
+      "title": "Introduction",
+      "introductionText": "The design process is the final step of the process of creating a        Shockwave website. This section summarizes the final outcome. By following a structured process, I was able to create a user-centered design proposal for Shockwave that meet the needs and expectations of  the users.",
+      "goals1": "To create an engaging and user-friendly experience",
+      "goals2": "o effectively communicate important information about the festival (lineup, schedule, ticket info)",
+      "goals3": "To provide a seamless and intuitive navigation",
+      "goals4": "To optimize the website for different devices and platforms to ensure a consistent experience for all users.",
+  
+    "designSystem": {
+      "subTitle": "From chaos to clarity",
+      "text": "  In today's fast-paced digital environment, creating and maintaining a  consistent and scalable user interface can be a daunting task. That's why design systems have become a crucial component in modern UI design. In this section of my case study, I will showcase a design system for a Shockwave."
+    },
+
+    "finalResponsivePrototype": {
+      "subTitle": "Responsive and ready to go",
+      "text": " One of the main goals of this project was creating a responsive design that adapts seamlessly to a variety of screen sizes and devices. I  approached this stage of the project with the idea of a user interface  that provides an optimal viewing and interaction experience on various  devices, from smartphones to desktops, in mind. Following is the final prototype that I created, showing how I ensured that the design was responsive and user-friendly across all devices."
+    },
+    "conclusion": {
+      "subTitle": "End of the adventure",
+      "text": " In conclusion, my user-centered approach to the UI design proposal for the Shockwave Music Festival website was a challenging yet rewarding experience for me as a junior UI designer. Shockwave was my second project of this scale and I faced many challenges, with the biggest one being use of bright color. But luckily, this was the stage where my experience as a graphic designer proved to be useful. Throughout the design process, I kept the festival-goers in mind and aimed to create a user-friendly interface that would enhance their browsing experience. To achieve this, I incorporated intuitive navigation, clear call-to-actions, and mobile responsiveness. Overall, I am proud of the final UI design proposal for the Shockwave Music Festival website, and I believe it meets the requirements and goals set for this project. Working on Shockwave has allowed me to grow as a designer and gain valuable experience in working with challenging color palettes while maintaining a user-centered approach."
+    },
+
+
   }
-}
+
