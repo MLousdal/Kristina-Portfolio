@@ -220,16 +220,16 @@
         "subTitle": "Behind the scenes",
         "text": " In this section, I would like to present the final low-fidelity prototypes for the user interface of Shockwave website. The prototypes showcase design concepts and are intended to provide a starting point for further development and refinement of the UI. By using low-fidelity prototypes, I was able to quickly iterate on our design ideas and gather        feedback from users before transforming them into high-fidelity versions."
       }
-      }, 
-    },
+    }
+  },
   "design": {
-      "title": "Introduction",
-      "introductionText": "The design process is the final step of the process of creating a        Shockwave website. This section summarizes the final outcome. By following a structured process, I was able to create a user-centered design proposal for Shockwave that meet the needs and expectations of  the users.",
-      "goals1": "To create an engaging and user-friendly experience",
-      "goals2": "o effectively communicate important information about the festival (lineup, schedule, ticket info)",
-      "goals3": "To provide a seamless and intuitive navigation",
-      "goals4": "To optimize the website for different devices and platforms to ensure a consistent experience for all users.",
-  
+    "title": "Introduction",
+    "introductionText": "The design process is the final step of the process of creating a        Shockwave website. This section summarizes the final outcome. By following a structured process, I was able to create a user-centered design proposal for Shockwave that meet the needs and expectations of  the users.",
+    "goals1": "To create an engaging and user-friendly experience",
+    "goals2": "o effectively communicate important information about the festival (lineup, schedule, ticket info)",
+    "goals3": "To provide a seamless and intuitive navigation",
+    "goals4": "To optimize the website for different devices and platforms to ensure a consistent experience for all users.",
+
     "designSystem": {
       "subTitle": "From chaos to clarity",
       "text": "  In today's fast-paced digital environment, creating and maintaining a  consistent and scalable user interface can be a daunting task. That's why design systems have become a crucial component in modern UI design. In this section of my case study, I will showcase a design system for a Shockwave."
@@ -242,8 +242,6 @@
     "conclusion": {
       "subTitle": "End of the adventure",
       "text": " In conclusion, my user-centered approach to the UI design proposal for the Shockwave Music Festival website was a challenging yet rewarding experience for me as a junior UI designer. Shockwave was my second project of this scale and I faced many challenges, with the biggest one being use of bright color. But luckily, this was the stage where my experience as a graphic designer proved to be useful. Throughout the design process, I kept the festival-goers in mind and aimed to create a user-friendly interface that would enhance their browsing experience. To achieve this, I incorporated intuitive navigation, clear call-to-actions, and mobile responsiveness. Overall, I am proud of the final UI design proposal for the Shockwave Music Festival website, and I believe it meets the requirements and goals set for this project. Working on Shockwave has allowed me to grow as a designer and gain valuable experience in working with challenging color palettes while maintaining a user-centered approach."
-    },
-
-
+    }
   }
-
+}
