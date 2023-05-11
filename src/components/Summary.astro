@@ -1,7 +1,8 @@
 ---
+import { t } from "i18next";
 interface Props {
   objectives: string;
-  tools: string[];
+  tools: string;
   team: string;
   duration: string;
 }
@@ -16,19 +17,23 @@ const { objectives, team, duration, tools } = Astro.props;
   <aside>
     <ul class="flex flex-wrap lg:flex-col gap-3 md:gap-4 lg:gap-6">
       <li>
-        <h2 class="text-lg lg:text-xl font-bold mb-2">Objectives</h2>
+        <h2 class="text-lg lg:text-xl font-bold mb-2">
+          {t("summary.objectives")}
+        </h2>
         <p>{objectives}</p>
       </li>
       <li>
-        <h2 class="text-lg lg:text-xl font-bold mb-2">Tools</h2>
-        <p>{tools.join(" | ")}</p>
+        <h2 class="text-lg lg:text-xl font-bold mb-2">{t("summary.tools")}</h2>
+        <p>{tools}</p>
       </li>
       <li>
-        <h2 class="text-lg lg:text-xl font-bold mb-2">Team</h2>
+        <h2 class="text-lg lg:text-xl font-bold mb-2">{t("summary.team")}</h2>
         <p>{team}</p>
       </li>
       <li>
-        <h2 class="text-lg lg:text-xl font-bold mb-2">Duration</h2>
+        <h2 class="text-lg lg:text-xl font-bold mb-2">
+          {t("summary.duration")}
+        </h2>
         <p>{duration}</p>
       </li>
     </ul>
