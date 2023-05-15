@@ -154,8 +154,8 @@
       },
 
       "taskFlow": {
-        "subTitle": "Get to know your user",
-        "text": "In the process of designing a website, it is also important to understand the needs and behaviors of the target audience. To achieve this, I have created user personas that represent the different types of users that our product aims to serve. By using these personas as a reference, I can ensure that design decisions are informed by user insights and aligned with their goals and expectations. So let’s meet sample users John, Lisa and Alex.",
+        "subTitle": "Unleashing seamless experiences",
+        "text": "Task flows are a crucial component of the UI case study for my portfolio. They outline the step-by-step actions that users take to accomplish specific tasks within the website. By carefully mapping out these task flows, I can effectively design intuitive user interfaces that cater to the needs and preferences of the target audience. Each task flow focuses on a particular user persona, such as John, Lisa, or Alex, ensuring that their unique requirements are met. These task flows serve as a valuable reference, enabling me to create user-centered designs that enhance the overall user experience and achieve the desired goals of the website.",
 
         "lisa": {
           "title": "Lisa - the familiar user",
@@ -225,6 +225,61 @@
       "title": "End of the adventure",
       "subTitle": "From challenge to triumph",
       "text": "In conclusion, my user-centered approach to the UI design proposal for the Shockwave Music Festival website was a challenging yet rewarding experience for me as a junior UI designer. Shockwave was my second project of this scale and I faced many challenges, with the biggest one being use of bright color. But luckily, this was the stage where my experience as a graphic designer proved to be useful. Throughout the design process, I kept the festival-goers in mind and aimed to create a user-friendly interface that would enhance their browsing experience. To achieve this, I incorporated intuitive navigation, clear call-to-actions, and mobile responsiveness. Overall, I am proud of the final UI design proposal for the Shockwave Music Festival website, and I believe it meets the requirements and goals set for this project. Working on Shockwave has allowed me to grow as a designer and gain valuable experience in working with challenging color palettes while maintaining a user-centered approach."
+    }
+  },
+  "shapespace": {
+    "about": "Shapespace",
+    "title": "Arkitektur blogdesign",
+    "description": "Velkommen til Shapespace, hvor arkitektur og design mødes. Dyk ned i et visuelt imponerende UI-designforslag til en arkitektur-blog. Opdag, hvordan intuitive brugergrænseflader kan gøre udforskningen af arkitekturverdenen til en uforglemmelig oplevelse.",
+    "summary": {
+      "duration": "6 uger",
+      "objectives": "Responsivt websted, der er intuitivt og let at få adgang til nyt indhold.",
+      "team": "Autonomt, med feedback fra mentoren",
+      "tools": "Figma"
+    },
+    "projectOverviewTitle": "Projektoversigt",
+    "projectOverviewText": "Shapespace er et UI-designkonceptforslag til en arkitektur-blogwebsted. Forslaget er designet til at fange arkitekturens essens og kreativitet samtidig med at det giver brugerne nem navigation og adgang til nødvendig information.",
+    "goalsTitle": "Mål og formål",
+    "goalsText": "<0><1>At fremvise blogindlæg fremtrædende på hjemmesiden, så det er nemt for brugerne at opdage nyt indhold </1><2>At organisere indholdet på en intuitiv måde, så det er nemt at navigere </2></0>",
+
+    "research": {
+      "title": "Introduktion",
+      "introductionText": "I denne særlige UI-design-case-studie sørgede jeg for at gennemføre brugerundersøgelser for at sikre, at det endelige produkt ville være effektivt og engagerende. For at opnå dette anvendte jeg en række forskningsmetoder til at indsamle data om vores målgruppes demografi og præferencer. Dette gav mig en bedre forståelse af målgruppens interesser, adfærd og præferencer, når det kommer til arkitektur og design",
+      "goalsHeading": "Forskningsmål",
+      "goalsText": "<0>At få forståelse for arkitektur-blogkulturen og hvad der motiverer folk til at læse blogartikler om arkitektur</0><1>At identificere målgruppen og deres præferencer</1><2>At lære om de vigtigste konkurrenter og hvordan de imødekommer brugernes behov, sammen med deres styrker og svagheder</2><3>At forstå hvilke funktioner der er nødvendige ved at forstå brugernes adfærd og præferencer i forhold til en arkitektur-blogwebsted</3>",
+      "competitorsSubtitle": "At bryde jorden",
+      "competitorsText": "For at gennemføre en konkurrentanalyse for en arkitektur-blog er det vigtigt at identificere nøglespillere i branchen. Nogle populære arkitektur-blogs inkluderer Dezeen og Ignant. En evaluering af hver konkurrents styrker og svagheder bør udføres, herunder webstedets design og layout, kvaliteten og originaliteten af indholdet, engagementmulighederne for brugerne og den generelle brugeroplevelse. Ved at forstå, hvad der gør disse konkurrenter succesrige, kan en arkitektur-blog identificere områder, hvor de kan forbedre sig og differentiere sig fra konkurrencen. Det er også vigtigt at tage hensyn til målgruppen og hvad de leder efter i en arkitektur-blog. Ved at forstå konkurrencen og målgruppen kan en arkitektur-blog skabe en unik og overbevisende brugeroplevelse, der skiller dem ud fra konkurrencen.",
+
+      "competitors": {
+        "dezeen": {
+          "title": "Dezeen",
+          "introduction": "Dezeen er en af verdens mest populære arkitektur- og designmagasiner og tilbyder kurateret indhold til fagfolk og enkeltpersoner, der er interesserede i disse kreative områder. Magasinet præsenterer projekter fra hele verden og har til formål at skabe et globalt designsamfund.",
+          "strengths": "<0>Engagerende indhold: Artiklerne på Dezeen er velskrevne og informative med en god blanding af nyheder, features og meningsindlæg. Dette gør det til en engagerende og interessant læsning for alle, der er interesseret i arkitektur og design.</0><1>Visuelt indhold: Hjemmesiden har en stor mængde visuelt indhold, herunder billeder og videoer af høj kvalitet, hvilket gør det nemt at browse og interagere med.</1><2>Elegant design: UI'en på Dezeen's hjemmeside er visuelt tiltalende og har et moderne, elegant design, der afspejler hjemmesidens fokus på design og æstetik.</2><3>Interaktive funktioner som lineup og tidsplan</3><4>Integration med sociale medieplatforme</4>",
+          "weaknesses": "<0>Begrænsede søgemuligheder: Søgefunktionen på hjemmesiden er grundlæggende og producerer ikke altid præcise resultater, hvilket kan gøre det svært for brugerne at finde specifikt indhold.</0><1>Inkonsistent layout: Layoutet på hjemmesiden kan variere fra side til side, hvilket kan være forvirrende for brugerne og gøre det sværere at navigere.</1><2>Rodet startside: Selvom hjemmesidens startside har meget indhold, kan det til tider føles rodet og overvældende, hvilket kan gøre det svært for brugerne at finde det, de leder efter.</2>"
+        },
+        "designBoom": {
+          "title": "designboom",
+          "introduction": "Designboom blev grundlagt i 1999 og er det første og mest populære digitale magasin, der fokuserer på arkitektur og design. Det offentliggør dagligt indhold, der spænder fra videoer til nyheder, analyser og tendenser. Det er ideelt for fagfolk og kreative mennesker.",
+          "strengths": "<0>Stærk visuel identitet: Designboom har en stærk visuel identitet, der er konsekvent på tværs af hele hjemmesiden. Brugen af farver, typografi og billeder skaber et sammenhængende og mindeværdigt design, der er let genkendeligt.</0><1>Interaktivt og engagerende indhold: Hjemmesiden har en række interaktive og engagerende indholdselementer, såsom videoer, animationer og interaktive funktioner. Dette bidrager til at skabe en mere dynamisk og interessant brugeroplevelse.</1><2>Tydelige handlingsanmodninger: Designboom's hjemmeside har klare handlingsanmodninger, der gør det nemmere for brugerne at udføre opgaver og engagere sig med hjemmesidens indhold. Knapper, links og andre elementer er tydeligt mærket og let forståelige.</2><3>Konsistent layout: Designboom's hjemmeside bruger et konsistent layout, hvilket gør det nemmere for brugerne at navigere og forstå indholdet. Placeringen af menuer, links og andre elementer er ensartet på tværs af sider, hvilket reducerer forvirringen og gør det nemmere for brugerne at finde det, de leder efter.</3>",
+          "weaknesses": "<0>Begrænset brug af visuelle hjælpemidler: Selvom Designboom's hjemmeside indeholder visuelle hjælpemidler som billeder og videoer, kunne den have gavn af at bruge flere ikoner, infografikker og andre visuelle hjælpemidler til at bryde store blokke af tekst og gøre informationen lettere at forstå.</0><1>Manglende kontrast: Nogle sider på Designboom's hjemmeside kan mangle kontrast, hvilket kan gøre det sværere for brugerne at læse og forstå indholdet. For eksempel kan tekst, der vises oven på et billede, være svært at læse, hvis farverne ikke er tilstrækkelig kontrasterende.</1><2>Begrænset brug af animation: Selvom Designboom's hjemmeside indeholder nogle animationer og interaktive elementer, kunne den have gavn af at bruge flere animationer og andre dynamiske elementer. Dette ville bidrage til at skabe en mere engagerende og interessant brugeroplevelse.</2>"
+        },
+        "ignant": {
+          "title": "Ignant",
+          "introduction": "IGNANT er en prisvindende online digital magasin, der dækker de vigtigste udviklinger inden for kunst, design, fotografi, turisme og arkitektur. Det er en fantastisk kilde til visuelle referencer.",
+          "strengths": "<0>Kreativt og visuelt tiltalende: Ignant's brug af kreative og visuelt tiltalende layout og typografi er endnu en styrke. Hjemmesidens design er unikt og interessant, og typografien er velvalgt og letlæselig. Dette skaber en positiv brugeroplevelse og en følelse af brandidentitet.</0><1>Konsistent branding: Design og branding er konsistent på tværs af deres hjemmeside og sociale mediekanaler. Dette skaber en sammenhængende brandidentitet, der er nem at genkende, og forstærker deres position som en autoritet inden for arkitektur- og designbranchen.</1><2>Effektiv brug af hvidt rum: Denne hjemmeside gør effektiv brug af hvidt rum, hvilket hjælper med at skabe en ren og organiseret visuel æstetik. Dette er vigtigt, fordi det gør det nemmere at læse og navigere i indholdet og kan hjælpe med at reducere brugertræthed. Desuden kan brugen af hvidt rum tiltrække opmærksomhed mod vigtige elementer på siden og få dem til at skille sig ud.</2><3>Fængslende fortællinger: Redaktionelt indhold har fængslende fortællinger, der fanger brugernes interesse og holder dem engageret. Dette er vigtigt, fordi det hjælper med at holde brugerne på hjemmesiden længere og opfordrer dem til at vende tilbage efter mere indhold.</3>",
+          "weaknesses": "<0>Mangel på interaktivitet og animation: Selvom Ignants hjemmeside har et visuelt tiltalende design, mangler den interaktivitet og animation. Dette kan gøre hjemmesiden føles statisk og uengagerende for brugerne, især dem der er vant til mere interaktive eller animerede hjemmesider.</0><1>Lange indlæsningstider: Ignants hjemmeside kan nogle gange have langsomme indlæsningstider, især for større billeder eller videoer. Dette kan være frustrerende for brugerne og kan have en negativ indvirkning på brugeroplevelsen.</1><2>Inkonsistent brug af farver og hierarki: Ignants hjemmeside har en visuelt tiltalende farveskema, men farverne bruges ikke altid konsistent på tværs af hjemmesiden. Dette kan gøre det sværere for brugerne at forstå hjemmesidens hierarki og navigere til vigtige sider eller handlinger.</2>"
+        },
+
+        "userPersonas": {
+          "subTitle": "Hyggeligt at møde dig, jeg er bruger",
+          "text": "I konteksten af ​​UI-design til arkitektoniske blogwebsites er det vigtigt at forstå behovene og adfærden hos målgruppen, som ofte inkluderer arkitekter, arkitekturstuderende og designprofessionelle. Ved at skabe brugerpersoner, der repræsenterer disse forskellige typer brugere, kan designere opnå værdifulde indsigter i deres mål, præferencer og udfordringer. For eksempel leder arkitekter som David efter nye designkoncepter og idéer, mens arkitekturstuderende som Sarah søger læringsressourcer til at forbedre deres designfærdigheder. Designprofessionelle som Maria søger muligvis dybdegående information og analyse for at inspirere deres projekter. Ved at forstå behovene og adfærden hos disse brugere kan designere skabe en brugercentreret designløsning, der effektivt opfylder deres behov og forventninger."
+        },
+
+        "siteMap": {
+          "title": "At låse op for den hemmelige vej",
+          "text": "I denne sektion vil jeg gerne præsentere sitemap for Shockwave festival. Sitemapet giver en visuel repræsentation af websitets struktur og viser hierarkiet af sider og hvordan de relaterer sig til hinanden. Dette hjælper med at forstå flowet på websitet og sikrer, at brugerne nemt kan navigere til det indhold, de er interesserede i. Ved at analysere sitemapet kunne jeg identificere områder, der kan forbedres, og sikre, at websitet opfylder behovene hos vores målgruppe."
+        }
+      }
     }
   }
 }
