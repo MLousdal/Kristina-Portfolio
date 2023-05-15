@@ -5,14 +5,20 @@ interface Props {
   tools: string;
   team: string;
   duration: string;
+  prototypeLink: string;
 }
 
-const { objectives, team, duration, tools } = Astro.props;
+const { objectives, team, duration, tools, prototypeLink } = Astro.props;
 ---
 
 <section class="container grid grid-cols-1 lg:grid-cols-3 gap-4 lg:gap-6 mb-6">
   <article class="prose lg:prose-xl lg:col-span-2">
     <slot />
+    <footer class="block">
+      <a href={prototypeLink} target="_blank" class="btn"
+        >{t("summary.viewPrototype")}</a
+      >
+    </footer>
   </article>
   <aside>
     <ul class="flex flex-wrap lg:flex-col gap-3 md:gap-4 lg:gap-6">

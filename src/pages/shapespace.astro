@@ -1,5 +1,6 @@
 ---
-import { changeLanguage } from "i18next";
+import { Trans } from "astro-i18next/components";
+import { changeLanguage, t } from "i18next";
 import Master from "../layouts/Master.astro";
 import Image from "../components/Image.astro";
 import Summary from "../components/Summary.astro";
@@ -20,11 +21,11 @@ import sitemap_ShapeSpace from "../assets/sitemap_ShapeSpace.png";
 changeLanguage("en");
 
 const title = "Shapespace";
-const description = "Welcome to Shapespace, where architecture and design intersect. Immerse yourself in a visually stunning UI design proposal for an architecture blog. Discover how intuitive interfaces can make exploring the world of architecture an unforgettable experience.";
-const subTitle = "Architecture blog design";
+const description = t("shapespace.description");
+const subTitle = t("shapespace.title");
 const image = {
-    url: "/assets/architecturepreview.png",
-    alt: "Shapespace is a UI design concept proposal for an architecture blog website",
+  url: "/assets/architecturepreview.png",
+  alt: "Shapespace is a UI design concept proposal for an architecture blog website",
 };
 ---
 
@@ -38,39 +39,29 @@ const image = {
       <Image src={architecturepreview} alt="mockups of the shapespace design" />
     </div>
   </header>
-
   <Summary
-    duration="6 weeks"
-    objectives="Responsive website that is intuitive for easy access to new content."
-    team="Autonomous, with feedback from the mentor"
-    tools={"Figma"}
+    duration={t("shapespace.summary.duration")}
+    objectives={t("shapespace.summary.objectives")}
+    team={t("shapespace.summary.team")}
+    tools={t("shapespace.summary.tools")}
+    prototypeLink={"https://www.figma.com/proto/uz3kHCO2nvDGo1oTbb5WKF/Architecture-Blog?page-id=64%3A1168&node-id=255-2829&viewport=-414%2C904%2C0.06&scaling=min-zoom&starting-point-node-id=255%3A2829"}
   >
-    <h2>Project overview</h2>
-    <p>
-      Shapespace is a UI design concept proposal for an architecture blog
-      website. The proposal is designed to capture the essence and creativity of
-      architecture while providing users with easy navigation and access to
-      necessary information.
-    </p>
-    <h3>Goals and objectives</h3>
-    <ul class="list-disc">
-      <li>
-        To display blog posts prominently on the homepage, making it easy for
-        users to discover new content
-      </li>
-      <li>
-        To organize the content in an intuitive way to make it easy to navigate
-      </li>
-    </ul>
-    <footer class="block">
-      <a
-        href="https://www.figma.com/proto/uz3kHCO2nvDGo1oTbb5WKF/Architecture-Blog?page-id=64%3A1168&node-id=255-2829&viewport=-414%2C904%2C0.06&scaling=min-zoom&starting-point-node-id=255%3A2829"
-        target="_blank"
-        class="btn">View prototype</a
-      >
-    </footer>
+    <h2>{t("shapespace.projectOverviewTitle")}</h2>
+    <p>{t("shapespace.projectOverviewText")}</p>
+    <h3>{t("shapespace.goalsTitle")}</h3>
+    <Trans i18nKey={"shapespace.goalsText"}>
+      <ul class="list-disc">
+        <li>
+          To display blog posts prominently on the homepage, making it easy for
+          users to discover new content
+        </li>
+        <li>
+          To organize the content in an intuitive way to make it easy to
+          navigate
+        </li>
+      </ul>
+    </Trans>
   </Summary>
-
   <Mockups
     images={[
       { src: shapespace1, alt: "Shapespace desktop mockup" },
@@ -78,58 +69,38 @@ const image = {
       { src: shapespace3, alt: "Shapespace desktop mockup" },
     ]}
   />
-
   <section class="container">
     <header class="mt-14">
       <h2 class="text-xl md:text-2xl lg:text-5xl font-bold text-secondary-400">
-        Research
+        {t("cases.research")}
       </h2>
     </header>
     <article class="prose lg:prose-xl max-w-none">
-      <header><h2>Introduction</h2></header>
-      <p>
-        For this particular UI design case study, I made sure to conduct user
-        research to ensure that the final product would be effective and
-        engaging. To achieve this, I used a variety of research methods to
-        gather data on our target audience's demographics and preferences. This
-        allowed me to get a better understanding of the audience's interests,
-        behaviors, and preferences when it comes to architecture and design.
-      </p>
-      <h3>Research goals</h3>
+      <header><h2>{t("cases.introduction")}</h2></header>
+      <p>{t("shapespace.research.introductionText")}</p>
+      <h3>{t("shapespace.research.goalsHeading")}</h3>
       <ul class="list-disc">
-        <li>
-          To gain an understanding of the architectural blog culture and what
-          motivates people to read blog articles on architecture
-        </li>
-        <li>To identify the target audience and their preferences</li>
-        <li>
-          To learn about the main competitors and how they are accommodating the
-          user's needs, together with their strengths and weaknesses
-        </li>
-        <li>
-          To understand what features are necessary by understanding user’s
-          behavior and preferences regarding an architectural blog website
-        </li>
+        <Trans i18nKey={"shapespace.research.goalsText"}>
+          <li>
+            To gain an understanding of the architectural blog culture and what
+            motivates people to read blog articles on architecture
+          </li>
+          <li>To identify the target audience and their preferences</li>
+          <li>
+            To learn about the main competitors and how they are accommodating
+            the user's needs, together with their strengths and weaknesses
+          </li>
+          <li>
+            To understand what features are necessary by understanding user’s
+            behavior and preferences regarding an architectural blog website
+          </li>
+        </Trans>
       </ul>
     </article>
     <article class="prose lg:prose-xl max-w-none">
-      <header><h2>Competitor analysis</h2></header>
-      <h3>Breaking ground</h3>
-      <p>
-        To conduct a competitor analysis for an architectural blog, it's
-        important to identify the key players in the industry. Some popular
-        architectural blogs include Dezeen, and Ignant. An evaluation of each
-        competitor's strengths and weaknesses should be conducted, including the
-        design and layout of the website, the quality and originality of the
-        content, the engagement options available to users, and the overall user
-        experience. By understanding what makes these competitors successful, an
-        architectural blog can identify areas where they can improve and
-        differentiate themselves from the competition. It's also important to
-        consider the target audience and what they are looking for in an
-        architectural blog. By understanding the competition and the target
-        audience, an architectural blog can create a unique and compelling user
-        experience that sets them apart from the competition.
-      </p>
+      <header><h2>{t("cases.competitorAnalysis")}</h2></header>
+      <h3>{t("shapespace.research.competitorsSubtitle")}</h3>
+      <p>{t("shapespace.research.competitorsText")}</p>
     </article>
     <TextImage
       title="Dezeen"
@@ -137,52 +108,52 @@ const image = {
       alt="Dezeen website screenshots"
       reverse={true}
     >
-      <p>
-        Dezeen is one of the world's most popular architecture and design
-        magazines and offers curated content for professionals and individuals
-        interested in these creative fields. The magazine features projects from
-        around the world and sets out to create a global design community.
-      </p>
+      <p>{t("shapespace.research.competitors.dezeen.introduction")}</p>
+      <p class="font-bold">{t("cases.strengths")}</p>
       <ul>
-        <p class="font-bold">Strengths</p>
-        <li>
-          <b>Engaging content:</b> The articles on Dezeen are well-written and informative,
-          with a good mix of news, features, and opinion pieces. This makes it an
-          engaging and interesting read for anyone interested in architecture and
-          design.
-        </li>
-        <li>
-          <b>Visual content:</b> The website has a large amount of visual content,
-          including high-quality images and videos, which makes it easy to browse
-          and engage with.
-        </li>
-        <li>
-          <b>Sleek design:</b> The UI of the Dezeen website is visually appealing
-          and has a modern, sleek design that reflects the website's focus on design
-          and aesthetics.
-        </li>
-        <li>
-          <b> User-generated content:</b> Dezeen allows users to submit their own
-          projects and ideas, which encourages participation and engagement and adds
-          to the website's overall content diversity.
-        </li>
+        <Trans i18nKey={"shapespace.research.competitors.dezeen.strengths"}>
+          <li>
+            <b>Engaging content:</b> The articles on Dezeen are well-written and
+            informative, with a good mix of news, features, and opinion pieces. This
+            makes it an engaging and interesting read for anyone interested in architecture
+            and design.
+          </li>
+          <li>
+            <b>Visual content:</b> The website has a large amount of visual content,
+            including high-quality images and videos, which makes it easy to browse
+            and engage with.
+          </li>
+          <li>
+            <b>Sleek design:</b> The UI of the Dezeen website is visually appealing
+            and has a modern, sleek design that reflects the website's focus on design
+            and aesthetics.
+          </li>
+          <li>
+            <b> User-generated content:</b> Dezeen allows users to submit their own
+            projects and ideas, which encourages participation and engagement and
+            adds to the website's overall content diversity.
+          </li>
+        </Trans>
       </ul>
-      <p class="font-bold">Weaknesses</p>
+      <p class="font-bold">{t("cases.weaknesses")}</p>
       <ul>
-        <li>
-          <b> Limited search options:</b> The search function on the website is basic
-          and doesn't always produce accurate results, which can make it difficult
-          for users to find specific content.
-        </li>
-        <li>
-          <b> Inconsistent layout:</b> The layout of the website can vary from page
-          to page, which can be confusing for users and make it harder to navigate.
-        </li>
-        <li>
-          <b> Cluttered homepage:</b> While the website's homepage has a lot of content,
-          it can sometimes feel cluttered and overwhelming, which can make it difficult
-          for users to find what they're looking for.
-        </li>
+        <Trans i18nKey={"shapespace.research.competitors.dezeen.weaknesses"}>
+          <li>
+            <b> Limited search options:</b> The search function on the website is
+            basic and doesn't always produce accurate results, which can make it
+            difficult for users to find specific content.
+          </li>
+          <li>
+            <b> Inconsistent layout:</b> The layout of the website can vary from
+            page to page, which can be confusing for users and make it harder to
+            navigate.
+          </li>
+          <li>
+            <b> Cluttered homepage:</b> While the website's homepage has a lot of
+            content, it can sometimes feel cluttered and overwhelming, which can
+            make it difficult for users to find what they're looking for.
+          </li>
+        </Trans>
       </ul>
     </TextImage>
     <TextImage
@@ -190,61 +161,59 @@ const image = {
       src={designboom}
       alt="Designboom website screenshots"
     >
-      <p>
-        Founded in 1999, designboom is the first and most popular digital
-        magazine focusing on architecture and design. It publishes daily content
-        ranging from videos to news, analysis, and trends. It is ideal for
-        professionals and creatives.
-      </p>
+      <p>{t("shapespace.research.competitors.designBoom.introduction")}</p>
+      <p class="font-bold">{t("cases.strengths")}</p>
       <ul>
-        <p class="font-bold">Strengths</p>
-        <li>
-          <b>Strong visual identity:</b> Designboom has a strong visual identity
-          that is consistent throughout the website. The use of color, typography,
-          and imagery creates a cohesive and memorable design that is easily recognizable.
-        </li>
-        <li>
-          <b>Interactive and engaging content:</b> website features a range of interactive
-          and engaging content, such as videos, animations, and interactive features.
-          This helps to create a more dynamic and interesting user experience.
-        </li>
-        <li>
-          <b>Clear calls-to-action:</b> Designboom's website features clear calls-to-action,
-          which make it easier for users to complete tasks and engage with the website's
-          content. Buttons, links, and other elements are clearly labeled and easy
-          to understand.
-        </li>
-        <li>
-          <b> Consistent layout:</b> Designboom's website uses a consistent layout
-          throughout, which makes it easier for users to navigate and understand
-          the content. The placement of menus, links, and other elements is consistent
-          across pages, which reduces confusion and makes it easier for users to
-          find what they're looking for
-        </li>
+        <Trans i18nKey={"shapespace.research.competitors.designboom.strengths"}>
+          <li>
+            <b>Strong visual identity:</b> Designboom has a strong visual identity
+            that is consistent throughout the website. The use of color, typography,
+            and imagery creates a cohesive and memorable design that is easily recognizable.
+          </li>
+          <li>
+            <b>Interactive and engaging content:</b> website features a range of
+            interactive and engaging content, such as videos, animations, and interactive
+            features. This helps to create a more dynamic and interesting user experience.
+          </li>
+          <li>
+            <b>Clear calls-to-action:</b> Designboom's website features clear calls-to-action,
+            which make it easier for users to complete tasks and engage with the
+            website's content. Buttons, links, and other elements are clearly labeled
+            and easy to understand.
+          </li>
+          <li>
+            <b> Consistent layout:</b> Designboom's website uses a consistent layout
+            throughout, which makes it easier for users to navigate and understand
+            the content. The placement of menus, links, and other elements is consistent
+            across pages, which reduces confusion and makes it easier for users to
+            find what they're looking for
+          </li>
+        </Trans>
       </ul>
-
-      <p class="font-bold">Weaknesses</p>
+      <p class="font-bold">{t("cases.weaknesses")}</p>
       <ul>
-        <li>
-          <b>Limited use of visual aids:</b> While Designboom's website does feature
-          some visual aids such as images and videos, it could benefit from the use
-          of more icons, infographics, and other visual aids to help break up large
-          blocks of text and make information easier to understand.
-        </li>
-
-        <li>
-          <b>Lack of contrast</b> Some pages on Designboom's website can lack contrast,
-          which can make it more difficult for users to read and understand the content.
-          For example, text that is displayed on top of an image may be difficult
-          to read if the colors are not sufficiently contrasting.
-        </li>
-
-        <li>
-          <b> Limited use of animation:</b> While Designboom's website does feature
-          some animations and interactive elements, it could benefit from the use
-          of more animations and other dynamic elements. This would help to create
-          a more engaging and interesting user experience.
-        </li>
+        <Trans
+          i18nKey={"shapespace.research.competitors.designboom.weaknesses"}
+        >
+          <li>
+            <b>Limited use of visual aids:</b> While Designboom's website does feature
+            some visual aids such as images and videos, it could benefit from the
+            use of more icons, infographics, and other visual aids to help break
+            up large blocks of text and make information easier to understand.
+          </li>
+          <li>
+            <b>Lack of contrast</b> Some pages on Designboom's website can lack contrast,
+            which can make it more difficult for users to read and understand the
+            content. For example, text that is displayed on top of an image may be
+            difficult to read if the colors are not sufficiently contrasting.
+          </li>
+          <li>
+            <b> Limited use of animation:</b> While Designboom's website does feature
+            some animations and interactive elements, it could benefit from the use
+            of more animations and other dynamic elements. This would help to create
+            a more engaging and interesting user experience.
+          </li>
+        </Trans>
       </ul>
     </TextImage>
     <TextImage
@@ -253,95 +222,75 @@ const image = {
       alt="Ignant website screenshots"
       reverse={true}
     >
-      <p>
-        IGNANT is an award-winning online digital magazine covering the most
-        important developments in the world of art, design, photography,
-        tourism, and architecture. It is a great source for visual references.
-      </p>
+      <p>{t("shapespace.research.competitors.ignant.introduction")}</p>
+      <p class="font-bold">{t("cases.strengths")}</p>
       <ul>
-        <p class="font-bold">Strengths</p>
-        <li>
-          <b>Creative and visually appealing:</b> Ignant's use of creative and visually
-          appealing layouts and typography is another strength. The website's design
-          is unique and interesting, and the typography is well-chosen and easy to
-          read. This helps to create a positive user experience and a sense of brand
-          identity.
-        </li>
-        <li>
-          <b>Consistent branding:</b> Design language and branding is consistent
-          across their website and social media channels. This creates a cohesive
-          brand identity that is easy to recognize and reinforces their position
-          as an authority in the architecture and design industry.
-        </li>
-        <li>
-          <b>Effective use of white space:</b> This website makes effective use of
-          white space, which helps to create a clean and organized visual aesthetic.
-          This is important because it makes the content easier to read and navigate,
-          and can help to reduce user fatigue. Additionally, the use of white space
-          can draw attention to important elements on the page and make them stand
-          out.
-        </li>
-        <li>
-          <b> Engaging storytelling:</b> Editorial content features engaging storytelling
-          that draws users in and keeps them interested. This is important because
-          it helps to keep users on the website longer and encourages them to come
-          back for more content.
-        </li>
+        <Trans i18nKey={"shapespace.research.competitors.ignant.strengths"}>
+          <li>
+            <b>Creative and visually appealing:</b> Ignant's use of creative and
+            visually appealing layouts and typography is another strength. The website's
+            design is unique and interesting, and the typography is well-chosen and
+            easy to read. This helps to create a positive user experience and a sense
+            of brand identity.
+          </li>
+          <li>
+            <b>Consistent branding:</b> Design language and branding is consistent
+            across their website and social media channels. This creates a cohesive
+            brand identity that is easy to recognize and reinforces their position
+            as an authority in the architecture and design industry.
+          </li>
+          <li>
+            <b>Effective use of white space:</b> This website makes effective use
+            of white space, which helps to create a clean and organized visual aesthetic.
+            This is important because it makes the content easier to read and navigate,
+            and can help to reduce user fatigue. Additionally, the use of white space
+            can draw attention to important elements on the page and make them stand
+            out.
+          </li>
+          <li>
+            <b> Engaging storytelling:</b> Editorial content features engaging storytelling
+            that draws users in and keeps them interested. This is important because
+            it helps to keep users on the website longer and encourages them to come
+            back for more content.
+          </li>
+        </Trans>
       </ul>
-      <p class="font-bold">Weaknesses</p>
+      <p class="font-bold">{t("cases.weaknesses")}</p>
       <ul>
-        <li>
-          <b>Lack of interactivity and animation:</b> While Ignant's website has
-          a visually appealing design, it lacks interactivity and animation. This
-          can make the website feel static and unengaging for users, particularly
-          those who are used to more interactive or animated websites.
-        </li>
-        <li>
-          <b>Slow loading times:</b> Ignant's website can sometimes have slow loading
-          times, particularly for larger images or videos. This can be frustrating
-          for users and can negatively impact the user experience.
-        </li>
-        <li>
-          <b> Inconsistent use of color and hierarchy:</b> Ignant's website has a
-          visually appealing color scheme, the colors are not always used consistently
-          throughout the website. This can make it more difficult for users to understand
-          the website's hierarchy and navigate to important pages or actions.
-        </li>
+        <Trans i18nKey={"shapespace.research.competitors.ignant.weaknesses"}>
+          <li>
+            <b>Lack of interactivity and animation:</b> While Ignant's website has
+            a visually appealing design, it lacks interactivity and animation. This
+            can make the website feel static and unengaging for users, particularly
+            those who are used to more interactive or animated websites.
+          </li>
+          <li>
+            <b>Slow loading times:</b> Ignant's website can sometimes have slow loading
+            times, particularly for larger images or videos. This can be frustrating
+            for users and can negatively impact the user experience.
+          </li>
+          <li>
+            <b> Inconsistent use of color and hierarchy:</b> Ignant's website has
+            a visually appealing color scheme, the colors are not always used consistently
+            throughout the website. This can make it more difficult for users to
+            understand the website's hierarchy and navigate to important pages or
+            actions.
+          </li>
+        </Trans>
       </ul>
     </TextImage>
     <article class="prose lg:prose-xl max-w-none">
-      <header><h2>User persona</h2></header>
-      <h3>Nice to meet you, I am your user</h3>
-      <p>
-        In the context of architectural blog website UI design, it is essential
-        to understand the needs and behaviors of the target audience, which
-        often includes architects, architecture students, and design
-        professionals. By creating user personas that represent these different
-        types of users, designers can gain valuable insights into their goals,
-        preferences, and pain points. For example, architects like David may be
-        looking for new design concepts and ideas, while architecture students
-        like Sarah may be seeking learning resources to improve their design
-        skills. Design professionals like Maria may be looking for in-depth
-        information and analysis to inspire their projects. By understanding the
-        needs and behaviors of these users, designers can create a user-centered
-        design that effectively meets their needs and expectations.
-      </p>
+      <header><h2>{t("cases.userPersonas")}</h2></header>
+      <h3>{t("shapespace.research.userPersonas.subTitle")}</h3>
+      <p>{t("shapespace.research.userPersonas.text")}</p>
       <Image src={Personas_SS_1} alt="Persona Sarah of the shapespace design" />
       <Image src={Personas_SS_2} alt="Persona David of the shapespace design" />
       <Image src={Personas_SS_3} alt="Persona Maria of the shapespace design" />
     </article>
     <article class="prose lg:prose-xl max-w-none">
-      <header><h2>Site map</h2></header>
-      <h3>Unlocking the secret path</h3>
-      <p>
-        In this section, I would like to present the sitemap Shockwave festival.
-        The sitemap provides a visual representation of the website’s structure,
-        showing the hierarchy of pages and how they relate to each other. This
-        helps to understand the flow of the website and ensure that users can
-        easily navigate to the content they are interested in. By analyzing the
-        sitemap, I could identify areas for improvement and ensure that the
-        website meets the needs of our target audience.
-      </p>
+      <header><h2>{t("cases.siteMap")}</h2></header>
+      <h3>{t("shapespace.research.siteMap.title")}</h3>
+      <p>{t("shapespace.research.siteMap.text")}</p>
       <Image src={sitemap_ShapeSpace} alt="Sitemap of the shapespace design" />
     </article>
   </section>
