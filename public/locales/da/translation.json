@@ -184,13 +184,13 @@
         "subTitle": "At navigere festivaloplevelsen",
         "text": "Task flow-sektionen på Shockwave hjemmesiden blev designet med brugerne i tankerne. Fra forskningen forstod jeg, at festivaldeltagerne ønsker hurtig og nem adgang til oplysninger om lineup, tidsplan og placeringer af forskellige scener. For at imødekomme dette behov har jeg skabt en opgavestrøm, der viser brugernes interaktion med webstedet med lethed og effektivitet. I denne sektion af casestudiet vil jeg udforske trinnene for to forskellige typer brugere: Lisa - den erfarne bruger og Alex - den nye bruger. At udforske adfærd hos brugere, der er på forskellige niveauer af kendskab til webstedet, er afgørende for en brugercentreret grænseflade.",
 
-        "Lisa": {
+        "lisa": {
           "title": "Lisa - den erfarne bruger",
           "text1": "<0><1>Lisa ankommer til hjemmesiden. 'Hero'-sektionen giver en hurtig oversigt over dato og sted for begivenheden.</1><2>Lisa scroller ned på siden for at finde afsnittet med 'Topartister', der optræder.</2><3>Lisa klikker på knappen 'Se mere', som fører hende til 'Artister'-siden, hvor der er flere detaljer om tidsplanen og optrædende.</3></0>",
           "text2": "<0><1>Lisa finder den ønskede kunstner i lineup'en og klikker på billedet, hvilket åbner et overlay-vindue.</1><2>Dette overlay-vindue giver mere detaljerede oplysninger om den valgte kunstner, såsom biografi, links til sociale medier, musikafspiller samt dato og tidspunkt for optræden for nem adgang.</2><3>Når Lisa har valgt sin foretrukne kunstner og datoer, går hun videre til afsnittet med billettilbud.</3><4>Den detaljerede tidsplan, opdelt efter dage, tidspunkter og scener, giver et let overblik over hver festivaldag.</4><5>Efter at have gennemgået tilbudene og valgt det mest interessante, klikker Lisa på knappen 'Køb billet' og fuldfører sin proces ved at købe billetten.</5></0><p>Erfarne brugere som Lisa vil ikke besøge hver eneste side på webstedet, da de har tidligere kendskab til begivenheden og er fortrolige med både webstedet og begivenheden.</p>"
         },
 
-        "Alex": {
+        "alex": {
           "title": "Alex - den nye bruger",
           "text1": "<0><1>Alex ankommer først til hjemmesiden. 'Hero'-sektionen giver en hurtig oversigt over dato og sted for begivenheden.</1><2>Da Alex er en ny bruger og ikke er bekendt med begivenheden, søger han først viden om begivenheden. Derfor klikker Alex på 'Om' i navigationsmenuen for at besøge siden, der giver en oversigt over begivenheden.</2></0>",
           "text2": "<0><1>Som en ny bruger ønsker Alex at læse om værdier, historie og ikke mindst erfaringer fra tidligere besøgende. Alex kan også have lyst til at se, hvem der optrådte tidligere år. Alle disse oplysninger hjælper Alex med at opbygge tillid til begivenheden og føle sig tryg nok til at søge oplysninger om lineup'en.</1><2>Efter at have klikket på knappen under arkivet over tidligere kunstnere, bliver Alex omdirigeret til 'Artister'-siden.</2></0>",
@@ -210,7 +210,7 @@
     "design": {
       "introductionText": "Designprocessen er den endelige fase af oprettelsen af Shockwave-hjemmesiden. Denne sektion opsummerer det endelige resultat. Ved at følge en struktureret proces var jeg i stand til at skabe et brugercentreret designforslag til Shockwave, der imødekommer brugernes behov og forventninger",
       "goalsHeading": "Designmål",
-      "goals": "At skabe en engagerende og brugervenlig oplevelse</0><1>At effektivt kommunikere vigtig information om festivalen (lineup, tidsplan, billetinformation)</1><2>At tilbyde en problemfri og intuitiv navigation</2><3>At optimere hjemmesiden til forskellige enheder og platforme for at sikre en ensartet oplevelse for alle brugere.</3>",
+      "goals": "<0>At skabe en engagerende og brugervenlig oplevelse</0><1>At effektivt kommunikere vigtig information om festivalen (lineup, tidsplan, billetinformation)</1><2>At tilbyde en problemfri og intuitiv navigation</2><3>At optimere hjemmesiden til forskellige enheder og platforme for at sikre en ensartet oplevelse for alle brugere.</3>",
 
       "designSystem": {
         "subTitle": "Fra kaos til klarhed",
