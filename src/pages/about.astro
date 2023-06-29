@@ -14,8 +14,8 @@ changeLanguage("en");
 const title = t("about.title");
 const description = t("about.description");
 const image = {
-    url: "/assets/ogaboutpage.png",
-    alt: t("about.hero"),
+  url: "/assets/ogaboutpage.png",
+  alt: t("about.hero"),
 };
 ---
 
@@ -149,6 +149,13 @@ const image = {
             {t("about.aboutMe.experience.skillsTitle")}
           </h2>
         </header>
+        <Experience
+          job={t("about.aboutMe.experience.webKonceptJob")}
+          company="Web-Koncept"
+          points={[t("about.aboutMe.experience.webKonceptPoint1")]}
+          tools={t("about.aboutMe.experience.webKonceptKeyWords")}
+        />
+
         <Experience
           job={t("about.aboutMe.experience.internetZoosJob")}
           company="InternetZoo"

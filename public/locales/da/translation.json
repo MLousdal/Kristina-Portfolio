@@ -22,7 +22,7 @@
     "aboutMe": {
       "preTitle": "Om mig ",
       "passionTitle": "En lidenskab afsløret.",
-      "passionText": "Min designrejse startede i 2017 med min første forelæsning om grafisk design på en slovakisk gymnasium. Den fortsatte gennem mine studier i Design, Teknologi og Business på UCN. I løbet af denne tid arbejdede jeg også som grafisk designer for et trykkeri, hvilket var en uvurderlig mulighed, der tillod mig at teste mine friske teoretiske kundskaber i virkeligheden. På trods af min dybe passion for trykte medier, førte disse værdifulde oplevelser i grafisk designfeltet mig til erkendelsen af, at min sande lidenskab ligger inden for UI-design.",
+      "passionText": "Min rejse begyndte i 2017 med min første forelæsning om grafisk design på en slovakisk gymnasium. Jeg fortsatte mine studier inden for Design, Teknologi og Business på UCN. I løbet af denne tid arbejdede jeg også som grafisk designer for et trykkeri, hvilket var en uvurderlig mulighed, der tillod mig at teste min friske teoretiske viden i virkeligheden. På trods af min dybe passion for trykte medier førte disse værdifulde erfaringer inden for grafisk design mig til erkendelsen af, at min sande passion ligger inden for UI-design..",
       "buildingTitle": "Opbygning af mine UI-færdigheder en kursus og en kage ad gangen",
       "buildingText": "Min uddannelse og erfaring som grafisk designer har givet mig en solid grund, især inden for farveteori, skrifttyper, visuel hierarki, komposition og layout. I de seneste måneder har jeg udvidet min viden om UI-regler og principper gennem onlinekurser og ved at anvende teoretisk viden på personlige projekter. I min fritid kan du finde mig med en bog, bage lækre kager eller prøve at slå mine personlige rekorder i fitnesscentret.",
       "skills": {
@@ -52,21 +52,29 @@
       "experience": {
         "preTitle": "Erfaring",
         "skillsTitle": "Erhvervserfaring",
+
+        "webKonceptJob": "WEB DESIGNER",
+        "webKonceptPoint1": "Jeg skabte interne grafiske designmaterialer som stillingsopslagsflyers, vægsticker og salgsmaterialer til Web-koncept. Mit primære fokus var at opretholde virksomhedens etablerede visuelle identitet på tværs af forskellige målgrupper.",
+        "webKonceptKeyWords": "Figma | InDesign | Illustrator",
+
         "internetZoosJob": "WEB DESIGNER",
-        "internetZooPoint1": "Front-end og opbygning af hjemmesider vha. CMS",
-        "internetZooPoint2": "Opsætning af nye og redesign af gamle kampagner i virksomhedens CMS",
-        "internetZooPoint3": "SoMe materialer til eksisterende og kommende kampagne",
+        "internetZooPoint1": "I min rolle håndterede jeg designprocessen, hvor jeg skabte nye kampagner og fornyede eksisterende. Ved at være involveret i både design- og udviklingsfaserne opnåede jeg en dybere forståelse af forholdet mellem designeren og udvikleren og lærte af mine fejl under udviklingsprocessen.",
+        "internetZooPoint2": "Jeg deltog aktivt i front-end webudviklingsopgaver og fik praktisk erfaring med forskellige content management systems (CMS). Ved hjælp af HTML og CSS skabte jeg visuelt appellerende og brugervenlige webgrænseflader.",
+        "internetZooPoint3": "Jeg skabte sociale mediematerialer til at promovere kampagner online. Jeg holdt mig i kontakt med kolleger og min supervisor gennem Slack og Jira, hvilket gjorde det nemt at præsentere ændringer og fremskridt.",
         "internetZooKeyWords": "HTML | CSS | Photoshop | Figma | InDesign | Jira | CMS",
+
         "straxSkilteJob": "GRAFISK DESIGNER",
-        "straxSkiltePoint1": "Menukort til antal restaurant i Nordjylland",
-        "straxSkiltePoint2": "Salgsfremmende materialer til forskellige virksomheder og formål",
-        "straxSkiltePoint3": "Oprettelse og genskabelse af visuelle identiteter for forskellige typer virksomheder",
+        "straxSkiltePoint1": "At være i en lille familievirksomhed gav mig mulighed for at opleve alle trin i DTP-produktionen. Fra at møde kunder, skitsere og revidere designs til at forberede den endelige godkendte version til efterproduktion. Jeg betjente printere og arbejdede med forskellige materialer egnet til forskellige overflader.",
+        "straxSkiltePoint2": "Jeg designede menukort til en række restauranter i Nordjylland, hvilket hjalp mig med at mestre InDesign. Jeg skabte også reklamematerialer til forskellige virksomheder og arbejdede med at skabe og genskabe visuelle identiteter.",
+        "straxSkiltePoint3": "Dækker et bredt spektrum af DTP-resultater såsom trykte materialer, digitale publikationer og billedredigering for virksomheder i forskellige udviklingsfaser og størrelser.",
         "straxSkilteoKeyWords": "InDesign | Illustrator | Photoshop | Printere",
+
         "museumJob": "GRAFISK DESIGNER",
-        "museumPoint1": "Oprettelse af trykt materiale til hver udstilling, for besøgende, der valgte ikke-guidet tur",
-        "museumPoint2": "Visuel side af udstillinger - print på vægge eller som baggrund for hver udstilling",
-        "museumPoint3": "Salgsfremmende materialer til uddelinger på forskellige steder for at udbrede kendskabet til museet",
+        "museumPoint1": "Designet trykt materiale til besøgende på selvstyrede udstillinger, der giver væsentlig information om udstillingens indhold som supplement til guidede ture.",
+        "museumPoint2": "Den visuelle side af udstillingerne omfattede design på væggene og baggrunden for hver udstilling. Derudover arbejdede jeg også med stort medie i stor størrelse, som blev brugt som baggrund for udendørs teaterforestillinger.",
+        "museumPoint3": "For at nå forskellige besøgende på et regionalt museum var omfattende kommunikation på forskellige kanaler afgørende. Dette inkluderede digital medie til den yngre generation og traditionelle metoder som avisannoncer og flyers til den ældre generation. Min rolle var at sikre omfattende dækning af disse kommunikationskanaler.",
         "museumKeyWords": "InDesign | Illustrator | Photoshop | Printers",
+
         "reproJob": "GRAFISK DESIGNER",
         "reproPoint1": "Plakater, visitkort, udendørs displays, magasiner og mange mere.",
         "reproPoint2": "Kontakt med kunder, mens de udfylder ordren",

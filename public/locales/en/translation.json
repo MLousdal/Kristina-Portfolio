@@ -22,7 +22,7 @@
     "aboutMe": {
       "preTitle": "About me",
       "passionTitle": "A passion uncovered",
-      "passionText": "My journey started in 2017 with my first lecture on graphic design at a Slovak high school, continued through my studies of Design, Technology, and Business at UCN. During this time, I also worked as a graphic designer for a printing house, which was a priceless opportunity, that allowed me to put my fresh theoretical knowledge under the test in the real life. Despite my deep passion for printed media, these valuable experiences in the graphic design field led me to realization that my true passion lies within UI design",
+      "passionText": "In 2017, my graphic design journey began with my first lecture at a Slovak high school. I further pursued my studies in Design, Technology, and Business at UCN. Simultaneously, I worked as a graphic designer for a printing house, which provided me with invaluable real-life testing grounds for my theoretical knowledge. While my passion for printed media persisted, these experiences in the graphic design field led me to discover my true passion for UI design.",
       "buildingTitle": "Building my UI skills one course and cake at a time",
       "buildingText": "My education and experience as a graphic designer have provided me a solid foundation, especially in color theory, fonts, visual hierarchy, composition, and layouts. In the past few months, I have expanded my knowledge of UI rules and principles through online courses and by applying theoretical knowledge to personal projects. During my free time, you can find me reading a book, baking delicious cakes, or trying to beat my personal records the gym.",
       "skills": {
@@ -52,21 +52,30 @@
       "experience": {
         "preTitle": "Experience",
         "skillsTitle": "Working experience",
+
+        "webKonceptJob": "WEB DESIGNER",
+        "webKonceptPoint1": "I created internal graphic design materials like job posting flyers, wall stickers, and sales materials for Web-koncept. My main focus was maintaining the company's established visual identity across different target audiences.",
+        "webKonceptKeyWords": "Figma | InDesign | Illustrator",
+
         "internetZoosJob": "WEB DESIGNER",
-        "internetZooPoint1": "Front-end and building of websites using CMS",
-        "internetZooPoint2": "Setting up new and redesigning old campaigns in company’s CMS",
-        "internetZooPoint3": "SoMe materials for existing and upcoming campaigns",
+        "internetZooPoint1": "In my role, I handled the design process, envisioning new campaigns and revamping existing ones. By being involved in both design and basic development stages, I gained a deeper understanding of the designer-developer relationship and learned from my mistakes during the development process.",
+        "internetZooPoint2": "I actively participated in front-end web development tasks, gaining hands-on experience with different content management systems (CMS). Using HTML and CSS, I created visually appealing and user-friendly web interfaces.",
+        "internetZooPoint3": "I created social media materials to promote campaigns online. I stayed connected with colleagues and my supervisor through Slack and Jira, making it easy to showcase changes and progress.",
         "internetZooKeyWords": "HTML | CSS | Photoshop | Figma | InDesign | Jira | CMS",
+
         "straxSkilteJob": "GRAPHIC DESIGNER",
-        "straxSkiltePoint1": "Menu cards for number of restaurant in North Jutland",
-        "straxSkiltePoint2": "Promotional materials for various businesses and purposes",
-        "straxSkiltePoint3": "Creating and recreating visual identities for different types of businesses",
+        "straxSkiltePoint1": "Being in a small family business allowed me to experience every step of DTP production. From meeting clients, sketching and revising designs, to preparing the final approved version for post-production. I operated printers and worked with various materials suitable for different surfaces.",
+        "straxSkiltePoint2": "I designed menu cards for a variety of restaurants in North Jutland, which helped me master InDesign. I also created promotional materials for different businesses and worked on creating and recreating visual identities.",
+        "straxSkiltePoint3": "Covering a wide range of DTP outcomes such as printed materials, digital publications and image editing for businesses in various stages of development and sizes. ",
         "straxSkilteoKeyWords": "InDesign | Illustrator | Photoshop | Printers",
+
         "museumJob": "GRAPHIC DESIGNER",
-        "museumPoint1": "Creating printed material for each exhibition, for visitors who chose not-guided tour",
-        "museumPoint2": "Visual side of exhibitions - print on walls or as a background of each display",
-        "museumPoint3": "Promotional materials for handouts at various location to spread awareness about museum",
+        "museumPoint1": "Designed printed materials for self-guided exhibition visitors, providing essential information about exhibition contents as a supplement to guided tours.",
+        "museumPoint2": "The exhibition's visual elements included wall and background designs for each display. Additionally, I worked with large-sized media used as backdrops for outdoor theater performances.",
+        "museumPoint3": "To cater to diverse visitors at a regional museum, comprehensive communication across multiple channels was crucial. This entailed utilizing digital media for younger audiences and traditional methods like newspaper ads and flyers for older generations. My role involved ensuring comprehensive coverage across these communication channels.",
+
         "museumKeyWords": "InDesign | Illustrator | Photoshop | Printers",
+
         "reproJob": "GRAPHIC DESIGNER",
         "reproPoint1": "Posters, business cards, outdoor displays, magazines etc",
         "reproPoint2": "Contact with customers as they fill the order",
