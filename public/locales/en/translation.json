@@ -57,6 +57,11 @@
         "webKonceptPoint1": "I created internal graphic design materials like job posting flyers, wall stickers, and sales materials for Web-koncept. My main focus was maintaining the company's established visual identity across different target audiences.",
         "webKonceptKeyWords": "Figma | InDesign | Illustrator",
 
+        "rcaJob": "UPSKILLING COURSE",
+        "rcaPoint1": "Job search can be a very daunting and lonely task, therefore being presented with the opportunity to be part of an intensive job-oriented course at RCA was more than welcomed. ",
+        "rcaoint2": "The main focus point was to practice speaking and understanding danish in the professional environment together with the work in the course’s IT workshop, where I trained relevant qualifications and gained insight into the value I create for companies",
+        "rcaWords": "Skills development | Language training | IT - workshop",
+
         "internetZoosJob": "WEB DESIGNER",
         "internetZooPoint1": "In my role, I handled the design process, envisioning new campaigns and revamping existing ones. By being involved in both design and basic development stages, I gained a deeper understanding of the designer-developer relationship and learned from my mistakes during the development process.",
         "internetZooPoint2": "I actively participated in front-end web development tasks, gaining hands-on experience with different content management systems (CMS). Using HTML and CSS, I created visually appealing and user-friendly web interfaces.",
@@ -64,23 +69,48 @@
         "internetZooKeyWords": "HTML | CSS | Photoshop | Figma | InDesign | Jira | CMS",
 
         "straxSkilteJob": "GRAPHIC DESIGNER",
-        "straxSkiltePoint1": "Being in a small family business allowed me to experience every step of DTP production. From meeting clients, sketching and revising designs, to preparing the final approved version for post-production. I operated printers and worked with various materials suitable for different surfaces.",
-        "straxSkiltePoint2": "I designed menu cards for a variety of restaurants in North Jutland, which helped me master InDesign. I also created promotional materials for different businesses and worked on creating and recreating visual identities.",
+        "straxSkilteuPoint1": "Being in a small family business allowed me to experience every step of DTP production. From meeting clients, sketching and revising designs, to preparing the final approved version for post-production. I operated printers and worked with various materials suitable for different surfaces.",
+        "straxSkilteuPoint2": "I designed menu cards for a variety of restaurants in North Jutland, which helped me master InDesign. I also created promotional materials for different businesses and worked on creating and recreating visual identities.",
         "straxSkiltePoint3": "Covering a wide range of DTP outcomes such as printed materials, digital publications and image editing for businesses in various stages of development and sizes. ",
-        "straxSkilteoKeyWords": "InDesign | Illustrator | Photoshop | Printers",
+        "straxSkilteKeyWords": "InDesign | Illustrator | Photoshop | Printers",
+
+        "televinduJob": "GRAPHIC DESIGNER",
+        "televinduPoint1": "Despite the fact, that my as intern time at Televindu, wasn’t my first internship experience, in many ways it resembled of “the first time experience”, as it was my debut at international company but most importantly back in the day of my internship Televindu was very new startup. ",
+        "teæevinduPoint2": "The core of my tasks was to develop a visual identity of the company. The company possessed a logo, colors, font and set of most basic guidelines which created a baseline framework on which I was able to build up more complex materials with the team of my classmates, under the thorough supervision. ",
+        "televinduKeyWords": "Startup | Brand identity development | Marketing | InDesign | Illustrator ",
 
         "museumJob": "GRAPHIC DESIGNER",
         "museumPoint1": "Designed printed materials for self-guided exhibition visitors, providing essential information about exhibition contents as a supplement to guided tours.",
         "museumPoint2": "The exhibition's visual elements included wall and background designs for each display. Additionally, I worked with large-sized media used as backdrops for outdoor theater performances.",
         "museumPoint3": "To cater to diverse visitors at a regional museum, comprehensive communication across multiple channels was crucial. This entailed utilizing digital media for younger audiences and traditional methods like newspaper ads and flyers for older generations. My role involved ensuring comprehensive coverage across these communication channels.",
-
         "museumKeyWords": "InDesign | Illustrator | Photoshop | Printers",
+
+        "faxCopyJob": "GRAPHIC DESIGNER",
+        "faxCopyPoint1": "I was lucky enough that my high school in Slovakia had very individual approach to students and even thought internship in 4th year of school was supposed to be within the hotel management I was granted exception to seek internship within graphic design as it was the area I was planning on pursuing further education in. ",
+        "faxCopyPoint2": "In this popular stationery shop in Slovakia, I was under the mentorship of a graphic designer who guided me through a fast-paced working environment where every second counts as customers literally pay for every minute of the work. ",
+        "faxCopyKeyWords": "Customer care | Sales | DTP | Illustrator",
 
         "reproJob": "GRAPHIC DESIGNER",
         "reproPoint1": "Posters, business cards, outdoor displays, magazines etc",
         "reproPoint2": "Contact with customers as they fill the order",
         "reproPoint3": "Finalising the orders using plotters, lasers or unconventional sized printers",
         "reproKeyWords": "InDesign | Illustrator | Photoshop | Printers | Plotters | Lasers"
+      },
+
+      "education": {
+        "preTitle": "Education",
+
+        "halmEducation": "Marketing worker in tourism",
+        "halmPoint1": "Framework of this study program consisted of marketing, management and tourism related subjects. During the 4 years of this program I was able to gain thorough understanding of customer care, marketing and management strategies, accounting as well as IT practices and basic graphic design principles. ",
+        "halmPoint2": "Final exam at this school simulate the experience of working in the marketing agency collaborating with the client - restaurant, from the early stages of developing the visual identity up to the day of the opening and serving actual customers. ",
+        "halmPoint3": "As a graduate, I am able to apply my theoretical but also practical knowledge in various marketing, management and HR departments. ",
+        "halmKeyWords": "Marketing | Management | Graphic design| Tourism",
+
+        "ucnEducation": "Design, technology and business",
+        "ucnPoint1": "Development of sustainable graphic-design solutions, addressing specific issues while considering trends, markets, and target groups.",
+        "ucnPoint2": "Comprehensive exploration of design processes, including project management, composition, design principles, typography, and aesthetic devices for graphical production.",
+        "ucnPoint3": "Engaging in mono- and multidisciplinary cooperation with relevant parties to plan and execute development-oriented design processes from idea to finished products.",
+        "ucnKeyWords": "Communication | Vizualization | Concept development | Project management"
       }
     }
   },

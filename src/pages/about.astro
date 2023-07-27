@@ -176,6 +176,7 @@ const image = {
           ]}
           tools={t("about.aboutMe.experience.straxSkilteoKeyWords")}
         />
+
         <Experience
           job={t("about.aboutMe.experience.museumJob")}
           company="Museum of Janko Kral (Slovakia)"
@@ -195,6 +196,29 @@ const image = {
             t("about.aboutMe.experience.reproPoint3"),
           ]}
           tools={t("about.aboutMe.experience.reproKeyWords")}
+        />
+      </article>
+    </section>
+
+    <section class="container">
+      <header class="max-w-none lg:max-w-screen-md mx-auto mb-4">
+        <h2
+          class="text-xl md:text-2xl lg:text-5xl font-bold text-secondary-400"
+        >
+          {t("about.aboutMe.experience.preTitle")}
+        </h2>
+      </header>
+      <article class="max-w-none lg:max-w-screen-md mx-auto">
+        <header>
+          <h2 class="font-bold text-4xl">
+            {t("about.aboutMe.experience.skillsTitle")}
+          </h2>
+        </header>
+        <Experience
+          job={t("about.aboutMe.experience.webKonceptJob")}
+          company="Web-Koncept"
+          points={[t("about.aboutMe.experience.webKonceptPoint1")]}
+          tools={t("about.aboutMe.experience.webKonceptKeyWords")}
         />
         <footer class="block">
           <a
