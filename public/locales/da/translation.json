@@ -58,10 +58,9 @@
         "webKonceptKeyWords": "Figma | InDesign | Illustrator",
 
         "rcaJob": "VEJLEDNING OG OPKVALIFICERING",
-        "rcaPoint1":"Jobsøgning kan være en meget skræmmende og ensom opgave, og derfor var det mere end velkomment at blive præsenteret for muligheden for at blive en del af et intensivt joborienteret kursus hos RCA.",
+        "rcaPoint1": "Jobsøgning kan være en meget skræmmende og ensom opgave, og derfor var det mere end velkomment at blive præsenteret for muligheden for at blive en del af et intensivt joborienteret kursus hos RCA.",
         "rcaoint2": "Hovedfokuspunktet var at øve mig i at tale og forstå dansk i det faglige miljø sammen med arbejdet på kursets IT-værksted, hvor jeg trænede relevante kvalifikationer og fik indsigt i den værdi, jeg skaber for virksomheder.",
         "rcaWords": "Kompetenceudvikling | Sprogtræning | IT - værksted",
-
 
         "internetZoosJob": "WEB DESIGNER",
         "internetZooPoint1": "I min rolle håndterede jeg designprocessen, hvor jeg skabte nye kampagner og fornyede eksisterende. Ved at være involveret i både design- og udviklingsfaserne opnåede jeg en dybere forståelse af forholdet mellem designeren og udvikleren og lærte af mine fejl under udviklingsprocessen.",
@@ -79,7 +78,7 @@
         "televinduPoint1": "På trods af at min praktiktid hos Televindu ikke var min første praktikoplevelse, lignede den på mange måder 'førstegangserfaring', da det var min debut i en international virksomhed, men vigtigst af alt tilbage i min tid. praktik Televindu var meget ny startup.",
         "teæevinduPoint2": "Kernen i mine opgaver var at udvikle en visuel identitet for virksomheden. Virksomheden var i besiddelse af et logo, farver, skrifttype og et sæt af de mest basale retningslinjer, som skabte en basisramme, hvorpå jeg var i stand til at opbygge mere komplekse materialer med holdet af mine klassekammerater under grundigt opsyn.",
         "televinduKeyWords": "Startup | Udvikling af brandidentitet | Markedsføring | InDesign | Illustrator ",
-        
+
         "museumJob": "GRAFISK DESIGNER",
         "museumPoint1": "Designet trykt materiale til besøgende på selvstyrede udstillinger, der giver væsentlig information om udstillingens indhold som supplement til guidede ture.",
         "museumPoint2": "Den visuelle side af udstillingerne omfattede design på væggene og baggrunden for hver udstilling. Derudover arbejdede jeg også med stort medie i stor størrelse, som blev brugt som baggrund for udendørs teaterforestillinger.",
@@ -91,31 +90,26 @@
         "faxCopyPoint2": "I denne populære papirhandel i Slovakiet var jeg under mentorskab af en grafisk designer, der guidede mig gennem et tempofyldt arbejdsmiljø, hvor hvert sekund tæller som kunderne bogstaveligt talt betaler for hvert minut af arbejdet.",
         "faxCopyKeyWords": "Kunderservice | Salg | DTP | Illustrator",
 
-
         "reproJob": "GRAFISK DESIGNER",
         "reproPoint1": "Plakater, visitkort, udendørs displays, magasiner og mange mere.",
         "reproPoint2": "Kontakt med kunder, mens de udfylder ordren",
         "reproPoint3": "Afslutning af ordrer ved hjælp af plottere, lasere eller printere i ukonventionelle størrelser",
         "reproKeyWords": "InDesign | Illustrator | Photoshop | Printere | Plottere | Lasere"
       },
-
-
       "education": {
         "preTitle": "Uddannelse",
-
         "halmEducation": "Markedsføringsmedarbejder inden for turisme",
         "halmPoint1": "Studieprogrammets ramme bestod af fag inden for markedsføring, ledelse og turisme. I løbet af de 4 år på dette program fik jeg en grundig forståelse for kundeservice, marketing- og ledelsesstrategier, regnskab samt IT-praksis og grundlæggende principper inden for grafisk design. ",
         "halmPoint2": "Afsluttende eksamen på denne skole simulerer oplevelsen af at arbejde i marketingbureauet i samarbejde med kunden - restaurant, fra de tidlige stadier af udvikling af den visuelle identitet op til dagen for åbningen og betjening af faktiske kunder.",
         "halmPoint3": "Som færdiguddannet er jeg i stand til at anvende min teoretiske, men også praktiske viden i forskellige marketing-, ledelses- og HR-afdelinger.",
         "halmKeyWords": "Markedsføring | Ledelse | Grafisk design| Turisme",
-
         "ucnEducation": "Designteknolog ",
         "ucnPoint1": "Udvikling af bæredygtige grafiske designløsninger, der adresserer specifikke problemstillinger under hensyntagen til trends, markeder og målgrupper.",
         "ucnPoint2": "Omfattende udforskning af designprocesser, herunder projektledelse, komposition, designprincipper, typografi og æstetiske enheder til grafisk produktion.",
         "ucnPoint3": "Indgå i mono- og multidisciplinært samarbejde med relevante parter for at planlægge og udføre udviklingsorienterede designprocesser fra idé til færdige produkter.",
         "ucnKeyWords": "Kommunikation | Visualisering | Konceptudvikling | Projektledelse"
+      }
     }
-
   },
   "summary": {
     "objectives": "Mål",
