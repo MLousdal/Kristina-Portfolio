@@ -1,6 +1,7 @@
 ---
 import { Trans } from "astro-i18next/components";
 import { changeLanguage, t } from "i18next";
+import { Picture } from "@astrojs/image/components";
 import Master from "../layouts/Master.astro";
 import Image from "../components/Image.astro";
 import Summary from "../components/Summary.astro";
@@ -24,8 +25,8 @@ const title = "Shapespace";
 const description = t("shapespace.description");
 const subTitle = t("shapespace.title");
 const image = {
-  url: "/assets/architecturepreview.png",
-  alt: "Shapespace is a UI design concept proposal for an architecture blog website",
+    url: "/assets/architecturepreview.png",
+    alt: "Shapespace is a UI design concept proposal for an architecture blog website",
 };
 ---
 
@@ -36,7 +37,18 @@ const image = {
       {subTitle}
     </p>
     <div class="my-4 lg:my-6">
-      <Image src={architecturepreview} alt="mockups of the shapespace design" />
+      <Picture
+        src={architecturepreview}
+        alt="mockups of the shapespace design"
+        widths={[200, 400, 800, 1200, 1400]}
+        sizes="((min-width: 50em) and (max-width: 60em)) 50em, ((min-width: 30em) and (max-width: 50em)) 30em, (max-width: 30em) 20em"
+        loading="eager"
+        formats={["avif", "webp", "jpg"]}
+        quality={85}
+        class="w-full"
+        fit="contain"
+        aspectRatio={undefined}
+      />
     </div>
   </header>
   <Summary
@@ -164,7 +176,7 @@ const image = {
       <p>{t("shapespace.research.competitors.designBoom.introduction")}</p>
       <p class="font-bold">{t("cases.strengths")}</p>
       <ul>
-        <Trans i18nKey={"shapespace.research.competitors.designboom.strengths"}>
+        <Trans i18nKey={"shapespace.research.competitors.designBoom.strengths"}>
           <li>
             <b>Strong visual identity:</b> Designboom has a strong visual identity
             that is consistent throughout the website. The use of color, typography,
@@ -193,7 +205,7 @@ const image = {
       <p class="font-bold">{t("cases.weaknesses")}</p>
       <ul>
         <Trans
-          i18nKey={"shapespace.research.competitors.designboom.weaknesses"}
+          i18nKey={"shapespace.research.competitors.designBoom.weaknesses"}
         >
           <li>
             <b>Limited use of visual aids:</b> While Designboom's website does feature

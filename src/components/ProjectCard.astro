@@ -1,5 +1,7 @@
 ---
 import Image from "../components/Image.astro";
+import { localizePath } from "astro-i18next";
+
 interface Props {
   pretitle: string;
   title: string;
@@ -29,6 +31,6 @@ const { pretitle, title, text, src, color, link } = Astro.props;
       </h2>
       <p class="text-lg hidden lg:block">{text}</p>
     </div>
-    <a href={link} class="absolute inset-0" title={pretitle}></a>
+    <a href={localizePath(link)} class="absolute inset-0" title={pretitle}></a>
   </div>
 </article>

@@ -22,7 +22,7 @@
     "aboutMe": {
       "preTitle": "Om mig ",
       "passionTitle": "En lidenskab afsløret.",
-      "passionText": "Min rejse begyndte i 2017 med min første forelæsning om grafisk design på en slovakisk gymnasium. Jeg fortsatte mine studier inden for Design, Teknologi og Business på UCN. I løbet af denne tid arbejdede jeg også som grafisk designer for et trykkeri, hvilket var en uvurderlig mulighed, der tillod mig at teste min friske teoretiske viden i virkeligheden. På trods af min dybe passion for trykte medier førte disse værdifulde erfaringer inden for grafisk design mig til erkendelsen af, at min sande passion ligger inden for UI-design..",
+      "passionText": "Min rejse begyndte i 2017 med min første forelæsning om grafisk design på en slovakisk gymnasium. Jeg fortsatte mine studier inden for Design, Teknologi og Business på UCN. I løbet af denne tid arbejdede jeg også som grafisk designer for et trykkeri, hvilket var en uvurderlig mulighed, der tillod mig at teste min friske teoretiske viden i virkeligheden. På trods af min dybe passion for trykte medier førte disse værdifulde erfaringer inden for grafisk design mig til erkendelsen af, at min sande passion ligger inden for UI-design.",
       "buildingTitle": "Opbygning af mine UI-færdigheder en kursus og en kage ad gangen",
       "buildingText": "Min uddannelse og erfaring som grafisk designer har givet mig en solid grund, især inden for farveteori, skrifttyper, visuel hierarki, komposition og layout. I de seneste måneder har jeg udvidet min viden om UI-regler og principper gennem onlinekurser og ved at anvende teoretisk viden på personlige projekter. I min fritid kan du finde mig med en bog, bage lækre kager eller prøve at slå mine personlige rekorder i fitnesscentret.",
       "skills": {
@@ -175,7 +175,7 @@
         "sziget": {
           "title": "Sziget",
           "strengths": "<0>Effektiv brug af visuelle elementer til at formidle festivalens atmosfære og stemning</0><1>Integration med sociale medieplatforme</1><2>Multisproget support til et globalt publikum</2><3>Brugergenereret indhold, såsom billeder eller videoer, der viser festivalen og engagerer brugerne</3><4>Fremtrædende søgefelt</4>",
-          "weaknesses": "<0/>Siderne er rodede med for meget information, hvilket gør det svært at navigere</0><1>Hjemmesiden kan være langsom til at indlæse, især i perioder med høj trafik</1><2>Billetkøbsprocessen kan være forvirrende eller svær at navigere i</2>"
+          "weaknesses": "<0>Siderne er rodede med for meget information, hvilket gør det svært at navigere</0><1>Hjemmesiden kan være langsom til at indlæse, især i perioder med høj trafik</1><2>Billetkøbsprocessen kan være forvirrende eller svær at navigere i</2>"
         }
       },
 
@@ -220,13 +220,13 @@
         "subTitle": "At navigere festivaloplevelsen",
         "text": "Task flow-sektionen på Shockwave hjemmesiden blev designet med brugerne i tankerne. Fra forskningen forstod jeg, at festivaldeltagerne ønsker hurtig og nem adgang til oplysninger om lineup, tidsplan og placeringer af forskellige scener. For at imødekomme dette behov har jeg skabt en opgavestrøm, der viser brugernes interaktion med webstedet med lethed og effektivitet. I denne sektion af casestudiet vil jeg udforske trinnene for to forskellige typer brugere: Lisa - den erfarne bruger og Alex - den nye bruger. At udforske adfærd hos brugere, der er på forskellige niveauer af kendskab til webstedet, er afgørende for en brugercentreret grænseflade.",
 
-        "Lisa": {
+        "lisa": {
           "title": "Lisa - den erfarne bruger",
           "text1": "<0><1>Lisa ankommer til hjemmesiden. 'Hero'-sektionen giver en hurtig oversigt over dato og sted for begivenheden.</1><2>Lisa scroller ned på siden for at finde afsnittet med 'Topartister', der optræder.</2><3>Lisa klikker på knappen 'Se mere', som fører hende til 'Artister'-siden, hvor der er flere detaljer om tidsplanen og optrædende.</3></0>",
           "text2": "<0><1>Lisa finder den ønskede kunstner i lineup'en og klikker på billedet, hvilket åbner et overlay-vindue.</1><2>Dette overlay-vindue giver mere detaljerede oplysninger om den valgte kunstner, såsom biografi, links til sociale medier, musikafspiller samt dato og tidspunkt for optræden for nem adgang.</2><3>Når Lisa har valgt sin foretrukne kunstner og datoer, går hun videre til afsnittet med billettilbud.</3><4>Den detaljerede tidsplan, opdelt efter dage, tidspunkter og scener, giver et let overblik over hver festivaldag.</4><5>Efter at have gennemgået tilbudene og valgt det mest interessante, klikker Lisa på knappen 'Køb billet' og fuldfører sin proces ved at købe billetten.</5></0><p>Erfarne brugere som Lisa vil ikke besøge hver eneste side på webstedet, da de har tidligere kendskab til begivenheden og er fortrolige med både webstedet og begivenheden.</p>"
         },
 
-        "Alex": {
+        "alex": {
           "title": "Alex - den nye bruger",
           "text1": "<0><1>Alex ankommer først til hjemmesiden. 'Hero'-sektionen giver en hurtig oversigt over dato og sted for begivenheden.</1><2>Da Alex er en ny bruger og ikke er bekendt med begivenheden, søger han først viden om begivenheden. Derfor klikker Alex på 'Om' i navigationsmenuen for at besøge siden, der giver en oversigt over begivenheden.</2></0>",
           "text2": "<0><1>Som en ny bruger ønsker Alex at læse om værdier, historie og ikke mindst erfaringer fra tidligere besøgende. Alex kan også have lyst til at se, hvem der optrådte tidligere år. Alle disse oplysninger hjælper Alex med at opbygge tillid til begivenheden og føle sig tryg nok til at søge oplysninger om lineup'en.</1><2>Efter at have klikket på knappen under arkivet over tidligere kunstnere, bliver Alex omdirigeret til 'Artister'-siden.</2></0>",
@@ -246,7 +246,7 @@
     "design": {
       "introductionText": "Designprocessen er den endelige fase af oprettelsen af Shockwave-hjemmesiden. Denne sektion opsummerer det endelige resultat. Ved at følge en struktureret proces var jeg i stand til at skabe et brugercentreret designforslag til Shockwave, der imødekommer brugernes behov og forventninger",
       "goalsHeading": "Designmål",
-      "goals": "At skabe en engagerende og brugervenlig oplevelse</0><1>At effektivt kommunikere vigtig information om festivalen (lineup, tidsplan, billetinformation)</1><2>At tilbyde en problemfri og intuitiv navigation</2><3>At optimere hjemmesiden til forskellige enheder og platforme for at sikre en ensartet oplevelse for alle brugere.</3>",
+      "goals": "<0>At skabe en engagerende og brugervenlig oplevelse</0><1>At effektivt kommunikere vigtig information om festivalen (lineup, tidsplan, billetinformation)</1><2>At tilbyde en problemfri og intuitiv navigation</2><3>At optimere hjemmesiden til forskellige enheder og platforme for at sikre en ensartet oplevelse for alle brugere.</3>",
 
       "designSystem": {
         "subTitle": "Fra kaos til klarhed",
@@ -295,7 +295,7 @@
           "weaknesses": "<0><1>Begrænsede søgemuligheder:</1> Søgefunktionen på hjemmesiden er grundlæggende og producerer ikke altid præcise resultater, hvilket kan gøre det svært for brugerne at finde specifikt indhold.</0> <2><3Inkonsistent layout:</3> Layoutet på hjemmesiden kan variere fra side til side, hvilket kan være forvirrende for brugerne og gøre det sværere at navigere.</2><4><5>Overfyldt startside:</5> Selvom hjemmesidens startside har meget indhold, kan den til tider virke overfyldt og overvældende, hvilket kan gøre det svært for brugerne at finde det, de leder efter.</4>"
         },
         "designBoom": {
-          "title": "designboom",
+          "title": "Designboom",
           "introduction": "Designboom blev grundlagt i 1999 og er det første og mest populære digitale magasin, der fokuserer på arkitektur og design. Det offentliggør dagligt indhold, der spænder fra videoer til nyheder, analyser og tendenser. Det er ideelt for fagfolk og kreative mennesker.",
           "strengths": "<0><1>Stærk visuel identitet:</1> Designboom har en stærk visuel identitet, der er ensartet på tværs af hele hjemmesiden. Brugen af farver, typografi og billeder skaber et sammenhængende og mindeværdigt design, der er let genkendeligt.</0> <2><3>Interaktivt og engagerende indhold:</3> Hjemmesiden indeholder en bred vifte af interaktivt og engagerende indhold, såsom videoer, animationer og interaktive funktioner. Dette bidrager til at skabe en mere dynamisk og interessant brugeroplevelse.</2><4> <5>Tydelige handlingsopfordringer: </5>Designbooms hjemmeside har tydelige handlingsopfordringer, hvilket gør det nemmere for brugerne at udføre opgaver og interagere med hjemmesidens indhold. Knapper, links og andre elementer er tydeligt mærket og lette at forstå.</4><6><7>Konsistent layout: </7>Designbooms hjemmeside anvender et konsistent layout, hvilket gør det nemmere for brugerne at navigere og forstå indholdet. Placeringen af menuer, links og andre elementer er ensartet på tværs af sider, hvilket reducerer forvirring og gør det nemmere for brugerne at finde det, de leder efter.</6>",
           "weaknesses": "<0><1>Begrænset brug af visuelle hjælpemidler:</1>Selvom Designbooms hjemmeside har visuelle hjælpemidler som billeder og videoer, kunne den drage fordel af at bruge flere ikoner, infografikker og andre visuelle hjælpemidler for at bryde lange tekstblokke op og gøre informationen nemmere at forstå.</0> <2><3>Manglende kontrast:</3>Nogle sider på Designbooms hjemmeside kan mangle kontrast, hvilket kan gøre det sværere for brugerne at læse og forstå indholdet. For eksempel kan tekst, der vises oven på et billede, være svær at læse, hvis farverne ikke er tilstrækkeligt kontrasterende.</2><4> <5>Begrænset brug af animation:</5>Selvom Designbooms hjemmeside har nogle animationer og interaktive elementer, kunne den drage fordel af at bruge flere animationer og dynamiske elementer. Dette ville bidrage til at skabe en mere engagerende og interessant brugeroplevelse.</4>"
@@ -305,17 +305,16 @@
           "introduction": "IGNANT er en prisvindende online digital magasin, der dækker de vigtigste udviklinger inden for kunst, design, fotografi, turisme og arkitektur. Det er en fantastisk kilde til visuelle referencer.",
           "strengths": "<0><1>Kreativt og visuelt tiltalende:</1> Ignants brug af kreative og visuelt tiltalende layouter og typografi er en anden styrke. Hjemmesidens design er unikt og interessant, og typografien er velvalgt og let at læse. Dette hjælper med at skabe en positiv brugeroplevelse og en følelse af brandidentitet.</0> <2><3>Konsistent branding:</3>Designsprog og branding er ensartet på tværs af deres hjemmeside og sociale mediekanaler. Dette skaber en sammenhængende brandidentitet, der er let at genkende og forstærker deres position som autoritet inden for arkitektur- og designbranchen.</2><4> <5>Effektiv brug af hvidt rum:</5>Denne hjemmeside gør effektiv brug af hvidt rum, hvilket hjælper med at skabe et rent og organiseret visuelt æstetisk udtryk. Dette er vigtigt, fordi det gør indholdet nemmere at læse og navigere i og kan hjælpe med at reducere brugertræthed. Derudover kan brugen af hvidt rum tiltrække opmærksomhed til vigtige elementer på siden og få dem til at skille sig ud.</4><6><7>Engagerende fortælling:</7>Redaktionelt indhold har engagerende fortælling, der fanger brugerne og holder dem interesserede. Dette er vigtigt, fordi det hjælper med at holde brugerne på hjemmesiden længere og opfordrer dem til at vende tilbage efter mere indhold.</6>",
           "weaknesses": "<0><1>Mangel på interaktivitet og animation:</1>Selvom Ignants hjemmeside har et visuelt tiltalende design, mangler den interaktivitet og animation. Dette kan få hjemmesiden til at virke statisk og uengagerende for brugerne, især dem der er vant til mere interaktive eller animerede hjemmesider.</0> <2><3>Langsom indlæsningstid:</3> Ignants hjemmeside kan nogle gange have langsom indlæsningstid, især for større billeder eller videoer. Dette kan være frustrerende for brugerne og kan have en negativ indvirkning på brugeroplevelsen.</2><4> <5>Uensartet brug af farver og hierarki:</5>Ignants hjemmeside har en visuelt tiltalende farveskala, men farverne bruges ikke altid ensartet på tværs af hjemmesiden. Dette kan gøre det sværere for brugerne at forstå hjemmesidens hierarki og navigere til vigtige sider eller handlinger.</4>"
-        },
-
-        "userPersonas": {
-          "subTitle": "Hyggeligt at møde dig, jeg er bruger",
-          "text": "I konteksten af ​​UI-design til arkitektoniske blogwebsites er det vigtigt at forstå behovene og adfærden hos målgruppen, som ofte inkluderer arkitekter, arkitekturstuderende og designprofessionelle. Ved at skabe brugerpersoner, der repræsenterer disse forskellige typer brugere, kan designere opnå værdifulde indsigter i deres mål, præferencer og udfordringer. For eksempel leder arkitekter som David efter nye designkoncepter og idéer, mens arkitekturstuderende som Sarah søger læringsressourcer til at forbedre deres designfærdigheder. Designprofessionelle som Maria søger muligvis dybdegående information og analyse for at inspirere deres projekter. Ved at forstå behovene og adfærden hos disse brugere kan designere skabe en brugercentreret designløsning, der effektivt opfylder deres behov og forventninger."
-        },
-
-        "siteMap": {
-          "title": "At låse op for den hemmelige vej",
-          "text": "I denne sektion vil jeg gerne præsentere sitemap for Shockwave festival. Sitemapet giver en visuel repræsentation af websitets struktur og viser hierarkiet af sider og hvordan de relaterer sig til hinanden. Dette hjælper med at forstå flowet på websitet og sikrer, at brugerne nemt kan navigere til det indhold, de er interesserede i. Ved at analysere sitemapet kunne jeg identificere områder, der kan forbedres, og sikre, at websitet opfylder behovene hos vores målgruppe."
         }
+      },
+      "userPersonas": {
+        "subTitle": "Hyggeligt at møde dig, jeg er bruger",
+        "text": "I konteksten af ​​UI-design til arkitektoniske blogwebsites er det vigtigt at forstå behovene og adfærden hos målgruppen, som ofte inkluderer arkitekter, arkitekturstuderende og designprofessionelle. Ved at skabe brugerpersoner, der repræsenterer disse forskellige typer brugere, kan designere opnå værdifulde indsigter i deres mål, præferencer og udfordringer. For eksempel leder arkitekter som David efter nye designkoncepter og idéer, mens arkitekturstuderende som Sarah søger læringsressourcer til at forbedre deres designfærdigheder. Designprofessionelle som Maria søger muligvis dybdegående information og analyse for at inspirere deres projekter. Ved at forstå behovene og adfærden hos disse brugere kan designere skabe en brugercentreret designløsning, der effektivt opfylder deres behov og forventninger."
+      },
+
+      "siteMap": {
+        "title": "At låse op for den hemmelige vej",
+        "text": "I denne sektion vil jeg gerne præsentere sitemap for Shockwave festival. Sitemapet giver en visuel repræsentation af websitets struktur og viser hierarkiet af sider og hvordan de relaterer sig til hinanden. Dette hjælper med at forstå flowet på websitet og sikrer, at brugerne nemt kan navigere til det indhold, de er interesserede i. Ved at analysere sitemapet kunne jeg identificere områder, der kan forbedres, og sikre, at websitet opfylder behovene hos vores målgruppe."
       }
     }
   }

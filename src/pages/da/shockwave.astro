@@ -1,6 +1,7 @@
 ---
 import { Trans } from "astro-i18next/components";
 import { t, changeLanguage } from "i18next";
+import { Picture } from "@astrojs/image/components";
 import Master from "../../layouts/Master.astro";
 import Image from "../../components/Image.astro";
 import Mockups from "../../components/Mockups.astro";
@@ -49,7 +50,18 @@ const image = {
       {subTitle}
     </p>
     <div class="my-4 lg:my-6">
-      <Image src={heroimage} alt="mockups of the shockwave design" />
+      <Picture
+        src={heroimage}
+        alt="mockups of the shockwave design"
+        widths={[200, 400, 800, 1200, 1400]}
+        sizes="((min-width: 50em) and (max-width: 60em)) 50em, ((min-width: 30em) and (max-width: 50em)) 30em, (max-width: 30em) 20em"
+        loading="eager"
+        formats={["avif", "webp", "jpg"]}
+        quality={85}
+        class="w-full"
+        aspectRatio={undefined}
+        fit="contain"
+      />
     </div>
   </header>
   <Summary
@@ -57,6 +69,7 @@ const image = {
     objectives={t("shockwave.summary.objectives")}
     team={t("shockwave.summary.team")}
     tools={t("shockwave.summary.tools")}
+    prototypeLink={"https://www.figma.com/proto/QGkzm1MQaXM9JkYubpEREo/Music-Festival?page-id=1%3A3&node-id=231-1049&viewport=-176%2C689%2C0.07&scaling=min-zoom&starting-point-node-id=231%3A1049"}
   >
     <h2>{t("shockwave.projectOverviewTitle")}</h2>
     <p>{t("shockwave.projectOverviewText")}</p>
@@ -71,13 +84,6 @@ const image = {
         </li>
       </ul>
     </Trans>
-    <footer class="block">
-      <a
-        href="https://www.figma.com/proto/QGkzm1MQaXM9JkYubpEREo/Music-Festival?page-id=1%3A3&node-id=231-1049&viewport=-176%2C689%2C0.07&scaling=min-zoom&starting-point-node-id=231%3A1049"
-        target="_blank"
-        class="btn">{t("summary.viewPrototype")}</a
-      >
-    </footer>
   </Summary>
   <Mockups
     images={[
