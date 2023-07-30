@@ -36,6 +36,13 @@ const image = {
             that shines through in design.
           </Trans>
         </h1>
+        <footer class="block mt-6">
+          <a
+            href="/assets/KristinaLinhartova_resume.pdf"
+            download
+            class="btn block w-fit">{t("about.downloadResume")}</a
+          >
+        </footer>
         <img
           alt=""
           src="/assets/hero1.svg"
@@ -58,6 +65,7 @@ const image = {
         />
       </div>
     </header>
+    <!-- aboutMe -->
     <section class="container">
       <header class="mb-4">
         <h2
@@ -88,6 +96,7 @@ const image = {
         </TextImage>
       </div>
     </section>
+    <!-- Skills -->
     <section class="container">
       <header class="max-w-none lg:max-w-screen-md mx-auto mb-4">
         <h2 class="text-5xl font-bold text-secondary-400">
@@ -135,6 +144,7 @@ const image = {
         />
       </article>
     </section>
+    <!-- Experience -->
     <section class="container">
       <header class="max-w-none lg:max-w-screen-md mx-auto mb-4">
         <h2
@@ -149,11 +159,22 @@ const image = {
             {t("about.aboutMe.experience.skillsTitle")}
           </h2>
         </header>
+
         <Experience
           job={t("about.aboutMe.experience.webKonceptJob")}
           company="Web-Koncept"
           points={[t("about.aboutMe.experience.webKonceptPoint1")]}
           tools={t("about.aboutMe.experience.webKonceptKeyWords")}
+        />
+
+        <Experience
+          job={t("about.aboutMe.experience.rcaJob")}
+          company="Resource Center"
+          points={[
+            t("about.aboutMe.experience.rcaPoint1"),
+            t("about.aboutMe.experience.rcaPoint2"),
+          ]}
+          tools={t("about.aboutMe.experience.rcaKeyWords")}
         />
 
         <Experience
@@ -166,6 +187,7 @@ const image = {
           ]}
           tools={t("about.aboutMe.experience.internetZooKeyWords")}
         />
+
         <Experience
           job={t("about.aboutMe.experience.straxSkilteJob")}
           company="StraxSkilte"
@@ -174,8 +196,19 @@ const image = {
             t("about.aboutMe.experience.straxSkiltePoint2"),
             t("about.aboutMe.experience.straxSkiltePoint3"),
           ]}
-          tools={t("about.aboutMe.experience.straxSkilteoKeyWords")}
+          tools={t("about.aboutMe.experience.straxSkilteKeyWords")}
         />
+
+        <Experience
+          job={t("about.aboutMe.experience.televinduJob")}
+          company="Televindu"
+          points={[
+            t("about.aboutMe.experience.televinduPoint1"),
+            t("about.aboutMe.experience.televinduPoint2"),
+          ]}
+          tools={t("about.aboutMe.experience.televinduKeyWords")}
+        />
+
         <Experience
           job={t("about.aboutMe.experience.museumJob")}
           company="Museum of Janko Kral (Slovakia)"
@@ -186,6 +219,17 @@ const image = {
           ]}
           tools={t("about.aboutMe.experience.museumKeyWords")}
         />
+
+        <Experience
+          job={t("about.aboutMe.experience.faxCopyJob")}
+          company="FaxCopy (Slovakia)"
+          points={[
+            t("about.aboutMe.experience.faxCopyPoint1"),
+            t("about.aboutMe.experience.faxCopyPoint2"),
+          ]}
+          tools={t("about.aboutMe.experience.faxCopyKeyWords")}
+        />
+
         <Experience
           job={t("about.aboutMe.experience.reproJob")}
           company="ReproServis Kovac (Slovakia)"
@@ -196,13 +240,40 @@ const image = {
           ]}
           tools={t("about.aboutMe.experience.reproKeyWords")}
         />
-        <footer class="block">
-          <a
-            href="/assets/KristinaLinhartova_resume.pdf"
-            download
-            class="btn block w-fit">{t("about.downloadResume")}</a
-          >
-        </footer>
+      </article>
+    </section>
+    <!-- Education -->
+    <section class="container">
+      <header class="max-w-none lg:max-w-screen-md mx-auto mb-4">
+        <h2
+          class="text-xl md:text-2xl lg:text-5xl font-bold text-secondary-400"
+        >
+          {t("about.aboutMe.education.preTitle")}
+        </h2>
+      </header>
+      <article class="max-w-none lg:max-w-screen-md mx-auto">
+        <Experience
+          job={t("about.aboutMe.education.ucnEducation")}
+          company="UCN"
+          points={[
+            t("about.aboutMe.education.ucnPoint1"),
+            t("about.aboutMe.education.ucnPoint2"),
+            t("about.aboutMe.education.ucnPoint2"),
+          ]}
+          tools={t("about.aboutMe.education.ucnKeyWords")}
+        />
+      </article>
+      <article class="max-w-none lg:max-w-screen-md mx-auto">
+        <Experience
+          job={t("about.aboutMe.education.halmEducation")}
+          company="Hotel Academy (Slovakia)"
+          points={[
+            t("about.aboutMe.education.halmPoint1"),
+            t("about.aboutMe.education.halmPoint2"),
+            t("about.aboutMe.education.halmPoint3"),
+          ]}
+          tools={t("about.aboutMe.education.halmKeyWords")}
+        />
       </article>
     </section>
   </main>
