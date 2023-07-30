@@ -159,11 +159,22 @@ const image = {
             {t("about.aboutMe.experience.skillsTitle")}
           </h2>
         </header>
+
         <Experience
           job={t("about.aboutMe.experience.webKonceptJob")}
           company="Web-Koncept"
           points={[t("about.aboutMe.experience.webKonceptPoint1")]}
           tools={t("about.aboutMe.experience.webKonceptKeyWords")}
+        />
+
+        <Experience
+          job={t("about.aboutMe.experience.rcaJob")}
+          company="Resource Center"
+          points={[
+            t("about.aboutMe.experience.rcaPoint1"),
+            t("about.aboutMe.experience.rcaPoint2"),
+          ]}
+          tools={t("about.aboutMe.experience.rcaKeyWords")}
         />
 
         <Experience
@@ -176,6 +187,7 @@ const image = {
           ]}
           tools={t("about.aboutMe.experience.internetZooKeyWords")}
         />
+
         <Experience
           job={t("about.aboutMe.experience.straxSkilteJob")}
           company="StraxSkilte"
@@ -188,6 +200,16 @@ const image = {
         />
 
         <Experience
+          job={t("about.aboutMe.experience.televinduJob")}
+          company="Televindu"
+          points={[
+            t("about.aboutMe.experience.televinduPoint1"),
+            t("about.aboutMe.experience.televinduPoint2"),
+          ]}
+          tools={t("about.aboutMe.experience.televinduKeyWords")}
+        />
+
+        <Experience
           job={t("about.aboutMe.experience.museumJob")}
           company="Museum of Janko Kral (Slovakia)"
           points={[
@@ -197,6 +219,17 @@ const image = {
           ]}
           tools={t("about.aboutMe.experience.museumKeyWords")}
         />
+
+        <Experience
+          job={t("about.aboutMe.experience.faxCopyJob")}
+          company="FaxCopy (Slovakia)"
+          points={[
+            t("about.aboutMe.experience.faxCopyPoint1"),
+            t("about.aboutMe.experience.faxCopyPoint2"),
+          ]}
+          tools={t("about.aboutMe.experience.faxCopyKeyWords")}
+        />
+
         <Experience
           job={t("about.aboutMe.experience.reproJob")}
           company="ReproServis Kovac (Slovakia)"
@@ -220,20 +253,28 @@ const image = {
       </header>
       <article class="max-w-none lg:max-w-screen-md mx-auto">
         <Experience
-        job={t("about.aboutMe.education.ucnEducation")}
-        company="UCN"
-        points={[t("about.aboutMe.education.ucnPoint1"),t("about.aboutMe.education.ucnPoint2"),t("about.aboutMe.education.ucnPoint2"),]}
+          job={t("about.aboutMe.education.ucnEducation")}
+          company="UCN"
+          points={[
+            t("about.aboutMe.education.ucnPoint1"),
+            t("about.aboutMe.education.ucnPoint2"),
+            t("about.aboutMe.education.ucnPoint2"),
+          ]}
           tools={t("about.aboutMe.education.ucnKeyWords")}
-          />
-        </article>
-        <article class="max-w-none lg:max-w-screen-md mx-auto">
-          <Experience
-            job={t("about.aboutMe.education.halmEducation")}
-            company="Hotel Academy (Slovakia)"
-            points={[t("about.aboutMe.education.halmPoint1"),t("about.aboutMe.education.halmPoint2"),t("about.aboutMe.education.halmPoint3"),]}
-            tools={t("about.aboutMe.education.halmKeyWords")}
-          />
-        </article>
+        />
+      </article>
+      <article class="max-w-none lg:max-w-screen-md mx-auto">
+        <Experience
+          job={t("about.aboutMe.education.halmEducation")}
+          company="Hotel Academy (Slovakia)"
+          points={[
+            t("about.aboutMe.education.halmPoint1"),
+            t("about.aboutMe.education.halmPoint2"),
+            t("about.aboutMe.education.halmPoint3"),
+          ]}
+          tools={t("about.aboutMe.education.halmKeyWords")}
+        />
+      </article>
     </section>
   </main>
 </Master>
